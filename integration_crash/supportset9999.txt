@@ -1,0 +1,1206 @@
+(lp0
+(lp1
+(lp2
+S"UPDATE crash_view SET Gender = 'Not Reported' WHERE ID = 46822"
+p3
+aI1
+aa(lp4
+S"UPDATE crash_view SET Crash_Date = '2011-02-11 00:00:00' WHERE ID = 58786"
+p5
+aI2
+aa(lp6
+S"UPDATE crash_view SET Gender = 'Male' WHERE ID = 44884"
+p7
+aI3
+aa(lp8
+S"UPDATE crash_view SET Gender = 'Not Reported' WHERE ID = 20028"
+p9
+aI4
+aa(lp10
+S"UPDATE crash_view SET Person_Type = 'Persons In/On Buildings' WHERE ID = 7098"
+p11
+aI5
+aa(lp12
+S"UPDATE crash_view SET Crash_Date = '2011-01-14 00:00:00' WHERE ID = 31884"
+p13
+aI6
+aa(lp14
+S'UPDATE crash_view SET Fatalities_in_crash = 15 WHERE ID = 6866'
+p15
+aI7
+aa(lp16
+S"UPDATE crash_view SET Atmospheric_Condition = 'Clear' WHERE ID = 59717"
+p17
+aI8
+aa(lp18
+S"UPDATE crash_view SET Gender = 'Not Reported' WHERE ID = 47586"
+p19
+aI9
+aa(lp20
+S'UPDATE crash_view SET Alcohol_Results = 0.218469658016 WHERE ID = 2662'
+p21
+aI10
+aa(lp22
+S"UPDATE crash_view SET Crash_Date = '2011-07-12 00:00:00' WHERE ID = 27451"
+p23
+aI11
+aa(lp24
+S"UPDATE crash_view SET Person_Type = '' WHERE ID = 30223"
+p25
+aI12
+aa(lp26
+S"UPDATE crash_view SET Crash_Date = '2011-12-04 00:00:00' WHERE ID = 61270"
+p27
+aI13
+aa(lp28
+S"UPDATE crash_view SET Person_Type = 'Other Cyclist' WHERE ID = 6466"
+p29
+aI14
+aa(lp30
+VUPDATE crash_view SET Race = 'Filipino' WHERE ID = 12589
+p31
+aI15
+aa(lp32
+S'UPDATE crash_view SET Fatalities_in_crash = 5 WHERE ID = 50760'
+p33
+aI16
+aa(lp34
+VUPDATE crash_view SET Roadway = 'Vietnamese' WHERE ID = 41343
+p35
+aI17
+aa(lp36
+S"UPDATE crash_view SET Atmospheric_Condition = '' WHERE ID = 68810"
+p37
+aI18
+aa(lp38
+S"UPDATE crash_view SET Injury_Severity = 'Incapacitating Injury (A)' WHERE ID = 64997"
+p39
+aI19
+aa(lp40
+S"UPDATE crash_view SET Injury_Severity = 'Unknown' WHERE ID = 43583"
+p41
+aI20
+aa(lp42
+VUPDATE crash_view SET First_Harmful_Event = 'Ridden Animal or Animal Drawn Conveyance' WHERE ID = 68232
+p43
+aI21
+aa(lp44
+S'UPDATE crash_view SET Alcohol_Results = 0.37101940045 WHERE ID = 58775'
+p45
+aI22
+aa(lp46
+S'UPDATE crash_view SET Fatalities_in_crash = 12 WHERE ID = 37231'
+p47
+aI23
+aa(lp48
+VUPDATE crash_view SET State = 'Delaware' WHERE ID = 59984
+p49
+aI24
+aa(lp50
+S"UPDATE crash_view SET Atmospheric_Condition = 'Severe Crosswinds' WHERE ID = 21981"
+p51
+aI25
+aa(lp52
+VUPDATE crash_view SET Race = 'Guamanian' WHERE ID = 35044
+p53
+aI26
+aa(lp54
+S'UPDATE crash_view SET Alcohol_Results = 0.335024653781 WHERE ID = 30809'
+p55
+aI27
+aa(lp56
+S"UPDATE crash_view SET Crash_Date = '2011-12-28 00:00:00' WHERE ID = 3045"
+p57
+aI28
+aa(lp58
+VUPDATE crash_view SET Race = 'Unknown' WHERE ID = 13598
+p59
+aI29
+aa(lp60
+VUPDATE crash_view SET State = 'New York' WHERE ID = 16181
+p61
+aI30
+aa(lp62
+S"UPDATE crash_view SET Atmospheric_Condition = 'Rain' WHERE ID = 38366"
+p63
+aI31
+aa(lp64
+S"UPDATE crash_view SET Gender = 'Female' WHERE ID = 60908"
+p65
+aI32
+aa(lp66
+S'UPDATE crash_view SET Age = 35 WHERE ID = 24295'
+p67
+aI33
+aa(lp68
+S'UPDATE crash_view SET Alcohol_Results = 0.461896402509 WHERE ID = 15721'
+p69
+aI34
+aa(lp70
+S"UPDATE crash_view SET Person_Type = '' WHERE ID = 42250"
+p71
+aI35
+aa(lp72
+S"UPDATE crash_view SET Person_Type = 'Bicyclist' WHERE ID = 68881"
+p73
+aI36
+aa(lp74
+S"UPDATE crash_view SET Drug_Involvement = 'Unknown' WHERE ID = 69516"
+p75
+aI37
+aa(lp76
+S'UPDATE crash_view SET Fatalities_in_crash = 8 WHERE ID = 31677'
+p77
+aI38
+aa(lp78
+VUPDATE crash_view SET Race = 'Other Asian or Pacific Islander' WHERE ID = 62926
+p79
+aI39
+aa(lp80
+S"UPDATE crash_view SET Drug_Involvement = 'Unknown' WHERE ID = 70825"
+p81
+aI40
+aa(lp82
+VUPDATE crash_view SET Race = 'Guamanian' WHERE ID = 55308
+p83
+aI41
+aa(lp84
+VUPDATE crash_view SET Roadway = 'Unknown' WHERE ID = 51591
+p85
+aI42
+aa(lp86
+VUPDATE crash_view SET Roadway = 'Guamanian' WHERE ID = 1976
+p87
+aI43
+aa(lp88
+S"UPDATE crash_view SET Crash_Date = '2011-08-26 00:00:00' WHERE ID = 42570"
+p89
+aI44
+aa(lp90
+VUPDATE crash_view SET First_Harmful_Event = 'Culvert' WHERE ID = 40431
+p91
+aI45
+aa(lp92
+VUPDATE crash_view SET Roadway = 'American Indian (includes Aleuts and Eskimos)' WHERE ID = 69650
+p93
+aI46
+aa(lp94
+S"UPDATE crash_view SET Person_Type = 'Pedestrian' WHERE ID = 44415"
+p95
+aI47
+aa(lp96
+S'UPDATE crash_view SET Age = 75 WHERE ID = 70853'
+p97
+aI48
+aa(lp98
+S'UPDATE crash_view SET Fatalities_in_crash = 7 WHERE ID = 36867'
+p99
+aI49
+aa(lp100
+S"UPDATE crash_view SET Injury_Severity = 'Incapacitating Injury (A)' WHERE ID = 14011"
+p101
+aI50
+aa(lp102
+S"UPDATE crash_view SET Gender = 'Not Reported' WHERE ID = 16320"
+p103
+aI51
+aa(lp104
+S"UPDATE crash_view SET Crash_Date = '2011-07-07 00:00:00' WHERE ID = 51035"
+p105
+aI52
+aa(lp106
+S'UPDATE crash_view SET Fatalities_in_crash = 5 WHERE ID = 34425'
+p107
+aI53
+aa(lp108
+VUPDATE crash_view SET Race = 'Other Indian (includes South and Central America, any other, except American or Asian Indians)' WHERE ID = 379
+p109
+aI54
+aa(lp110
+S"UPDATE crash_view SET Atmospheric_Condition = 'Rain' WHERE ID = 53817"
+p111
+aI55
+aa(lp112
+S"UPDATE crash_view SET Injury_Severity = 'Unknown' WHERE ID = 60864"
+p113
+aI56
+aa(lp114
+VUPDATE crash_view SET Race = 'Korean' WHERE ID = 11810
+p115
+aI57
+aa(lp116
+S"UPDATE crash_view SET Injury_Severity = 'Unknown' WHERE ID = 30076"
+p117
+aI58
+aa(lp118
+S"UPDATE crash_view SET Injury_Severity = 'Injured, Severity Unknown' WHERE ID = 18485"
+p119
+aI59
+aa(lp120
+S'UPDATE crash_view SET Alcohol_Results = 0.613217732032 WHERE ID = 36385'
+p121
+aI60
+aa(lp122
+S"UPDATE crash_view SET Crash_Date = '2011-12-12 00:00:00' WHERE ID = 444"
+p123
+aI61
+aa(lp124
+S"UPDATE crash_view SET Person_Type = 'Occupant of a Motor Vehicle Not In- Transport' WHERE ID = 68666"
+p125
+aI62
+aa(lp126
+VUPDATE crash_view SET First_Harmful_Event = 'Shrubbery' WHERE ID = 43731
+p127
+aI63
+aa(lp128
+VUPDATE crash_view SET Roadway = 'All other races' WHERE ID = 29142
+p129
+aI64
+aa(lp130
+VUPDATE crash_view SET Roadway = 'Filipino' WHERE ID = 66019
+p131
+aI65
+aa(lp132
+VUPDATE crash_view SET First_Harmful_Event = 'Bridge Pier or Support' WHERE ID = 70891
+p133
+aI66
+aa(lp134
+VUPDATE crash_view SET State = 'Ohio' WHERE ID = 7479
+p135
+aI67
+aa(lp136
+S"UPDATE crash_view SET Atmospheric_Condition = 'Rain' WHERE ID = 13864"
+p137
+aI68
+aa(lp138
+S"UPDATE crash_view SET Gender = 'Not Reported' WHERE ID = 20521"
+p139
+aI69
+aa(lp140
+S'UPDATE crash_view SET Fatalities_in_crash = 5 WHERE ID = 16132'
+p141
+aI70
+aa(lp142
+VUPDATE crash_view SET State = 'Illinois' WHERE ID = 10880
+p143
+aI71
+aa(lp144
+VUPDATE crash_view SET Roadway = 'N' WHERE ID = 38219
+p145
+aI72
+aa(lp146
+S"UPDATE crash_view SET Drug_Involvement = 'Not Reported' WHERE ID = 53299"
+p147
+aI73
+aa(lp148
+S"UPDATE crash_view SET Crash_Date = '2011-10-23 00:00:00' WHERE ID = 67271"
+p149
+aI74
+aa(lp150
+S"UPDATE crash_view SET Crash_Date = '2011-12-30 00:00:00' WHERE ID = 11375"
+p151
+aI75
+aa(lp152
+VUPDATE crash_view SET Race = 'Samoan' WHERE ID = 25178
+p153
+aI76
+aa(lp154
+S"UPDATE crash_view SET Atmospheric_Condition = 'Fog, Smog, Smoke' WHERE ID = 47526"
+p155
+aI77
+aa(lp156
+VUPDATE crash_view SET State = 'Michigan' WHERE ID = 57162
+p157
+aI78
+aa(lp158
+S'UPDATE crash_view SET Alcohol_Results = 0.355798395806 WHERE ID = 4027'
+p159
+aI79
+aa(lp160
+S'UPDATE crash_view SET Alcohol_Results = 0.314690015347 WHERE ID = 38118'
+p161
+aI80
+aa(lp162
+S"UPDATE crash_view SET Injury_Severity = 'Injured, Severity Unknown' WHERE ID = 59389"
+p163
+aI81
+aa(lp164
+S'UPDATE crash_view SET Fatalities_in_crash = 6 WHERE ID = 66796'
+p165
+aI82
+aa(lp166
+VUPDATE crash_view SET First_Harmful_Event = 'Fire Hydrant' WHERE ID = 52339
+p167
+aI83
+aa(lp168
+S"UPDATE crash_view SET Drug_Involvement = 'Not Reported' WHERE ID = 69798"
+p169
+aI84
+aa(lp170
+VUPDATE crash_view SET First_Harmful_Event = 'Other Traffic Barrier' WHERE ID = 47038
+p171
+aI85
+aa(lp172
+S"UPDATE crash_view SET Crash_Date = '2011-01-21 00:00:00' WHERE ID = 44789"
+p173
+aI86
+aa(lp174
+VUPDATE crash_view SET First_Harmful_Event = 'Other Traffic Barrier' WHERE ID = 67719
+p175
+aI87
+aa(lp176
+VUPDATE crash_view SET Race = 'Samoan' WHERE ID = 35686
+p177
+aI88
+aa(lp178
+S"UPDATE crash_view SET Drug_Involvement = 'N' WHERE ID = 46651"
+p179
+aI89
+aa(lp180
+S"UPDATE crash_view SET Crash_Date = '2011-03-24 00:00:00' WHERE ID = 66933"
+p181
+aI90
+aa(lp182
+VUPDATE crash_view SET First_Harmful_Event = 'Culvert' WHERE ID = 12544
+p183
+aI91
+aa(lp184
+S"UPDATE crash_view SET Gender = 'Unknown' WHERE ID = 22132"
+p185
+aI92
+aa(lp186
+S'UPDATE crash_view SET Age = 68 WHERE ID = 51821'
+p187
+aI93
+aa(lp188
+VUPDATE crash_view SET Roadway = 'Vietnamese' WHERE ID = 47969
+p189
+aI94
+aa(lp190
+S"UPDATE crash_view SET Atmospheric_Condition = 'Cloudy' WHERE ID = 34225"
+p191
+aI95
+aa(lp192
+S'UPDATE crash_view SET Fatalities_in_crash = 10 WHERE ID = 30220'
+p193
+aI96
+aa(lp194
+S"UPDATE crash_view SET Atmospheric_Condition = '' WHERE ID = 18246"
+p195
+aI97
+aa(lp196
+S'UPDATE crash_view SET Fatalities_in_crash = 13 WHERE ID = 35851'
+p197
+aI98
+aa(lp198
+VUPDATE crash_view SET First_Harmful_Event = 'Thrown or Falling Object' WHERE ID = 66828
+p199
+aI99
+aaa(lp200
+(lp201
+S'UPDATE crash_view SET Gender = (select Gender from crash where ID = 46822) WHERE ID = 46822'
+p202
+aI1
+aa(lp203
+S'UPDATE crash_view SET Crash_Date = (select Crash_Date from crash where ID = 58786) WHERE ID = 58786'
+p204
+aI2
+aa(lp205
+S'UPDATE crash_view SET Gender = (select Gender from crash where ID = 44884) WHERE ID = 44884'
+p206
+aI3
+aa(lp207
+S'UPDATE crash_view SET Gender = (select Gender from crash where ID = 20028) WHERE ID = 20028'
+p208
+aI4
+aa(lp209
+S'UPDATE crash_view SET Person_Type = (select Person_Type from crash where ID = 7098) WHERE ID = 7098'
+p210
+aI5
+aa(lp211
+S'UPDATE crash_view SET Crash_Date = (select Crash_Date from crash where ID = 31884) WHERE ID = 31884'
+p212
+aI6
+aa(lp213
+S'UPDATE crash_view SET Fatalities_in_crash = (select Fatalities_in_crash from crash where ID = 6866) WHERE ID = 6866'
+p214
+aI7
+aa(lp215
+S'UPDATE crash_view SET Atmospheric_Condition = (select Atmospheric_Condition from crash where ID = 59717) WHERE ID = 59717'
+p216
+aI8
+aa(lp217
+S'UPDATE crash_view SET Gender = (select Gender from crash where ID = 47586) WHERE ID = 47586'
+p218
+aI9
+aa(lp219
+S'UPDATE crash_view SET Alcohol_Results = (select Alcohol_Results from crash where ID = 2662) WHERE ID = 2662'
+p220
+aI10
+aa(lp221
+S'UPDATE crash_view SET Crash_Date = (select Crash_Date from crash where ID = 27451) WHERE ID = 27451'
+p222
+aI11
+aa(lp223
+S'UPDATE crash_view SET Person_Type = (select Person_Type from crash where ID = 30223) WHERE ID = 30223'
+p224
+aI12
+aa(lp225
+S'UPDATE crash_view SET Crash_Date = (select Crash_Date from crash where ID = 61270) WHERE ID = 61270'
+p226
+aI13
+aa(lp227
+S'UPDATE crash_view SET Person_Type = (select Person_Type from crash where ID = 6466) WHERE ID = 6466'
+p228
+aI14
+aa(lp229
+S'UPDATE crash_view SET Race = (select Race from crash where ID = 12589) WHERE ID = 12589'
+p230
+aI15
+aa(lp231
+S'UPDATE crash_view SET Fatalities_in_crash = (select Fatalities_in_crash from crash where ID = 50760) WHERE ID = 50760'
+p232
+aI16
+aa(lp233
+S'UPDATE crash_view SET Roadway = (select Roadway from crash where ID = 41343) WHERE ID = 41343'
+p234
+aI17
+aa(lp235
+S'UPDATE crash_view SET Atmospheric_Condition = (select Atmospheric_Condition from crash where ID = 68810) WHERE ID = 68810'
+p236
+aI18
+aa(lp237
+S'UPDATE crash_view SET Injury_Severity = (select Injury_Severity from crash where ID = 64997) WHERE ID = 64997'
+p238
+aI19
+aa(lp239
+S'UPDATE crash_view SET Injury_Severity = (select Injury_Severity from crash where ID = 43583) WHERE ID = 43583'
+p240
+aI20
+aa(lp241
+S'UPDATE crash_view SET First_Harmful_Event = (select First_Harmful_Event from crash where ID = 68232) WHERE ID = 68232'
+p242
+aI21
+aa(lp243
+S'UPDATE crash_view SET Alcohol_Results = (select Alcohol_Results from crash where ID = 58775) WHERE ID = 58775'
+p244
+aI22
+aa(lp245
+S'UPDATE crash_view SET Fatalities_in_crash = (select Fatalities_in_crash from crash where ID = 37231) WHERE ID = 37231'
+p246
+aI23
+aa(lp247
+S'UPDATE crash_view SET State = (select State from crash where ID = 59984) WHERE ID = 59984'
+p248
+aI24
+aa(lp249
+S'UPDATE crash_view SET Atmospheric_Condition = (select Atmospheric_Condition from crash where ID = 21981) WHERE ID = 21981'
+p250
+aI25
+aa(lp251
+S'UPDATE crash_view SET Race = (select Race from crash where ID = 35044) WHERE ID = 35044'
+p252
+aI26
+aa(lp253
+S'UPDATE crash_view SET Alcohol_Results = (select Alcohol_Results from crash where ID = 30809) WHERE ID = 30809'
+p254
+aI27
+aa(lp255
+S'UPDATE crash_view SET Crash_Date = (select Crash_Date from crash where ID = 3045) WHERE ID = 3045'
+p256
+aI28
+aa(lp257
+S'UPDATE crash_view SET Race = (select Race from crash where ID = 13598) WHERE ID = 13598'
+p258
+aI29
+aa(lp259
+S'UPDATE crash_view SET State = (select State from crash where ID = 16181) WHERE ID = 16181'
+p260
+aI30
+aa(lp261
+S'UPDATE crash_view SET Atmospheric_Condition = (select Atmospheric_Condition from crash where ID = 38366) WHERE ID = 38366'
+p262
+aI31
+aa(lp263
+S'UPDATE crash_view SET Gender = (select Gender from crash where ID = 60908) WHERE ID = 60908'
+p264
+aI32
+aa(lp265
+S'UPDATE crash_view SET Age = (select Age from crash where ID = 24295) WHERE ID = 24295'
+p266
+aI33
+aa(lp267
+S'UPDATE crash_view SET Alcohol_Results = (select Alcohol_Results from crash where ID = 15721) WHERE ID = 15721'
+p268
+aI34
+aa(lp269
+S'UPDATE crash_view SET Person_Type = (select Person_Type from crash where ID = 42250) WHERE ID = 42250'
+p270
+aI35
+aa(lp271
+S'UPDATE crash_view SET Person_Type = (select Person_Type from crash where ID = 68881) WHERE ID = 68881'
+p272
+aI36
+aa(lp273
+S'UPDATE crash_view SET Drug_Involvement = (select Drug_Involvement from crash where ID = 69516) WHERE ID = 69516'
+p274
+aI37
+aa(lp275
+S'UPDATE crash_view SET Fatalities_in_crash = (select Fatalities_in_crash from crash where ID = 31677) WHERE ID = 31677'
+p276
+aI38
+aa(lp277
+S'UPDATE crash_view SET Race = (select Race from crash where ID = 62926) WHERE ID = 62926'
+p278
+aI39
+aa(lp279
+S'UPDATE crash_view SET Drug_Involvement = (select Drug_Involvement from crash where ID = 70825) WHERE ID = 70825'
+p280
+aI40
+aa(lp281
+S'UPDATE crash_view SET Race = (select Race from crash where ID = 55308) WHERE ID = 55308'
+p282
+aI41
+aa(lp283
+S'UPDATE crash_view SET Roadway = (select Roadway from crash where ID = 51591) WHERE ID = 51591'
+p284
+aI42
+aa(lp285
+S'UPDATE crash_view SET Roadway = (select Roadway from crash where ID = 1976) WHERE ID = 1976'
+p286
+aI43
+aa(lp287
+S'UPDATE crash_view SET Crash_Date = (select Crash_Date from crash where ID = 42570) WHERE ID = 42570'
+p288
+aI44
+aa(lp289
+S'UPDATE crash_view SET First_Harmful_Event = (select First_Harmful_Event from crash where ID = 40431) WHERE ID = 40431'
+p290
+aI45
+aa(lp291
+S'UPDATE crash_view SET Roadway = (select Roadway from crash where ID = 69650) WHERE ID = 69650'
+p292
+aI46
+aa(lp293
+S'UPDATE crash_view SET Person_Type = (select Person_Type from crash where ID = 44415) WHERE ID = 44415'
+p294
+aI47
+aa(lp295
+S'UPDATE crash_view SET Age = (select Age from crash where ID = 70853) WHERE ID = 70853'
+p296
+aI48
+aa(lp297
+S'UPDATE crash_view SET Fatalities_in_crash = (select Fatalities_in_crash from crash where ID = 36867) WHERE ID = 36867'
+p298
+aI49
+aa(lp299
+S'UPDATE crash_view SET Injury_Severity = (select Injury_Severity from crash where ID = 14011) WHERE ID = 14011'
+p300
+aI50
+aa(lp301
+S'UPDATE crash_view SET Gender = (select Gender from crash where ID = 16320) WHERE ID = 16320'
+p302
+aI51
+aa(lp303
+S'UPDATE crash_view SET Crash_Date = (select Crash_Date from crash where ID = 51035) WHERE ID = 51035'
+p304
+aI52
+aa(lp305
+S'UPDATE crash_view SET Fatalities_in_crash = (select Fatalities_in_crash from crash where ID = 34425) WHERE ID = 34425'
+p306
+aI53
+aa(lp307
+S'UPDATE crash_view SET Race = (select Race from crash where ID = 379) WHERE ID = 379'
+p308
+aI54
+aa(lp309
+S'UPDATE crash_view SET Atmospheric_Condition = (select Atmospheric_Condition from crash where ID = 53817) WHERE ID = 53817'
+p310
+aI55
+aa(lp311
+S'UPDATE crash_view SET Injury_Severity = (select Injury_Severity from crash where ID = 60864) WHERE ID = 60864'
+p312
+aI56
+aa(lp313
+S'UPDATE crash_view SET Race = (select Race from crash where ID = 11810) WHERE ID = 11810'
+p314
+aI57
+aa(lp315
+S'UPDATE crash_view SET Injury_Severity = (select Injury_Severity from crash where ID = 30076) WHERE ID = 30076'
+p316
+aI58
+aa(lp317
+S'UPDATE crash_view SET Injury_Severity = (select Injury_Severity from crash where ID = 18485) WHERE ID = 18485'
+p318
+aI59
+aa(lp319
+S'UPDATE crash_view SET Alcohol_Results = (select Alcohol_Results from crash where ID = 36385) WHERE ID = 36385'
+p320
+aI60
+aa(lp321
+S'UPDATE crash_view SET Crash_Date = (select Crash_Date from crash where ID = 444) WHERE ID = 444'
+p322
+aI61
+aa(lp323
+S'UPDATE crash_view SET Person_Type = (select Person_Type from crash where ID = 68666) WHERE ID = 68666'
+p324
+aI62
+aa(lp325
+S'UPDATE crash_view SET First_Harmful_Event = (select First_Harmful_Event from crash where ID = 43731) WHERE ID = 43731'
+p326
+aI63
+aa(lp327
+S'UPDATE crash_view SET Roadway = (select Roadway from crash where ID = 29142) WHERE ID = 29142'
+p328
+aI64
+aa(lp329
+S'UPDATE crash_view SET Roadway = (select Roadway from crash where ID = 66019) WHERE ID = 66019'
+p330
+aI65
+aa(lp331
+S'UPDATE crash_view SET First_Harmful_Event = (select First_Harmful_Event from crash where ID = 70891) WHERE ID = 70891'
+p332
+aI66
+aa(lp333
+S'UPDATE crash_view SET State = (select State from crash where ID = 7479) WHERE ID = 7479'
+p334
+aI67
+aa(lp335
+S'UPDATE crash_view SET Atmospheric_Condition = (select Atmospheric_Condition from crash where ID = 13864) WHERE ID = 13864'
+p336
+aI68
+aa(lp337
+S'UPDATE crash_view SET Gender = (select Gender from crash where ID = 20521) WHERE ID = 20521'
+p338
+aI69
+aa(lp339
+S'UPDATE crash_view SET Fatalities_in_crash = (select Fatalities_in_crash from crash where ID = 16132) WHERE ID = 16132'
+p340
+aI70
+aa(lp341
+S'UPDATE crash_view SET State = (select State from crash where ID = 10880) WHERE ID = 10880'
+p342
+aI71
+aa(lp343
+S'UPDATE crash_view SET Roadway = (select Roadway from crash where ID = 38219) WHERE ID = 38219'
+p344
+aI72
+aa(lp345
+S'UPDATE crash_view SET Drug_Involvement = (select Drug_Involvement from crash where ID = 53299) WHERE ID = 53299'
+p346
+aI73
+aa(lp347
+S'UPDATE crash_view SET Crash_Date = (select Crash_Date from crash where ID = 67271) WHERE ID = 67271'
+p348
+aI74
+aa(lp349
+S'UPDATE crash_view SET Crash_Date = (select Crash_Date from crash where ID = 11375) WHERE ID = 11375'
+p350
+aI75
+aa(lp351
+S'UPDATE crash_view SET Race = (select Race from crash where ID = 25178) WHERE ID = 25178'
+p352
+aI76
+aa(lp353
+S'UPDATE crash_view SET Atmospheric_Condition = (select Atmospheric_Condition from crash where ID = 47526) WHERE ID = 47526'
+p354
+aI77
+aa(lp355
+S'UPDATE crash_view SET State = (select State from crash where ID = 57162) WHERE ID = 57162'
+p356
+aI78
+aa(lp357
+S'UPDATE crash_view SET Alcohol_Results = (select Alcohol_Results from crash where ID = 4027) WHERE ID = 4027'
+p358
+aI79
+aa(lp359
+S'UPDATE crash_view SET Alcohol_Results = (select Alcohol_Results from crash where ID = 38118) WHERE ID = 38118'
+p360
+aI80
+aa(lp361
+S'UPDATE crash_view SET Injury_Severity = (select Injury_Severity from crash where ID = 59389) WHERE ID = 59389'
+p362
+aI81
+aa(lp363
+S'UPDATE crash_view SET Fatalities_in_crash = (select Fatalities_in_crash from crash where ID = 66796) WHERE ID = 66796'
+p364
+aI82
+aa(lp365
+S'UPDATE crash_view SET First_Harmful_Event = (select First_Harmful_Event from crash where ID = 52339) WHERE ID = 52339'
+p366
+aI83
+aa(lp367
+S'UPDATE crash_view SET Drug_Involvement = (select Drug_Involvement from crash where ID = 69798) WHERE ID = 69798'
+p368
+aI84
+aa(lp369
+S'UPDATE crash_view SET First_Harmful_Event = (select First_Harmful_Event from crash where ID = 47038) WHERE ID = 47038'
+p370
+aI85
+aa(lp371
+S'UPDATE crash_view SET Crash_Date = (select Crash_Date from crash where ID = 44789) WHERE ID = 44789'
+p372
+aI86
+aa(lp373
+S'UPDATE crash_view SET First_Harmful_Event = (select First_Harmful_Event from crash where ID = 67719) WHERE ID = 67719'
+p374
+aI87
+aa(lp375
+S'UPDATE crash_view SET Race = (select Race from crash where ID = 35686) WHERE ID = 35686'
+p376
+aI88
+aa(lp377
+S'UPDATE crash_view SET Drug_Involvement = (select Drug_Involvement from crash where ID = 46651) WHERE ID = 46651'
+p378
+aI89
+aa(lp379
+S'UPDATE crash_view SET Crash_Date = (select Crash_Date from crash where ID = 66933) WHERE ID = 66933'
+p380
+aI90
+aa(lp381
+S'UPDATE crash_view SET First_Harmful_Event = (select First_Harmful_Event from crash where ID = 12544) WHERE ID = 12544'
+p382
+aI91
+aa(lp383
+S'UPDATE crash_view SET Gender = (select Gender from crash where ID = 22132) WHERE ID = 22132'
+p384
+aI92
+aa(lp385
+S'UPDATE crash_view SET Age = (select Age from crash where ID = 51821) WHERE ID = 51821'
+p386
+aI93
+aa(lp387
+S'UPDATE crash_view SET Roadway = (select Roadway from crash where ID = 47969) WHERE ID = 47969'
+p388
+aI94
+aa(lp389
+S'UPDATE crash_view SET Atmospheric_Condition = (select Atmospheric_Condition from crash where ID = 34225) WHERE ID = 34225'
+p390
+aI95
+aa(lp391
+S'UPDATE crash_view SET Fatalities_in_crash = (select Fatalities_in_crash from crash where ID = 30220) WHERE ID = 30220'
+p392
+aI96
+aa(lp393
+S'UPDATE crash_view SET Atmospheric_Condition = (select Atmospheric_Condition from crash where ID = 18246) WHERE ID = 18246'
+p394
+aI97
+aa(lp395
+S'UPDATE crash_view SET Fatalities_in_crash = (select Fatalities_in_crash from crash where ID = 35851) WHERE ID = 35851'
+p396
+aI98
+aa(lp397
+S'UPDATE crash_view SET First_Harmful_Event = (select First_Harmful_Event from crash where ID = 66828) WHERE ID = 66828'
+p398
+aI99
+aaa(lp399
+VMale
+p400
+acdatetime
+datetime
+p401
+(S'\x07\xdb\t\n\x00\x00\x00\x00\x00\x00'
+p402
+tp403
+Rp404
+aVFemale
+p405
+aVMale
+p406
+aVDriver of a Motor Vehicle In-Transport
+p407
+ag401
+(S'\x07\xdb\t\x11\x00\x00\x00\x00\x00\x00'
+p408
+tp409
+Rp410
+aL1L
+aVCloudy
+p411
+aVMale
+p412
+aF0.0
+ag401
+(S'\x07\xdb\x0b\x07\x00\x00\x00\x00\x00\x00'
+p413
+tp414
+Rp415
+aVPassenger of a Motor Vehicle In-Transport
+p416
+ag401
+(S'\x07\xdb\x08\x0f\x00\x00\x00\x00\x00\x00'
+p417
+tp418
+Rp419
+aVDriver of a Motor Vehicle In-Transport
+p420
+aV
+p421
+aL1L
+aVRural-Local Road or Street
+p422
+aVClear
+p423
+aVPossible Injury (C)
+p424
+aVNo Injury (O)
+p425
+aVRollover/Overturn
+p426
+aF0.0
+aL1L
+aVNorth Carolina
+p427
+aVClear
+p428
+ag421
+aF0.0
+ag401
+(S'\x07\xdb\x01\x17\x00\x00\x00\x00\x00\x00'
+p429
+tp430
+Rp431
+ag421
+aVMaryland
+p432
+aVClear
+p433
+aVMale
+p434
+aL26L
+aF0.0
+aVPassenger of a Motor Vehicle In-Transport
+p435
+aVDriver of a Motor Vehicle In-Transport
+p436
+aVNot Reported
+p437
+aL2L
+ag421
+aVNot Reported
+p438
+aVBlack
+p439
+aVRural-Minor Arterial
+p440
+aVUrban-Collector
+p441
+ag401
+(S'\x07\xdb\n\x19\x00\x00\x00\x00\x00\x00'
+p442
+tp443
+Rp444
+aVTree (Standing Only)
+p445
+aVRural-Local Road or Street
+p446
+aVDriver of a Motor Vehicle In-Transport
+p447
+aL14L
+aL1L
+aVFatal Injury (K)
+p448
+aVMale
+p449
+ag401
+(S'\x07\xdb\n\x19\x00\x00\x00\x00\x00\x00'
+p450
+tp451
+Rp452
+aL3L
+ag421
+aVClear
+p453
+aVNo Injury (O)
+p454
+aVWhite
+p455
+aVNo Injury (O)
+p456
+aVFatal Injury (K)
+p457
+aF0.0
+ag401
+(S'\x07\xdb\x01\x04\x00\x00\x00\x00\x00\x00'
+p458
+tp459
+Rp460
+aVBicyclist
+p461
+aVPedestrian
+p462
+aVUrban-Principal Arterial-Other Freeways or Expressways
+p463
+aVUrban-Other Principal Arterial
+p464
+aVPedestrian
+p465
+aVColorado
+p466
+aVClear
+p467
+aVMale
+p468
+aL1L
+aVMichigan
+p469
+aVRural-Local Road or Street
+p470
+aVNo
+p471
+ag401
+(S'\x07\xdb\x06\x19\x00\x00\x00\x00\x00\x00'
+p472
+tp473
+Rp474
+ag401
+(S'\x07\xdb\x08\x0c\x00\x00\x00\x00\x00\x00'
+p475
+tp476
+Rp477
+aVWhite
+p478
+aVCloudy
+p479
+aVSouth Carolina
+p480
+aF0.07
+aF0.0
+aVPossible Injury (C)
+p481
+aL1L
+aVParked Motor Vehicle 
+p482
+aVUnknown
+p483
+aVMotor Vehicle In-Transport 
+p484
+ag401
+(S'\x07\xdb\x0c\x08\x00\x00\x00\x00\x00\x00'
+p485
+tp486
+Rp487
+aVMotor Vehicle In-Transport 
+p488
+aVBlack
+p489
+aVNo
+p490
+ag401
+(S'\x07\xdb\x06\x0b\x00\x00\x00\x00\x00\x00'
+p491
+tp492
+Rp493
+aVMotor Vehicle In-Transport Strikes or is Struck by Cargo, Persons or Objects Set-in-Motion from/by Another Motor Vehicle In Transport
+p494
+aVMale
+p495
+aL45L
+aVRural-Major Collector
+p496
+aVClear
+p497
+aL1L
+aVFog, Smog, Smoke
+p498
+aL1L
+aVMotor Vehicle In-Transport 
+p499
+aa(lp500
+S"'Not Reported'"
+p501
+aS"'2011-02-11 00:00:00'"
+p502
+aS"'Male'"
+p503
+aS"'Not Reported'"
+p504
+aS"'Persons In/On Buildings'"
+p505
+aS"'2011-01-14 00:00:00'"
+p506
+aS'15'
+p507
+aS"'Clear'"
+p508
+aS"'Not Reported'"
+p509
+aS'0.218469658016'
+p510
+aS"'2011-07-12 00:00:00'"
+p511
+aS"''"
+p512
+aS"'2011-12-04 00:00:00'"
+p513
+aS"'Other Cyclist'"
+p514
+aV'Filipino'
+p515
+aS'5'
+p516
+aV'Vietnamese'
+p517
+aS"''"
+p518
+aS"'Incapacitating Injury (A)'"
+p519
+aS"'Unknown'"
+p520
+aV'Ridden Animal or Animal Drawn Conveyance'
+p521
+aS'0.37101940045'
+p522
+aS'12'
+p523
+aV'Delaware'
+p524
+aS"'Severe Crosswinds'"
+p525
+aV'Guamanian'
+p526
+aS'0.335024653781'
+p527
+aS"'2011-12-28 00:00:00'"
+p528
+aV'Unknown'
+p529
+aV'New York'
+p530
+aS"'Rain'"
+p531
+aS"'Female'"
+p532
+aS'35'
+p533
+aS'0.461896402509'
+p534
+aS"''"
+p535
+aS"'Bicyclist'"
+p536
+aS"'Unknown'"
+p537
+aS'8'
+p538
+aV'Other Asian or Pacific Islander'
+p539
+aS"'Unknown'"
+p540
+aV'Guamanian'
+p541
+aV'Unknown'
+p542
+aV'Guamanian'
+p543
+aS"'2011-08-26 00:00:00'"
+p544
+aV'Culvert'
+p545
+aV'American Indian (includes Aleuts and Eskimos)'
+p546
+aS"'Pedestrian'"
+p547
+aS'75'
+p548
+aS'7'
+p549
+aS"'Incapacitating Injury (A)'"
+p550
+aS"'Not Reported'"
+p551
+aS"'2011-07-07 00:00:00'"
+p552
+ag516
+aV'Other Indian (includes South and Central America, any other, except American or Asian Indians)'
+p553
+aS"'Rain'"
+p554
+aS"'Unknown'"
+p555
+aV'Korean'
+p556
+aS"'Unknown'"
+p557
+aS"'Injured, Severity Unknown'"
+p558
+aS'0.613217732032'
+p559
+aS"'2011-12-12 00:00:00'"
+p560
+aS"'Occupant of a Motor Vehicle Not In- Transport'"
+p561
+aV'Shrubbery'
+p562
+aV'All other races'
+p563
+aV'Filipino'
+p564
+aV'Bridge Pier or Support'
+p565
+aV'Ohio'
+p566
+aS"'Rain'"
+p567
+aS"'Not Reported'"
+p568
+ag516
+aV'Illinois'
+p569
+aV'N'
+p570
+aS"'Not Reported'"
+p571
+aS"'2011-10-23 00:00:00'"
+p572
+aS"'2011-12-30 00:00:00'"
+p573
+aV'Samoan'
+p574
+aS"'Fog, Smog, Smoke'"
+p575
+aV'Michigan'
+p576
+aS'0.355798395806'
+p577
+aS'0.314690015347'
+p578
+aS"'Injured, Severity Unknown'"
+p579
+aS'6'
+p580
+aV'Fire Hydrant'
+p581
+aS"'Not Reported'"
+p582
+aV'Other Traffic Barrier'
+p583
+aS"'2011-01-21 00:00:00'"
+p584
+aV'Other Traffic Barrier'
+p585
+aV'Samoan'
+p586
+aS"'N'"
+p587
+aS"'2011-03-24 00:00:00'"
+p588
+aV'Culvert'
+p589
+aS"'Unknown'"
+p590
+aS'68'
+p591
+aV'Vietnamese'
+p592
+aS"'Cloudy'"
+p593
+aS'10'
+p594
+aS"''"
+p595
+aS'13'
+p596
+aV'Thrown or Falling Object'
+p597
+aa.

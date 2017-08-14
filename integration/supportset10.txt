@@ -1,0 +1,109 @@
+(lp0
+(lp1
+(lp2
+S"UPDATE Country_view SET Capital = 2426 WHERE Code = 'ARG'"
+p3
+aI1
+aa(lp4
+S"UPDATE Country_view SET LocalName = 'Al-\xc2\xb4Arabiya as-Sa\xc2\xb4udiya' WHERE Code = 'FSM'"
+p5
+aI2
+aa(lp6
+S"UPDATE Country_view SET Population = 9.38143243772e+21 WHERE Code = 'KGZ'"
+p7
+aI3
+aa(lp8
+S"UPDATE Country_view SET Continent = 'South America' WHERE Code = 'VAT'"
+p9
+aI4
+aa(lp10
+S"UPDATE Country_view SET GNP = 1395020.61 WHERE Code = 'GIB'"
+p11
+aI5
+aa(lp12
+S"UPDATE Country_view SET Capital = 2765 WHERE Code = 'ISL'"
+p13
+aI6
+aa(lp14
+S"UPDATE Country_view SET LifeExpectancy = 60.1 WHERE Code = 'MKD'"
+p15
+aI7
+aa(lp16
+S"UPDATE Country_view SET Continent = 'South America' WHERE Code = 'BRN'"
+p17
+aI8
+aa(lp18
+S"UPDATE Country_view SET GovernmentForm = 'Federation' WHERE Code = 'SYR'"
+p19
+aI9
+aaa(lp20
+(lp21
+S"UPDATE Country_view SET Capital = (select Capital from Country where Code = 'ARG') WHERE Code = 'ARG'"
+p22
+aI1
+aa(lp23
+S"UPDATE Country_view SET LocalName = (select LocalName from Country where Code = 'FSM') WHERE Code = 'FSM'"
+p24
+aI2
+aa(lp25
+S"UPDATE Country_view SET Population = (select Population from Country where Code = 'KGZ') WHERE Code = 'KGZ'"
+p26
+aI3
+aa(lp27
+S"UPDATE Country_view SET Continent = (select Continent from Country where Code = 'VAT') WHERE Code = 'VAT'"
+p28
+aI4
+aa(lp29
+S"UPDATE Country_view SET GNP = (select GNP from Country where Code = 'GIB') WHERE Code = 'GIB'"
+p30
+aI5
+aa(lp31
+S"UPDATE Country_view SET Capital = (select Capital from Country where Code = 'ISL') WHERE Code = 'ISL'"
+p32
+aI6
+aa(lp33
+S"UPDATE Country_view SET LifeExpectancy = (select LifeExpectancy from Country where Code = 'MKD') WHERE Code = 'MKD'"
+p34
+aI7
+aa(lp35
+S"UPDATE Country_view SET Continent = (select Continent from Country where Code = 'BRN') WHERE Code = 'BRN'"
+p36
+aI8
+aa(lp37
+S"UPDATE Country_view SET GovernmentForm = (select GovernmentForm from Country where Code = 'SYR') WHERE Code = 'SYR'"
+p38
+aI9
+aaa(lp39
+L69L
+aVMicronesia
+p40
+aL4699000L
+aVEurope
+p41
+aF258.0
+aL1449L
+aF73.8
+aVAsia
+p42
+aVRepublic
+p43
+aa(lp44
+S'2426'
+p45
+aS"'Al-\xc2\xb4Arabiya as-Sa\xc2\xb4udiya'"
+p46
+aS'9.38143243772e+21'
+p47
+aS"'South America'"
+p48
+aS'1395020.61'
+p49
+aS'2765'
+p50
+aS'60.1'
+p51
+aS"'South America'"
+p52
+aS"'Federation'"
+p53
+aa.

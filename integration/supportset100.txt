@@ -1,0 +1,1149 @@
+(lp0
+(lp1
+(lp2
+S"UPDATE Country_view SET LocalName = 'Bermuda' WHERE Code = 'IDN'"
+p3
+aI1
+aa(lp4
+S"UPDATE Country_view SET HeadOfState = 'Fidel Castro Ruz' WHERE Code = 'SAU'"
+p5
+aI2
+aa(lp6
+S"UPDATE Country_view SET Population = 7.29838865165e+21 WHERE Code = 'CPV'"
+p7
+aI3
+aa(lp8
+S"UPDATE Country_view SET GNPOld = 2931487.79 WHERE Code = 'MYT'"
+p9
+aI4
+aa(lp10
+S"UPDATE Country_view SET SurfaceArea = 12525890.61 WHERE Code = 'LTU'"
+p11
+aI5
+aa(lp12
+S"UPDATE Country_view SET SurfaceArea = 8239411.74 WHERE Code = 'PRY'"
+p13
+aI6
+aa(lp14
+S"UPDATE Country_view SET Continent = 'Antarctica' WHERE Code = 'CAN'"
+p15
+aI7
+aa(lp16
+S"UPDATE Country_view SET GNPOld = 7168399.66 WHERE Code = 'SAU'"
+p17
+aI8
+aa(lp18
+S"UPDATE Country_view SET GNP = 3817610.78 WHERE Code = 'UMI'"
+p19
+aI9
+aa(lp20
+S"UPDATE Country_view SET Population = 1.17017245934e+22 WHERE Code = 'GUF'"
+p21
+aI10
+aa(lp22
+S"UPDATE Country_view SET LifeExpectancy = 63.1 WHERE Code = 'SDN'"
+p23
+aI11
+aa(lp24
+S"UPDATE Country_view SET Region = 'Southern Africa' WHERE Code = 'FRA'"
+p25
+aI12
+aa(lp26
+S"UPDATE Country_view SET GNP = 6782189.33 WHERE Code = 'SLE'"
+p27
+aI13
+aa(lp28
+S"UPDATE Country_view SET GNPOld = 3660369.51 WHERE Code = 'PYF'"
+p29
+aI14
+aa(lp30
+S"UPDATE Country_view SET GNP = 1522132.45 WHERE Code = 'MYT'"
+p31
+aI15
+aa(lp32
+S"UPDATE Country_view SET Population = 5.39271414719e+21 WHERE Code = 'TJK'"
+p33
+aI16
+aa(lp34
+S"UPDATE Country_view SET GNP = 3853838.03 WHERE Code = 'TKM'"
+p35
+aI17
+aa(lp36
+S"UPDATE Country_view SET Capital = 2299 WHERE Code = 'SLE'"
+p37
+aI18
+aa(lp38
+S"UPDATE Country_view SET Code2 = 'TJ' WHERE Code = 'FLK'"
+p39
+aI19
+aa(lp40
+S"UPDATE Country_view SET GovernmentForm = 'Monarchy' WHERE Code = 'JAM'"
+p41
+aI20
+aa(lp42
+S"UPDATE Country_view SET Population = 1.66002906003e+21 WHERE Code = 'LKA'"
+p43
+aI21
+aa(lp44
+S"UPDATE Country_view SET SurfaceArea = 12195642.8 WHERE Code = 'SYC'"
+p45
+aI22
+aa(lp46
+S"UPDATE Country_view SET Capital = 1732 WHERE Code = 'BOL'"
+p47
+aI23
+aa(lp48
+S"UPDATE Country_view SET Population = 9.47813809687e+20 WHERE Code = 'GUY'"
+p49
+aI24
+aa(lp50
+S"UPDATE Country_view SET Population = 4.97547361635e+21 WHERE Code = 'KNA'"
+p51
+aI25
+aa(lp52
+S"UPDATE Country_view SET Capital = 2207 WHERE Code = 'LVA'"
+p53
+aI26
+aa(lp54
+S"UPDATE Country_view SET Name = 'Macao' WHERE Code = 'BLZ'"
+p55
+aI27
+aa(lp56
+S"UPDATE Country_view SET LocalName = 'Micronesia' WHERE Code = 'IDN'"
+p57
+aI28
+aa(lp58
+S"UPDATE Country_view SET LocalName = 'Bouvet\xc3\xb8ya' WHERE Code = 'GNB'"
+p59
+aI29
+aa(lp60
+S"UPDATE Country_view SET Region = 'North America' WHERE Code = 'TON'"
+p61
+aI30
+aa(lp62
+S"UPDATE Country_view SET GovernmentForm = 'Emirate Federation' WHERE Code = 'PCN'"
+p63
+aI31
+aa(lp64
+S"UPDATE Country_view SET GNPOld = 1576021.47 WHERE Code = 'TUR'"
+p65
+aI32
+aa(lp66
+S"UPDATE Country_view SET HeadOfState = 'Jiang Zemin' WHERE Code = 'BIH'"
+p67
+aI33
+aa(lp68
+S"UPDATE Country_view SET GovernmentForm = 'Monarchy (Emirate)' WHERE Code = 'NLD'"
+p69
+aI34
+aa(lp70
+S"UPDATE Country_view SET GNPOld = 5837614.29 WHERE Code = 'PER'"
+p71
+aI35
+aa(lp72
+S"UPDATE Country_view SET GovernmentForm = 'Autonomous Area' WHERE Code = 'DZA'"
+p73
+aI36
+aa(lp74
+S"UPDATE Country_view SET Code2 = 'FJ' WHERE Code = 'ECU'"
+p75
+aI37
+aa(lp76
+S"UPDATE Country_view SET SurfaceArea = 14233737.68 WHERE Code = 'TZA'"
+p77
+aI38
+aa(lp78
+S"UPDATE Country_view SET LifeExpectancy = 63.2 WHERE Code = 'SEN'"
+p79
+aI39
+aa(lp80
+S"UPDATE Country_view SET Name = 'Cyprus' WHERE Code = 'GTM'"
+p81
+aI40
+aa(lp82
+S"UPDATE Country_view SET Region = 'Antarctica' WHERE Code = 'TZA'"
+p83
+aI41
+aa(lp84
+S"UPDATE Country_view SET GovernmentForm = 'Socialistic Republic' WHERE Code = 'YUG'"
+p85
+aI42
+aa(lp86
+S"UPDATE Country_view SET GovernmentForm = 'Constitutional Monarchy, Federation' WHERE Code = 'GMB'"
+p87
+aI43
+aa(lp88
+S"UPDATE Country_view SET GNPOld = 4162159.33 WHERE Code = 'PRI'"
+p89
+aI44
+aa(lp90
+S"UPDATE Country_view SET GNP = 781040.37 WHERE Code = 'UZB'"
+p91
+aI45
+aa(lp92
+S"UPDATE Country_view SET LocalName = 'Suriname' WHERE Code = 'BMU'"
+p93
+aI46
+aa(lp94
+S"UPDATE Country_view SET GNPOld = 6105802.0 WHERE Code = 'GHA'"
+p95
+aI47
+aa(lp96
+S"UPDATE Country_view SET Code2 = 'SY' WHERE Code = 'SMR'"
+p97
+aI48
+aa(lp98
+S"UPDATE Country_view SET SurfaceArea = 8895043.6 WHERE Code = 'NZL'"
+p99
+aI49
+aa(lp100
+S"UPDATE Country_view SET Code2 = 'BM' WHERE Code = 'SYR'"
+p101
+aI50
+aa(lp102
+S"UPDATE Country_view SET Region = 'Micronesia' WHERE Code = 'AUS'"
+p103
+aI51
+aa(lp104
+S"UPDATE Country_view SET HeadOfState = 'Johannes Rau' WHERE Code = 'ERI'"
+p105
+aI52
+aa(lp106
+S"UPDATE Country_view SET HeadOfState = 'Ant\xc3\xb3nio Mascarenhas Monteiro' WHERE Code = 'LBY'"
+p107
+aI53
+aa(lp108
+S"UPDATE Country_view SET Population = 1.10780625939e+22 WHERE Code = 'PAK'"
+p109
+aI54
+aa(lp110
+S"UPDATE Country_view SET Capital = 2790 WHERE Code = 'BHR'"
+p111
+aI55
+aa(lp112
+S"UPDATE Country_view SET GovernmentForm = 'Islamic Emirate' WHERE Code = 'PRI'"
+p113
+aI56
+aa(lp114
+S"UPDATE Country_view SET Capital = 108 WHERE Code = 'SMR'"
+p115
+aI57
+aa(lp116
+S"UPDATE Country_view SET GovernmentForm = 'Islamic Republic' WHERE Code = 'ABW'"
+p117
+aI58
+aa(lp118
+S"UPDATE Country_view SET Code2 = 'MG' WHERE Code = 'PRY'"
+p119
+aI59
+aa(lp120
+S"UPDATE Country_view SET HeadOfState = 'Hip\xc3\xb3lito Mej\xc3\xada Dom\xc3\xadnguez' WHERE Code = 'TMP'"
+p121
+aI60
+aa(lp122
+S"UPDATE Country_view SET Name = 'French Polynesia' WHERE Code = 'CXR'"
+p123
+aI61
+aa(lp124
+S"UPDATE Country_view SET LocalName = 'C\xc3\xb4te d\xe2\x80\x99Ivoire' WHERE Code = 'DMA'"
+p125
+aI62
+aa(lp126
+S"UPDATE Country_view SET Region = 'British Islands' WHERE Code = 'LBN'"
+p127
+aI63
+aa(lp128
+S"UPDATE Country_view SET Code2 = 'CC' WHERE Code = 'OMN'"
+p129
+aI64
+aa(lp130
+S"UPDATE Country_view SET Continent = 'Europe' WHERE Code = 'UZB'"
+p131
+aI65
+aa(lp132
+S"UPDATE Country_view SET GovernmentForm = 'Monarchy (Emirate)' WHERE Code = 'HUN'"
+p133
+aI66
+aa(lp134
+S"UPDATE Country_view SET Capital = 3910 WHERE Code = 'KAZ'"
+p135
+aI67
+aa(lp136
+S"UPDATE Country_view SET LifeExpectancy = 40.2 WHERE Code = 'BVT'"
+p137
+aI68
+aa(lp138
+S"UPDATE Country_view SET Name = 'Poland' WHERE Code = 'NCL'"
+p139
+aI69
+aa(lp140
+S"UPDATE Country_view SET Region = 'British Islands' WHERE Code = 'NLD'"
+p141
+aI70
+aa(lp142
+S"UPDATE Country_view SET GNP = 3273650.45 WHERE Code = 'GHA'"
+p143
+aI71
+aa(lp144
+S"UPDATE Country_view SET Population = 3.3700115771e+21 WHERE Code = 'ATF'"
+p145
+aI72
+aa(lp146
+S"UPDATE Country_view SET Code2 = 'NF' WHERE Code = 'BWA'"
+p147
+aI73
+aa(lp148
+S"UPDATE Country_view SET Capital = 3684 WHERE Code = 'ATG'"
+p149
+aI74
+aa(lp150
+S"UPDATE Country_view SET GovernmentForm = 'Islamic Emirate' WHERE Code = 'BTN'"
+p151
+aI75
+aa(lp152
+S"UPDATE Country_view SET Name = 'Ireland' WHERE Code = 'BLR'"
+p153
+aI76
+aa(lp154
+S"UPDATE Country_view SET LocalName = 'Falkland Islands' WHERE Code = 'TON'"
+p155
+aI77
+aa(lp156
+S"UPDATE Country_view SET Name = 'United States Minor Outlying Islands' WHERE Code = 'SDN'"
+p157
+aI78
+aa(lp158
+S"UPDATE Country_view SET Population = 9.83482363165e+21 WHERE Code = 'BVT'"
+p159
+aI79
+aa(lp160
+S"UPDATE Country_view SET Code2 = 'DM' WHERE Code = 'IOT'"
+p161
+aI80
+aa(lp162
+S"UPDATE Country_view SET Code2 = 'PF' WHERE Code = 'BOL'"
+p163
+aI81
+aa(lp164
+S"UPDATE Country_view SET GovernmentForm = 'Monarchy (Sultanate)' WHERE Code = 'PRY'"
+p165
+aI82
+aa(lp166
+S"UPDATE Country_view SET GNPOld = 3653735.86 WHERE Code = 'PRI'"
+p167
+aI83
+aa(lp168
+S"UPDATE Country_view SET Population = 5.6483979747e+21 WHERE Code = 'PRK'"
+p169
+aI84
+aa(lp170
+S"UPDATE Country_view SET Region = 'Micronesia' WHERE Code = 'JPN'"
+p171
+aI85
+aa(lp172
+S"UPDATE Country_view SET Capital = 3192 WHERE Code = 'TJK'"
+p173
+aI86
+aa(lp174
+S"UPDATE Country_view SET Name = 'United States Minor Outlying Islands' WHERE Code = 'GUY'"
+p175
+aI87
+aa(lp176
+S"UPDATE Country_view SET Capital = 874 WHERE Code = 'SGP'"
+p177
+aI88
+aa(lp178
+S"UPDATE Country_view SET Region = 'Western Europe' WHERE Code = 'IND'"
+p179
+aI89
+aa(lp180
+S"UPDATE Country_view SET SurfaceArea = 12042970.94 WHERE Code = 'IRL'"
+p181
+aI90
+aa(lp182
+S"UPDATE Country_view SET Name = 'Tonga' WHERE Code = 'CHE'"
+p183
+aI91
+aa(lp184
+S"UPDATE Country_view SET HeadOfState = 'Miguel \xc3\x81ngel Rodr\xc3\xadguez Echeverr\xc3\xada' WHERE Code = 'SHN'"
+p185
+aI92
+aa(lp186
+S"UPDATE Country_view SET GNP = 763230.13 WHERE Code = 'JPN'"
+p187
+aI93
+aa(lp188
+S"UPDATE Country_view SET Continent = 'Asia' WHERE Code = 'MDA'"
+p189
+aI94
+aa(lp190
+S"UPDATE Country_view SET Region = 'North America' WHERE Code = 'ABW'"
+p191
+aI95
+aa(lp192
+S"UPDATE Country_view SET Continent = 'Africa' WHERE Code = 'PHL'"
+p193
+aI96
+aa(lp194
+S"UPDATE Country_view SET HeadOfState = 'Glafkos Klerides' WHERE Code = 'UKR'"
+p195
+aI97
+aa(lp196
+S"UPDATE Country_view SET LocalName = 'Nihon/Nippon' WHERE Code = 'MNP'"
+p197
+aI98
+aa(lp198
+S"UPDATE Country_view SET GovernmentForm = 'Constitutional Monarchy, Federation' WHERE Code = 'MRT'"
+p199
+aI99
+aaa(lp200
+(lp201
+S"UPDATE Country_view SET LocalName = (select LocalName from Country where Code = 'IDN') WHERE Code = 'IDN'"
+p202
+aI1
+aa(lp203
+S"UPDATE Country_view SET HeadOfState = (select HeadOfState from Country where Code = 'SAU') WHERE Code = 'SAU'"
+p204
+aI2
+aa(lp205
+S"UPDATE Country_view SET Population = (select Population from Country where Code = 'CPV') WHERE Code = 'CPV'"
+p206
+aI3
+aa(lp207
+S"UPDATE Country_view SET GNPOld = (select GNPOld from Country where Code = 'MYT') WHERE Code = 'MYT'"
+p208
+aI4
+aa(lp209
+S"UPDATE Country_view SET SurfaceArea = (select SurfaceArea from Country where Code = 'LTU') WHERE Code = 'LTU'"
+p210
+aI5
+aa(lp211
+S"UPDATE Country_view SET SurfaceArea = (select SurfaceArea from Country where Code = 'PRY') WHERE Code = 'PRY'"
+p212
+aI6
+aa(lp213
+S"UPDATE Country_view SET Continent = (select Continent from Country where Code = 'CAN') WHERE Code = 'CAN'"
+p214
+aI7
+aa(lp215
+S"UPDATE Country_view SET GNPOld = (select GNPOld from Country where Code = 'SAU') WHERE Code = 'SAU'"
+p216
+aI8
+aa(lp217
+S"UPDATE Country_view SET GNP = (select GNP from Country where Code = 'UMI') WHERE Code = 'UMI'"
+p218
+aI9
+aa(lp219
+S"UPDATE Country_view SET Population = (select Population from Country where Code = 'GUF') WHERE Code = 'GUF'"
+p220
+aI10
+aa(lp221
+S"UPDATE Country_view SET LifeExpectancy = (select LifeExpectancy from Country where Code = 'SDN') WHERE Code = 'SDN'"
+p222
+aI11
+aa(lp223
+S"UPDATE Country_view SET Region = (select Region from Country where Code = 'FRA') WHERE Code = 'FRA'"
+p224
+aI12
+aa(lp225
+S"UPDATE Country_view SET GNP = (select GNP from Country where Code = 'SLE') WHERE Code = 'SLE'"
+p226
+aI13
+aa(lp227
+S"UPDATE Country_view SET GNPOld = (select GNPOld from Country where Code = 'PYF') WHERE Code = 'PYF'"
+p228
+aI14
+aa(lp229
+S"UPDATE Country_view SET GNP = (select GNP from Country where Code = 'MYT') WHERE Code = 'MYT'"
+p230
+aI15
+aa(lp231
+S"UPDATE Country_view SET Population = (select Population from Country where Code = 'TJK') WHERE Code = 'TJK'"
+p232
+aI16
+aa(lp233
+S"UPDATE Country_view SET GNP = (select GNP from Country where Code = 'TKM') WHERE Code = 'TKM'"
+p234
+aI17
+aa(lp235
+S"UPDATE Country_view SET Capital = (select Capital from Country where Code = 'SLE') WHERE Code = 'SLE'"
+p236
+aI18
+aa(lp237
+S"UPDATE Country_view SET Code2 = (select Code2 from Country where Code = 'FLK') WHERE Code = 'FLK'"
+p238
+aI19
+aa(lp239
+S"UPDATE Country_view SET GovernmentForm = (select GovernmentForm from Country where Code = 'JAM') WHERE Code = 'JAM'"
+p240
+aI20
+aa(lp241
+S"UPDATE Country_view SET Population = (select Population from Country where Code = 'LKA') WHERE Code = 'LKA'"
+p242
+aI21
+aa(lp243
+S"UPDATE Country_view SET SurfaceArea = (select SurfaceArea from Country where Code = 'SYC') WHERE Code = 'SYC'"
+p244
+aI22
+aa(lp245
+S"UPDATE Country_view SET Capital = (select Capital from Country where Code = 'BOL') WHERE Code = 'BOL'"
+p246
+aI23
+aa(lp247
+S"UPDATE Country_view SET Population = (select Population from Country where Code = 'GUY') WHERE Code = 'GUY'"
+p248
+aI24
+aa(lp249
+S"UPDATE Country_view SET Population = (select Population from Country where Code = 'KNA') WHERE Code = 'KNA'"
+p250
+aI25
+aa(lp251
+S"UPDATE Country_view SET Capital = (select Capital from Country where Code = 'LVA') WHERE Code = 'LVA'"
+p252
+aI26
+aa(lp253
+S"UPDATE Country_view SET Name = (select Name from Country where Code = 'BLZ') WHERE Code = 'BLZ'"
+p254
+aI27
+aa(lp255
+S"UPDATE Country_view SET LocalName = (select LocalName from Country where Code = 'IDN') WHERE Code = 'IDN'"
+p256
+aI28
+aa(lp257
+S"UPDATE Country_view SET LocalName = (select LocalName from Country where Code = 'GNB') WHERE Code = 'GNB'"
+p258
+aI29
+aa(lp259
+S"UPDATE Country_view SET Region = (select Region from Country where Code = 'TON') WHERE Code = 'TON'"
+p260
+aI30
+aa(lp261
+S"UPDATE Country_view SET GovernmentForm = (select GovernmentForm from Country where Code = 'PCN') WHERE Code = 'PCN'"
+p262
+aI31
+aa(lp263
+S"UPDATE Country_view SET GNPOld = (select GNPOld from Country where Code = 'TUR') WHERE Code = 'TUR'"
+p264
+aI32
+aa(lp265
+S"UPDATE Country_view SET HeadOfState = (select HeadOfState from Country where Code = 'BIH') WHERE Code = 'BIH'"
+p266
+aI33
+aa(lp267
+S"UPDATE Country_view SET GovernmentForm = (select GovernmentForm from Country where Code = 'NLD') WHERE Code = 'NLD'"
+p268
+aI34
+aa(lp269
+S"UPDATE Country_view SET GNPOld = (select GNPOld from Country where Code = 'PER') WHERE Code = 'PER'"
+p270
+aI35
+aa(lp271
+S"UPDATE Country_view SET GovernmentForm = (select GovernmentForm from Country where Code = 'DZA') WHERE Code = 'DZA'"
+p272
+aI36
+aa(lp273
+S"UPDATE Country_view SET Code2 = (select Code2 from Country where Code = 'ECU') WHERE Code = 'ECU'"
+p274
+aI37
+aa(lp275
+S"UPDATE Country_view SET SurfaceArea = (select SurfaceArea from Country where Code = 'TZA') WHERE Code = 'TZA'"
+p276
+aI38
+aa(lp277
+S"UPDATE Country_view SET LifeExpectancy = (select LifeExpectancy from Country where Code = 'SEN') WHERE Code = 'SEN'"
+p278
+aI39
+aa(lp279
+S"UPDATE Country_view SET Name = (select Name from Country where Code = 'GTM') WHERE Code = 'GTM'"
+p280
+aI40
+aa(lp281
+S"UPDATE Country_view SET Region = (select Region from Country where Code = 'TZA') WHERE Code = 'TZA'"
+p282
+aI41
+aa(lp283
+S"UPDATE Country_view SET GovernmentForm = (select GovernmentForm from Country where Code = 'YUG') WHERE Code = 'YUG'"
+p284
+aI42
+aa(lp285
+S"UPDATE Country_view SET GovernmentForm = (select GovernmentForm from Country where Code = 'GMB') WHERE Code = 'GMB'"
+p286
+aI43
+aa(lp287
+S"UPDATE Country_view SET GNPOld = (select GNPOld from Country where Code = 'PRI') WHERE Code = 'PRI'"
+p288
+aI44
+aa(lp289
+S"UPDATE Country_view SET GNP = (select GNP from Country where Code = 'UZB') WHERE Code = 'UZB'"
+p290
+aI45
+aa(lp291
+S"UPDATE Country_view SET LocalName = (select LocalName from Country where Code = 'BMU') WHERE Code = 'BMU'"
+p292
+aI46
+aa(lp293
+S"UPDATE Country_view SET GNPOld = (select GNPOld from Country where Code = 'GHA') WHERE Code = 'GHA'"
+p294
+aI47
+aa(lp295
+S"UPDATE Country_view SET Code2 = (select Code2 from Country where Code = 'SMR') WHERE Code = 'SMR'"
+p296
+aI48
+aa(lp297
+S"UPDATE Country_view SET SurfaceArea = (select SurfaceArea from Country where Code = 'NZL') WHERE Code = 'NZL'"
+p298
+aI49
+aa(lp299
+S"UPDATE Country_view SET Code2 = (select Code2 from Country where Code = 'SYR') WHERE Code = 'SYR'"
+p300
+aI50
+aa(lp301
+S"UPDATE Country_view SET Region = (select Region from Country where Code = 'AUS') WHERE Code = 'AUS'"
+p302
+aI51
+aa(lp303
+S"UPDATE Country_view SET HeadOfState = (select HeadOfState from Country where Code = 'ERI') WHERE Code = 'ERI'"
+p304
+aI52
+aa(lp305
+S"UPDATE Country_view SET HeadOfState = (select HeadOfState from Country where Code = 'LBY') WHERE Code = 'LBY'"
+p306
+aI53
+aa(lp307
+S"UPDATE Country_view SET Population = (select Population from Country where Code = 'PAK') WHERE Code = 'PAK'"
+p308
+aI54
+aa(lp309
+S"UPDATE Country_view SET Capital = (select Capital from Country where Code = 'BHR') WHERE Code = 'BHR'"
+p310
+aI55
+aa(lp311
+S"UPDATE Country_view SET GovernmentForm = (select GovernmentForm from Country where Code = 'PRI') WHERE Code = 'PRI'"
+p312
+aI56
+aa(lp313
+S"UPDATE Country_view SET Capital = (select Capital from Country where Code = 'SMR') WHERE Code = 'SMR'"
+p314
+aI57
+aa(lp315
+S"UPDATE Country_view SET GovernmentForm = (select GovernmentForm from Country where Code = 'ABW') WHERE Code = 'ABW'"
+p316
+aI58
+aa(lp317
+S"UPDATE Country_view SET Code2 = (select Code2 from Country where Code = 'PRY') WHERE Code = 'PRY'"
+p318
+aI59
+aa(lp319
+S"UPDATE Country_view SET HeadOfState = (select HeadOfState from Country where Code = 'TMP') WHERE Code = 'TMP'"
+p320
+aI60
+aa(lp321
+S"UPDATE Country_view SET Name = (select Name from Country where Code = 'CXR') WHERE Code = 'CXR'"
+p322
+aI61
+aa(lp323
+S"UPDATE Country_view SET LocalName = (select LocalName from Country where Code = 'DMA') WHERE Code = 'DMA'"
+p324
+aI62
+aa(lp325
+S"UPDATE Country_view SET Region = (select Region from Country where Code = 'LBN') WHERE Code = 'LBN'"
+p326
+aI63
+aa(lp327
+S"UPDATE Country_view SET Code2 = (select Code2 from Country where Code = 'OMN') WHERE Code = 'OMN'"
+p328
+aI64
+aa(lp329
+S"UPDATE Country_view SET Continent = (select Continent from Country where Code = 'UZB') WHERE Code = 'UZB'"
+p330
+aI65
+aa(lp331
+S"UPDATE Country_view SET GovernmentForm = (select GovernmentForm from Country where Code = 'HUN') WHERE Code = 'HUN'"
+p332
+aI66
+aa(lp333
+S"UPDATE Country_view SET Capital = (select Capital from Country where Code = 'KAZ') WHERE Code = 'KAZ'"
+p334
+aI67
+aa(lp335
+S"UPDATE Country_view SET LifeExpectancy = (select LifeExpectancy from Country where Code = 'BVT') WHERE Code = 'BVT'"
+p336
+aI68
+aa(lp337
+S"UPDATE Country_view SET Name = (select Name from Country where Code = 'NCL') WHERE Code = 'NCL'"
+p338
+aI69
+aa(lp339
+S"UPDATE Country_view SET Region = (select Region from Country where Code = 'NLD') WHERE Code = 'NLD'"
+p340
+aI70
+aa(lp341
+S"UPDATE Country_view SET GNP = (select GNP from Country where Code = 'GHA') WHERE Code = 'GHA'"
+p342
+aI71
+aa(lp343
+S"UPDATE Country_view SET Population = (select Population from Country where Code = 'ATF') WHERE Code = 'ATF'"
+p344
+aI72
+aa(lp345
+S"UPDATE Country_view SET Code2 = (select Code2 from Country where Code = 'BWA') WHERE Code = 'BWA'"
+p346
+aI73
+aa(lp347
+S"UPDATE Country_view SET Capital = (select Capital from Country where Code = 'ATG') WHERE Code = 'ATG'"
+p348
+aI74
+aa(lp349
+S"UPDATE Country_view SET GovernmentForm = (select GovernmentForm from Country where Code = 'BTN') WHERE Code = 'BTN'"
+p350
+aI75
+aa(lp351
+S"UPDATE Country_view SET Name = (select Name from Country where Code = 'BLR') WHERE Code = 'BLR'"
+p352
+aI76
+aa(lp353
+S"UPDATE Country_view SET LocalName = (select LocalName from Country where Code = 'TON') WHERE Code = 'TON'"
+p354
+aI77
+aa(lp355
+S"UPDATE Country_view SET Name = (select Name from Country where Code = 'SDN') WHERE Code = 'SDN'"
+p356
+aI78
+aa(lp357
+S"UPDATE Country_view SET Population = (select Population from Country where Code = 'BVT') WHERE Code = 'BVT'"
+p358
+aI79
+aa(lp359
+S"UPDATE Country_view SET Code2 = (select Code2 from Country where Code = 'IOT') WHERE Code = 'IOT'"
+p360
+aI80
+aa(lp361
+S"UPDATE Country_view SET Code2 = (select Code2 from Country where Code = 'BOL') WHERE Code = 'BOL'"
+p362
+aI81
+aa(lp363
+S"UPDATE Country_view SET GovernmentForm = (select GovernmentForm from Country where Code = 'PRY') WHERE Code = 'PRY'"
+p364
+aI82
+aa(lp365
+S"UPDATE Country_view SET GNPOld = (select GNPOld from Country where Code = 'PRI') WHERE Code = 'PRI'"
+p366
+aI83
+aa(lp367
+S"UPDATE Country_view SET Population = (select Population from Country where Code = 'PRK') WHERE Code = 'PRK'"
+p368
+aI84
+aa(lp369
+S"UPDATE Country_view SET Region = (select Region from Country where Code = 'JPN') WHERE Code = 'JPN'"
+p370
+aI85
+aa(lp371
+S"UPDATE Country_view SET Capital = (select Capital from Country where Code = 'TJK') WHERE Code = 'TJK'"
+p372
+aI86
+aa(lp373
+S"UPDATE Country_view SET Name = (select Name from Country where Code = 'GUY') WHERE Code = 'GUY'"
+p374
+aI87
+aa(lp375
+S"UPDATE Country_view SET Capital = (select Capital from Country where Code = 'SGP') WHERE Code = 'SGP'"
+p376
+aI88
+aa(lp377
+S"UPDATE Country_view SET Region = (select Region from Country where Code = 'IND') WHERE Code = 'IND'"
+p378
+aI89
+aa(lp379
+S"UPDATE Country_view SET SurfaceArea = (select SurfaceArea from Country where Code = 'IRL') WHERE Code = 'IRL'"
+p380
+aI90
+aa(lp381
+S"UPDATE Country_view SET Name = (select Name from Country where Code = 'CHE') WHERE Code = 'CHE'"
+p382
+aI91
+aa(lp383
+S"UPDATE Country_view SET HeadOfState = (select HeadOfState from Country where Code = 'SHN') WHERE Code = 'SHN'"
+p384
+aI92
+aa(lp385
+S"UPDATE Country_view SET GNP = (select GNP from Country where Code = 'JPN') WHERE Code = 'JPN'"
+p386
+aI93
+aa(lp387
+S"UPDATE Country_view SET Continent = (select Continent from Country where Code = 'MDA') WHERE Code = 'MDA'"
+p388
+aI94
+aa(lp389
+S"UPDATE Country_view SET Region = (select Region from Country where Code = 'ABW') WHERE Code = 'ABW'"
+p390
+aI95
+aa(lp391
+S"UPDATE Country_view SET Continent = (select Continent from Country where Code = 'PHL') WHERE Code = 'PHL'"
+p392
+aI96
+aa(lp393
+S"UPDATE Country_view SET HeadOfState = (select HeadOfState from Country where Code = 'UKR') WHERE Code = 'UKR'"
+p394
+aI97
+aa(lp395
+S"UPDATE Country_view SET LocalName = (select LocalName from Country where Code = 'MNP') WHERE Code = 'MNP'"
+p396
+aI98
+aa(lp397
+S"UPDATE Country_view SET GovernmentForm = (select GovernmentForm from Country where Code = 'MRT') WHERE Code = 'MRT'"
+p398
+aI99
+aaa(lp399
+VIndonesia
+p400
+aVFahd ibn Abdul-Aziz al-Sa´ud
+p401
+aL428000L
+aNaF65301.0
+aF406752.0
+aVNorth America
+p402
+aF146171.0
+aF0.0
+aL181000L
+aF56.6
+aVWestern Europe
+p403
+aF746.0
+aF781.0
+aF0.0
+aL6188000L
+aF4397.0
+aL3207L
+aVFK
+p404
+aVConstitutional Monarchy
+p405
+aL18827000L
+aF455.0
+aL194L
+aL861000L
+aL38000L
+aL2434L
+aVBelize
+p406
+aVIndonesia
+p407
+aVGuiné-Bissau
+p408
+aVPolynesia
+p409
+aVDependent Territory of the UK
+p410
+aF189122.0
+aVAnte Jelavic
+p411
+aVConstitutional Monarchy
+p412
+aF65186.0
+aVRepublic
+p413
+aVEC
+p414
+aF883749.0
+aF62.2
+aVGuatemala
+p415
+aVEastern Africa
+p416
+aVFederal Republic
+p417
+aVRepublic
+p418
+aF32100.0
+aF14194.0
+aVBermuda
+p419
+aF6884.0
+aVSM
+p420
+aF270534.0
+aVSY
+p421
+aVAustralia and New Zealand
+p422
+aVIsayas Afewerki [Isaias Afwerki]
+p423
+aVMuammar al-Qadhafi
+p424
+aL156483000L
+aL149L
+aVCommonwealth of the US
+p425
+aL3171L
+aVNonmetropolitan Territory of The Netherlands
+p426
+aVPY
+p427
+aVJosé Alexandre Gusmão
+p428
+aVChristmas Island
+p429
+aVDominica
+p430
+aVMiddle East
+p431
+aVOM
+p432
+aVAsia
+p433
+aVRepublic
+p434
+aL1864L
+aNaVNew Caledonia
+p435
+aVWestern Europe
+p436
+aF7137.0
+aL0L
+aVBW
+p437
+aL63L
+aVMonarchy
+p438
+aVBelarus
+p439
+aVTonga
+p440
+aVSudan
+p441
+aL0L
+aVIO
+p442
+aVBO
+p443
+aVRepublic
+p444
+aF32100.0
+aL24039000L
+aVEastern Asia
+p445
+aL3261L
+aVGuyana
+p446
+aL3208L
+aVSouthern and Central Asia
+p447
+aF70273.0
+aVSwitzerland
+p448
+aVElisabeth II
+p449
+aF3787042.0
+aVEurope
+p450
+aVCaribbean
+p451
+aVAsia
+p452
+aVLeonid Kut\u0161ma
+p453
+aVNorthern Mariana Islands
+p454
+aVRepublic
+p455
+aa(lp456
+S"'Bermuda'"
+p457
+aS"'Fidel Castro Ruz'"
+p458
+aS'7.29838865165e+21'
+p459
+aS'2931487.79'
+p460
+aS'12525890.61'
+p461
+aS'8239411.74'
+p462
+aS"'Antarctica'"
+p463
+aS'7168399.66'
+p464
+aS'3817610.78'
+p465
+aS'1.17017245934e+22'
+p466
+aS'63.1'
+p467
+aS"'Southern Africa'"
+p468
+aS'6782189.33'
+p469
+aS'3660369.51'
+p470
+aS'1522132.45'
+p471
+aS'5.39271414719e+21'
+p472
+aS'3853838.03'
+p473
+aS'2299'
+p474
+aS"'TJ'"
+p475
+aS"'Monarchy'"
+p476
+aS'1.66002906003e+21'
+p477
+aS'12195642.8'
+p478
+aS'1732'
+p479
+aS'9.47813809687e+20'
+p480
+aS'4.97547361635e+21'
+p481
+aS'2207'
+p482
+aS"'Macao'"
+p483
+aS"'Micronesia'"
+p484
+aS"'Bouvet\xc3\xb8ya'"
+p485
+aS"'North America'"
+p486
+aS"'Emirate Federation'"
+p487
+aS'1576021.47'
+p488
+aS"'Jiang Zemin'"
+p489
+aS"'Monarchy (Emirate)'"
+p490
+aS'5837614.29'
+p491
+aS"'Autonomous Area'"
+p492
+aS"'FJ'"
+p493
+aS'14233737.68'
+p494
+aS'63.2'
+p495
+aS"'Cyprus'"
+p496
+aS"'Antarctica'"
+p497
+aS"'Socialistic Republic'"
+p498
+aS"'Constitutional Monarchy, Federation'"
+p499
+aS'4162159.33'
+p500
+aS'781040.37'
+p501
+aS"'Suriname'"
+p502
+aS'6105802.0'
+p503
+aS"'SY'"
+p504
+aS'8895043.6'
+p505
+aS"'BM'"
+p506
+aS"'Micronesia'"
+p507
+aS"'Johannes Rau'"
+p508
+aS"'Ant\xc3\xb3nio Mascarenhas Monteiro'"
+p509
+aS'1.10780625939e+22'
+p510
+aS'2790'
+p511
+aS"'Islamic Emirate'"
+p512
+aS'108'
+p513
+aS"'Islamic Republic'"
+p514
+aS"'MG'"
+p515
+aS"'Hip\xc3\xb3lito Mej\xc3\xada Dom\xc3\xadnguez'"
+p516
+aS"'French Polynesia'"
+p517
+aS"'C\xc3\xb4te d\xe2\x80\x99Ivoire'"
+p518
+aS"'British Islands'"
+p519
+aS"'CC'"
+p520
+aS"'Europe'"
+p521
+aS"'Monarchy (Emirate)'"
+p522
+aS'3910'
+p523
+aS'40.2'
+p524
+aS"'Poland'"
+p525
+aS"'British Islands'"
+p526
+aS'3273650.45'
+p527
+aS'3.3700115771e+21'
+p528
+aS"'NF'"
+p529
+aS'3684'
+p530
+aS"'Islamic Emirate'"
+p531
+aS"'Ireland'"
+p532
+aS"'Falkland Islands'"
+p533
+aS"'United States Minor Outlying Islands'"
+p534
+aS'9.83482363165e+21'
+p535
+aS"'DM'"
+p536
+aS"'PF'"
+p537
+aS"'Monarchy (Sultanate)'"
+p538
+aS'3653735.86'
+p539
+aS'5.6483979747e+21'
+p540
+aS"'Micronesia'"
+p541
+aS'3192'
+p542
+aS"'United States Minor Outlying Islands'"
+p543
+aS'874'
+p544
+aS"'Western Europe'"
+p545
+aS'12042970.94'
+p546
+aS"'Tonga'"
+p547
+aS"'Miguel \xc3\x81ngel Rodr\xc3\xadguez Echeverr\xc3\xada'"
+p548
+aS'763230.13'
+p549
+aS"'Asia'"
+p550
+aS"'North America'"
+p551
+aS"'Africa'"
+p552
+aS"'Glafkos Klerides'"
+p553
+aS"'Nihon/Nippon'"
+p554
+aS"'Constitutional Monarchy, Federation'"
+p555
+aa.

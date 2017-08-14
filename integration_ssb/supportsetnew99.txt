@@ -1,0 +1,1983 @@
+(lp0
+(lp1
+(lp2
+S"UPDATE customer_view SET c_region = 'EUROPE' WHERE c_custkey = 24916"
+p3
+aI1
+aa(lp4
+VUPDATE customer_view SET c_nation =  'ARGENTINA' where c_custkey = 19803
+p5
+aI2
+aa(lp6
+VUPDATE customer_view SET c_nation =  'UNITED KINGDOM' where c_custkey = 17527
+p7
+aI2
+aa(lp8
+S"UPDATE part_view SET p_name = 'rosy chartreuse' WHERE p_partkey = 129950"
+p9
+aI3
+aa(lp10
+S"UPDATE part_view SET p_mfgr = 'MFGR#1' WHERE p_partkey = 173586"
+p11
+aI4
+aa(lp12
+VUPDATE supplier_view SET s_region =  'ASIA' where s_suppkey = 1470
+p13
+aI5
+aa(lp14
+VUPDATE supplier_view SET s_region =  'MIDDLE EAST' where s_suppkey = 400
+p15
+aI5
+aa(lp16
+VUPDATE customer_view SET c_region =  'EUROPE' where c_custkey = 8086
+p17
+aI6
+aa(lp18
+VUPDATE customer_view SET c_region =  'AFRICA' where c_custkey = 10246
+p19
+aI6
+aa(lp20
+S'UPDATE lineorder_view SET lo_orderdate = 9836748 WHERE lo_pk = 2415763'
+p21
+aI7
+aa(lp22
+S'UPDATE lineorder_view SET lo_tax = 7 WHERE lo_pk = 2883518'
+p23
+aI8
+aa(lp24
+S'UPDATE lineorder_view SET lo_extendedprice = 25260 WHERE lo_pk = 3979290'
+p25
+aI9
+aa(lp26
+VUPDATE lineorder_view SET lo_shipmode =  'TRUCK' where lo_pk = 1380522
+p27
+aI10
+aa(lp28
+VUPDATE lineorder_view SET lo_shipmode =  'MAIL' where lo_pk = 2561245
+p29
+aI10
+aa(lp30
+S"UPDATE customer_view SET c_phone = '26-450-764-4871' WHERE c_custkey = 19214"
+p31
+aI11
+aa(lp32
+S'UPDATE lineorder_view SET lo_ordertotalprice =  31859131 where lo_pk = 1711350'
+p33
+aI12
+aa(lp34
+S'UPDATE lineorder_view SET lo_ordertotalprice =  17407087 where lo_pk = 2917637'
+p35
+aI12
+aa(lp36
+S'UPDATE part_view SET p_size =  33 where p_partkey = 112946'
+p37
+aI13
+aa(lp38
+S'UPDATE part_view SET p_size =  30 where p_partkey = 148574'
+p39
+aI13
+aa(lp40
+VUPDATE supplier_view SET s_name =  'Supplier#000001436' where s_suppkey = 1470
+p41
+aI14
+aa(lp42
+VUPDATE supplier_view SET s_name =  'Supplier#000001470' where s_suppkey = 1436
+p43
+aI14
+aa(lp44
+S"UPDATE customer_view SET c_mktsegment = 'HOUSEHOLD' WHERE c_custkey = 22146"
+p45
+aI15
+aa(lp46
+S"UPDATE supplier_view SET s_name = 'Supplier#0000014354' WHERE s_suppkey = 3"
+p47
+aI16
+aa(lp48
+VUPDATE supplier_view SET s_nation =  'KENYA' where s_suppkey = 1024
+p49
+aI17
+aa(lp50
+VUPDATE supplier_view SET s_nation =  'IRAN' where s_suppkey = 1562
+p51
+aI17
+aa(lp52
+VUPDATE supplier_view SET s_phone =  '21-517-852-3282' where s_suppkey = 348
+p53
+aI18
+aa(lp54
+VUPDATE supplier_view SET s_phone =  '18-986-141-5327' where s_suppkey = 1135
+p55
+aI18
+aa(lp56
+S"UPDATE customer_view SET c_phone = '23-983-203-6472' WHERE c_custkey = 27733"
+p57
+aI19
+aa(lp58
+S'UPDATE part_view SET p_size = 23 WHERE p_partkey = 159742'
+p59
+aI20
+aa(lp60
+VUPDATE customer_view SET c_phone =  '16-724-405-4315' where c_custkey = 14981
+p61
+aI21
+aa(lp62
+VUPDATE customer_view SET c_phone =  '20-415-249-7956' where c_custkey = 15893
+p63
+aI21
+aa(lp64
+VUPDATE part_view SET p_mfgr =  'MFGR#4' where p_partkey = 79978
+p65
+aI22
+aa(lp66
+VUPDATE part_view SET p_mfgr =  'MFGR#1' where p_partkey = 195890
+p67
+aI22
+aa(lp68
+S'UPDATE part_view SET p_size =  24 where p_partkey = 56088'
+p69
+aI23
+aa(lp70
+S'UPDATE part_view SET p_size =  15 where p_partkey = 10073'
+p71
+aI23
+aa(lp72
+VUPDATE customer_view SET c_nation =  'KENYA' where c_custkey = 1152
+p73
+aI24
+aa(lp74
+VUPDATE customer_view SET c_nation =  'JAPAN' where c_custkey = 8553
+p75
+aI24
+aa(lp76
+S'UPDATE lineorder_view SET lo_extendedprice =  2090196 where lo_pk = 1661030'
+p77
+aI25
+aa(lp78
+S'UPDATE lineorder_view SET lo_extendedprice =  2878036 where lo_pk = 3535294'
+p79
+aI25
+aa(lp80
+S"UPDATE supplier_view SET s_city = 'FRANCE   1' WHERE s_suppkey = 802"
+p81
+aI26
+aa(lp82
+VUPDATE customer_view SET c_mktsegment =  'HOUSEHOLD' where c_custkey = 20086
+p83
+aI27
+aa(lp84
+VUPDATE customer_view SET c_mktsegment =  'BUILDING' where c_custkey = 17476
+p85
+aI27
+aa(lp86
+S"UPDATE lineorder_view SET lo_shipmode = '' WHERE lo_pk = 3629173"
+p87
+aI28
+aa(lp88
+S"UPDATE supplier_view SET s_name = 'Supplier#000009120' WHERE s_suppkey = 1145"
+p89
+aI29
+aa(lp90
+VUPDATE supplier_view SET s_phone =  '27-100-538-9635' where s_suppkey = 87
+p91
+aI30
+aa(lp92
+VUPDATE supplier_view SET s_phone =  '34-869-884-7053' where s_suppkey = 936
+p93
+aI30
+aa(lp94
+S"UPDATE part_view SET p_type = 'SM BAG' WHERE p_partkey = 153657"
+p95
+aI31
+aa(lp96
+S"UPDATE customer_view SET c_name = 'Customer#00004396' WHERE c_custkey = 6539"
+p97
+aI32
+aa(lp98
+S'UPDATE lineorder_view SET lo_discount =  9 where lo_pk = 5208427'
+p99
+aI33
+aa(lp100
+S'UPDATE lineorder_view SET lo_discount =  10 where lo_pk = 2239671'
+p101
+aI33
+aa(lp102
+VUPDATE part_view SET p_color =  'lawn' where p_partkey = 70342
+p103
+aI34
+aa(lp104
+VUPDATE part_view SET p_color =  'dodger' where p_partkey = 59483
+p105
+aI34
+aa(lp106
+S'UPDATE lineorder_view SET lo_supplycost =  110872 where lo_pk = 1600236'
+p107
+aI35
+aa(lp108
+S'UPDATE lineorder_view SET lo_supplycost =  63065 where lo_pk = 337933'
+p109
+aI35
+aa(lp110
+VUPDATE part_view SET p_container =  'MED CAN' where p_partkey = 196584
+p111
+aI36
+aa(lp112
+VUPDATE part_view SET p_container =  'SM BOX' where p_partkey = 181815
+p113
+aI36
+aa(lp114
+S"UPDATE customer_view SET c_phone = '17-918-593-1860' WHERE c_custkey = 16568"
+p115
+aI37
+aa(lp116
+VUPDATE supplier_view SET s_nation =  'KENYA' where s_suppkey = 280
+p117
+aI38
+aa(lp118
+VUPDATE supplier_view SET s_nation =  'IRAQ' where s_suppkey = 1216
+p119
+aI38
+aa(lp120
+VUPDATE supplier_view SET s_phone =  '22-574-118-1005' where s_suppkey = 680
+p121
+aI39
+aa(lp122
+VUPDATE supplier_view SET s_phone =  '32-593-663-2200' where s_suppkey = 471
+p123
+aI39
+aa(lp124
+VUPDATE part_view SET p_brand1 =  'MFGR#2129' where p_partkey = 156351
+p125
+aI40
+aa(lp126
+VUPDATE part_view SET p_brand1 =  'MFGR#4532' where p_partkey = 180883
+p127
+aI40
+aa(lp128
+VUPDATE supplier_view SET s_name =  'Supplier#000000831' where s_suppkey = 1092
+p129
+aI41
+aa(lp130
+VUPDATE supplier_view SET s_name =  'Supplier#000001092' where s_suppkey = 831
+p131
+aI41
+aa(lp132
+S"UPDATE supplier_view SET s_nation = 'UNITED STATES' WHERE s_suppkey = 83"
+p133
+aI42
+aa(lp134
+S'UPDATE lineorder_view SET lo_quantity =  43 where lo_pk = 369654'
+p135
+aI43
+aa(lp136
+S'UPDATE lineorder_view SET lo_quantity =  4 where lo_pk = 5091737'
+p137
+aI43
+aa(lp138
+S'UPDATE lineorder_view SET lo_discount =  0 where lo_pk = 4166085'
+p139
+aI44
+aa(lp140
+S'UPDATE lineorder_view SET lo_discount =  2 where lo_pk = 2880444'
+p141
+aI44
+aa(lp142
+S"UPDATE customer_view SET c_name = 'Customer#000011902' WHERE c_custkey = 7310"
+p143
+aI45
+aa(lp144
+S"UPDATE customer_view SET c_phone = '16-377-181-4654' WHERE c_custkey = 17636"
+p145
+aI46
+aa(lp146
+S"UPDATE customer_view SET c_region = 'EUROPE' WHERE c_custkey = 6212"
+p147
+aI47
+aa(lp148
+VUPDATE lineorder_view SET lo_shipmode =  'TRUCK' where lo_pk = 4828411
+p149
+aI48
+aa(lp150
+VUPDATE lineorder_view SET lo_shipmode =  'AIR' where lo_pk = 4990993
+p151
+aI48
+aa(lp152
+S"UPDATE supplier_view SET s_phone = '28-927-662-8584' WHERE s_suppkey = 1943"
+p153
+aI49
+aa(lp154
+VUPDATE part_view SET p_color =  'orange' where p_partkey = 104009
+p155
+aI50
+aa(lp156
+VUPDATE part_view SET p_color =  'tomato' where p_partkey = 194474
+p157
+aI50
+aa(lp158
+S"UPDATE customer_view SET c_phone = '30-278-860-9263' WHERE c_custkey = 12907"
+p159
+aI51
+aa(lp160
+VUPDATE supplier_view SET s_region =  'ASIA' where s_suppkey = 707
+p161
+aI52
+aa(lp162
+VUPDATE supplier_view SET s_region =  'AFRICA' where s_suppkey = 1898
+p163
+aI52
+aa(lp164
+S"UPDATE customer_view SET c_nation = 'IRAQ' WHERE c_custkey = 26700"
+p165
+aI53
+aa(lp166
+S"UPDATE part_view SET p_brand1 = 'MFGR#226' WHERE p_partkey = 8924"
+p167
+aI54
+aa(lp168
+VUPDATE part_view SET p_category =  'MFGR#53' where p_partkey = 124127
+p169
+aI55
+aa(lp170
+VUPDATE part_view SET p_category =  'MFGR#22' where p_partkey = 60496
+p171
+aI55
+aa(lp172
+VUPDATE supplier_view SET s_phone =  '22-605-828-6050' where s_suppkey = 686
+p173
+aI56
+aa(lp174
+VUPDATE supplier_view SET s_phone =  '19-682-293-3599' where s_suppkey = 1741
+p175
+aI56
+aa(lp176
+VUPDATE supplier_view SET s_nation =  'VIETNAM' where s_suppkey = 328
+p177
+aI57
+aa(lp178
+VUPDATE supplier_view SET s_nation =  'GERMANY' where s_suppkey = 26
+p179
+aI57
+aa(lp180
+VUPDATE customer_view SET c_city =  'RUSSIA   2' where c_custkey = 23777
+p181
+aI58
+aa(lp182
+VUPDATE customer_view SET c_city =  'JORDAN   6' where c_custkey = 8930
+p183
+aI58
+aa(lp184
+VUPDATE customer_view SET c_mktsegment =  'HOUSEHOLD' where c_custkey = 6498
+p185
+aI59
+aa(lp186
+VUPDATE customer_view SET c_mktsegment =  'MACHINERY' where c_custkey = 23448
+p187
+aI59
+aa(lp188
+VUPDATE customer_view SET c_mktsegment =  'HOUSEHOLD' where c_custkey = 21810
+p189
+aI60
+aa(lp190
+VUPDATE customer_view SET c_mktsegment =  'MACHINERY' where c_custkey = 25383
+p191
+aI60
+aa(lp192
+VUPDATE part_view SET p_type =  'STANDARD POLISHED COPPER' where p_partkey = 101987
+p193
+aI61
+aa(lp194
+VUPDATE part_view SET p_type =  'STANDARD PLATED STEEL' where p_partkey = 121641
+p195
+aI61
+aa(lp196
+VUPDATE supplier_view SET s_city =  'SAUDI ARA9' where s_suppkey = 1937
+p197
+aI62
+aa(lp198
+VUPDATE supplier_view SET s_city =  'INDONESIA0' where s_suppkey = 602
+p199
+aI62
+aa(lp200
+S"UPDATE part_view SET p_name = 'goldenrod tan' WHERE p_partkey = 118189"
+p201
+aI63
+aa(lp202
+S'UPDATE lineorder_view SET lo_orderdate =  19920116 where lo_pk = 3653022'
+p203
+aI64
+aa(lp204
+S'UPDATE lineorder_view SET lo_orderdate =  19940802 where lo_pk = 3440197'
+p205
+aI64
+aa(lp206
+VUPDATE customer_view SET c_name =  'Customer#000001648' where c_custkey = 11886
+p207
+aI65
+aa(lp208
+VUPDATE customer_view SET c_name =  'Customer#000011886' where c_custkey = 1648
+p209
+aI65
+aa(lp210
+S"UPDATE customer_view SET c_name = 'Customer#00006758' WHERE c_custkey = 14451"
+p211
+aI66
+aa(lp212
+S"UPDATE part_view SET p_container = 'JUMBO JAR' WHERE p_partkey = 196670"
+p213
+aI67
+aa(lp214
+S"UPDATE customer_view SET c_phone = '29-374-175-6181' WHERE c_custkey = 19282"
+p215
+aI68
+aa(lp216
+S'UPDATE part_view SET p_size = 32 WHERE p_partkey = 32632'
+p217
+aI69
+aa(lp218
+VUPDATE part_view SET p_category =  'MFGR#43' where p_partkey = 178008
+p219
+aI70
+aa(lp220
+VUPDATE part_view SET p_category =  'MFGR#11' where p_partkey = 9277
+p221
+aI70
+aa(lp222
+S'UPDATE lineorder_view SET lo_orderdate =  19950906 where lo_pk = 2474959'
+p223
+aI71
+aa(lp224
+S'UPDATE lineorder_view SET lo_orderdate =  19980202 where lo_pk = 13973'
+p225
+aI71
+aa(lp226
+S"UPDATE lineorder_view SET lo_orderpriority = '1-URGENT' WHERE lo_pk = 3870681"
+p227
+aI72
+aa(lp228
+VUPDATE supplier_view SET s_nation =  'INDIA' where s_suppkey = 1848
+p229
+aI73
+aa(lp230
+VUPDATE supplier_view SET s_nation =  'MOZAMBIQUE' where s_suppkey = 1894
+p231
+aI73
+aa(lp232
+S"UPDATE customer_view SET c_mktsegment = 'FURNITURE' WHERE c_custkey = 6826"
+p233
+aI74
+aa(lp234
+VUPDATE supplier_view SET s_name =  'Supplier#000000070' where s_suppkey = 1434
+p235
+aI75
+aa(lp236
+VUPDATE supplier_view SET s_name =  'Supplier#000001434' where s_suppkey = 70
+p237
+aI75
+aa(lp238
+VUPDATE customer_view SET c_phone =  '10-431-366-2067' where c_custkey = 28563
+p239
+aI76
+aa(lp240
+VUPDATE customer_view SET c_phone =  '14-480-946-7750' where c_custkey = 17553
+p241
+aI76
+aa(lp242
+S"UPDATE supplier_view SET s_phone = '19-980-348-1114' WHERE s_suppkey = 62"
+p243
+aI77
+aa(lp244
+S'UPDATE lineorder_view SET lo_quantity =  15 where lo_pk = 4183473'
+p245
+aI78
+aa(lp246
+S'UPDATE lineorder_view SET lo_quantity =  7 where lo_pk = 4183625'
+p247
+aI78
+aa(lp248
+S'UPDATE part_view SET p_size = 48 WHERE p_partkey = 97630'
+p249
+aI79
+aa(lp250
+S'UPDATE lineorder_view SET lo_orderdate = 19630786 WHERE lo_pk = 2447184'
+p251
+aI80
+aa(lp252
+S"UPDATE part_view SET p_brand1 = 'MFGR#515' WHERE p_partkey = 68010"
+p253
+aI81
+aa(lp254
+VUPDATE customer_view SET c_city =  'KENYA    2' where c_custkey = 20288
+p255
+aI82
+aa(lp256
+VUPDATE customer_view SET c_city =  'INDONESIA4' where c_custkey = 3851
+p257
+aI82
+aa(lp258
+S"UPDATE part_view SET p_color = 'drab' WHERE p_partkey = 127336"
+p259
+aI83
+aa(lp260
+S"UPDATE customer_view SET c_city = 'GERMANY  8' WHERE c_custkey = 15568"
+p261
+aI84
+aa(lp262
+S"UPDATE customer_view SET c_nation = 'VIETNAM' WHERE c_custkey = 25754"
+p263
+aI85
+aa(lp264
+S"UPDATE part_view SET p_mfgr = 'MFGR#3' WHERE p_partkey = 161792"
+p265
+aI86
+aa(lp266
+VUPDATE customer_view SET c_city =  'JORDAN   6' where c_custkey = 10124
+p267
+aI87
+aa(lp268
+VUPDATE customer_view SET c_city =  'FRANCE   9' where c_custkey = 27927
+p269
+aI87
+aa(lp270
+S"UPDATE customer_view SET c_nation = 'UNITED KINGDOM' WHERE c_custkey = 15887"
+p271
+aI88
+aa(lp272
+S"UPDATE supplier_view SET s_city = 'UNITED ST3' WHERE s_suppkey = 1604"
+p273
+aI89
+aa(lp274
+S'UPDATE lineorder_view SET lo_supplycost = 78291 WHERE lo_pk = 1342927'
+p275
+aI90
+aa(lp276
+S"UPDATE supplier_view SET s_phone = '30-676-227-6356' WHERE s_suppkey = 352"
+p277
+aI91
+aa(lp278
+S'UPDATE lineorder_view SET lo_tax = 0 WHERE lo_pk = 2038154'
+p279
+aI92
+aa(lp280
+S'UPDATE lineorder_view SET lo_extendedprice =  4820270 where lo_pk = 3844084'
+p281
+aI93
+aa(lp282
+S'UPDATE lineorder_view SET lo_extendedprice =  1445782 where lo_pk = 2686295'
+p283
+aI93
+aa(lp284
+VUPDATE supplier_view SET s_name =  'Supplier#000000705' where s_suppkey = 1278
+p285
+aI94
+aa(lp286
+VUPDATE supplier_view SET s_name =  'Supplier#000001278' where s_suppkey = 705
+p287
+aI94
+aa(lp288
+S"UPDATE part_view SET p_brand1 = 'MFGR#3212' WHERE p_partkey = 87141"
+p289
+aI95
+aa(lp290
+VUPDATE supplier_view SET s_name =  'Supplier#000000267' where s_suppkey = 1037
+p291
+aI96
+aa(lp292
+VUPDATE supplier_view SET s_name =  'Supplier#000001037' where s_suppkey = 267
+p293
+aI96
+aa(lp294
+S"UPDATE customer_view SET c_phone = '17-918-593-1860' WHERE c_custkey = 8963"
+p295
+aI97
+aa(lp296
+VUPDATE supplier_view SET s_name =  'Supplier#000001308' where s_suppkey = 204
+p297
+aI98
+aa(lp298
+VUPDATE supplier_view SET s_name =  'Supplier#000000204' where s_suppkey = 1308
+p299
+aI98
+aa(lp300
+VUPDATE customer_view SET c_nation =  'ARGENTINA' where c_custkey = 11851
+p301
+aI99
+aa(lp302
+VUPDATE customer_view SET c_nation =  'IRAQ' where c_custkey = 23764
+p303
+aI99
+aaa(lp304
+(lp305
+S'UPDATE customer_view SET c_region = (select c_region from customer where c_custkey = 24916) WHERE c_custkey = 24916'
+p306
+aI1
+aa(lp307
+S'UPDATE customer_view SET c_nation = (select c_nation from customer where c_custkey = 19803) WHERE c_custkey = 19803'
+p308
+aI2
+aa(lp309
+S'UPDATE customer_view SET c_nation = (select c_nation from customer where c_custkey = 17527) WHERE c_custkey = 17527'
+p310
+aI2
+aa(lp311
+S'UPDATE part_view SET p_name = (select p_name from part where p_partkey = 129950) WHERE p_partkey = 129950'
+p312
+aI3
+aa(lp313
+S'UPDATE part_view SET p_mfgr = (select p_mfgr from part where p_partkey = 173586) WHERE p_partkey = 173586'
+p314
+aI4
+aa(lp315
+S'UPDATE supplier_view SET s_region = (select s_region from supplier where s_suppkey = 1470) WHERE s_suppkey = 1470'
+p316
+aI5
+aa(lp317
+S'UPDATE supplier_view SET s_region = (select s_region from supplier where s_suppkey = 400) WHERE s_suppkey = 400'
+p318
+aI5
+aa(lp319
+S'UPDATE customer_view SET c_region = (select c_region from customer where c_custkey = 8086) WHERE c_custkey = 8086'
+p320
+aI6
+aa(lp321
+S'UPDATE customer_view SET c_region = (select c_region from customer where c_custkey = 10246) WHERE c_custkey = 10246'
+p322
+aI6
+aa(lp323
+S'UPDATE lineorder_view SET lo_orderdate = (select lo_orderdate from lineorder where lo_pk = 2415763) WHERE lo_pk = 2415763'
+p324
+aI7
+aa(lp325
+S'UPDATE lineorder_view SET lo_tax = (select lo_tax from lineorder where lo_pk = 2883518) WHERE lo_pk = 2883518'
+p326
+aI8
+aa(lp327
+S'UPDATE lineorder_view SET lo_extendedprice = (select lo_extendedprice from lineorder where lo_pk = 3979290) WHERE lo_pk = 3979290'
+p328
+aI9
+aa(lp329
+S'UPDATE lineorder_view SET lo_shipmode = (select lo_shipmode from lineorder where lo_pk = 1380522) WHERE lo_pk = 1380522'
+p330
+aI10
+aa(lp331
+S'UPDATE lineorder_view SET lo_shipmode = (select lo_shipmode from lineorder where lo_pk = 2561245) WHERE lo_pk = 2561245'
+p332
+aI10
+aa(lp333
+S'UPDATE customer_view SET c_phone = (select c_phone from customer where c_custkey = 19214) WHERE c_custkey = 19214'
+p334
+aI11
+aa(lp335
+S'UPDATE lineorder_view SET lo_ordertotalprice = (select lo_ordertotalprice from lineorder where lo_pk = 1711350) WHERE lo_pk = 1711350'
+p336
+aI12
+aa(lp337
+S'UPDATE lineorder_view SET lo_ordertotalprice = (select lo_ordertotalprice from lineorder where lo_pk = 2917637) WHERE lo_pk = 2917637'
+p338
+aI12
+aa(lp339
+S'UPDATE part_view SET p_size = (select p_size from part where p_partkey = 112946) WHERE p_partkey = 112946'
+p340
+aI13
+aa(lp341
+S'UPDATE part_view SET p_size = (select p_size from part where p_partkey = 148574) WHERE p_partkey = 148574'
+p342
+aI13
+aa(lp343
+S'UPDATE supplier_view SET s_name = (select s_name from supplier where s_suppkey = 1470) WHERE s_suppkey = 1470'
+p344
+aI14
+aa(lp345
+S'UPDATE supplier_view SET s_name = (select s_name from supplier where s_suppkey = 1436) WHERE s_suppkey = 1436'
+p346
+aI14
+aa(lp347
+S'UPDATE customer_view SET c_mktsegment = (select c_mktsegment from customer where c_custkey = 22146) WHERE c_custkey = 22146'
+p348
+aI15
+aa(lp349
+S'UPDATE supplier_view SET s_name = (select s_name from supplier where s_suppkey = 3) WHERE s_suppkey = 3'
+p350
+aI16
+aa(lp351
+S'UPDATE supplier_view SET s_nation = (select s_nation from supplier where s_suppkey = 1024) WHERE s_suppkey = 1024'
+p352
+aI17
+aa(lp353
+S'UPDATE supplier_view SET s_nation = (select s_nation from supplier where s_suppkey = 1562) WHERE s_suppkey = 1562'
+p354
+aI17
+aa(lp355
+S'UPDATE supplier_view SET s_phone = (select s_phone from supplier where s_suppkey = 348) WHERE s_suppkey = 348'
+p356
+aI18
+aa(lp357
+S'UPDATE supplier_view SET s_phone = (select s_phone from supplier where s_suppkey = 1135) WHERE s_suppkey = 1135'
+p358
+aI18
+aa(lp359
+S'UPDATE customer_view SET c_phone = (select c_phone from customer where c_custkey = 27733) WHERE c_custkey = 27733'
+p360
+aI19
+aa(lp361
+S'UPDATE part_view SET p_size = (select p_size from part where p_partkey = 159742) WHERE p_partkey = 159742'
+p362
+aI20
+aa(lp363
+S'UPDATE customer_view SET c_phone = (select c_phone from customer where c_custkey = 14981) WHERE c_custkey = 14981'
+p364
+aI21
+aa(lp365
+S'UPDATE customer_view SET c_phone = (select c_phone from customer where c_custkey = 15893) WHERE c_custkey = 15893'
+p366
+aI21
+aa(lp367
+S'UPDATE part_view SET p_mfgr = (select p_mfgr from part where p_partkey = 79978) WHERE p_partkey = 79978'
+p368
+aI22
+aa(lp369
+S'UPDATE part_view SET p_mfgr = (select p_mfgr from part where p_partkey = 195890) WHERE p_partkey = 195890'
+p370
+aI22
+aa(lp371
+S'UPDATE part_view SET p_size = (select p_size from part where p_partkey = 56088) WHERE p_partkey = 56088'
+p372
+aI23
+aa(lp373
+S'UPDATE part_view SET p_size = (select p_size from part where p_partkey = 10073) WHERE p_partkey = 10073'
+p374
+aI23
+aa(lp375
+S'UPDATE customer_view SET c_nation = (select c_nation from customer where c_custkey = 1152) WHERE c_custkey = 1152'
+p376
+aI24
+aa(lp377
+S'UPDATE customer_view SET c_nation = (select c_nation from customer where c_custkey = 8553) WHERE c_custkey = 8553'
+p378
+aI24
+aa(lp379
+S'UPDATE lineorder_view SET lo_extendedprice = (select lo_extendedprice from lineorder where lo_pk = 1661030) WHERE lo_pk = 1661030'
+p380
+aI25
+aa(lp381
+S'UPDATE lineorder_view SET lo_extendedprice = (select lo_extendedprice from lineorder where lo_pk = 3535294) WHERE lo_pk = 3535294'
+p382
+aI25
+aa(lp383
+S'UPDATE supplier_view SET s_city = (select s_city from supplier where s_suppkey = 802) WHERE s_suppkey = 802'
+p384
+aI26
+aa(lp385
+S'UPDATE customer_view SET c_mktsegment = (select c_mktsegment from customer where c_custkey = 20086) WHERE c_custkey = 20086'
+p386
+aI27
+aa(lp387
+S'UPDATE customer_view SET c_mktsegment = (select c_mktsegment from customer where c_custkey = 17476) WHERE c_custkey = 17476'
+p388
+aI27
+aa(lp389
+S'UPDATE lineorder_view SET lo_shipmode = (select lo_shipmode from lineorder where lo_pk = 3629173) WHERE lo_pk = 3629173'
+p390
+aI28
+aa(lp391
+S'UPDATE supplier_view SET s_name = (select s_name from supplier where s_suppkey = 1145) WHERE s_suppkey = 1145'
+p392
+aI29
+aa(lp393
+S'UPDATE supplier_view SET s_phone = (select s_phone from supplier where s_suppkey = 87) WHERE s_suppkey = 87'
+p394
+aI30
+aa(lp395
+S'UPDATE supplier_view SET s_phone = (select s_phone from supplier where s_suppkey = 936) WHERE s_suppkey = 936'
+p396
+aI30
+aa(lp397
+S'UPDATE part_view SET p_type = (select p_type from part where p_partkey = 153657) WHERE p_partkey = 153657'
+p398
+aI31
+aa(lp399
+S'UPDATE customer_view SET c_name = (select c_name from customer where c_custkey = 6539) WHERE c_custkey = 6539'
+p400
+aI32
+aa(lp401
+S'UPDATE lineorder_view SET lo_discount = (select lo_discount from lineorder where lo_pk = 5208427) WHERE lo_pk = 5208427'
+p402
+aI33
+aa(lp403
+S'UPDATE lineorder_view SET lo_discount = (select lo_discount from lineorder where lo_pk = 2239671) WHERE lo_pk = 2239671'
+p404
+aI33
+aa(lp405
+S'UPDATE part_view SET p_color = (select p_color from part where p_partkey = 70342) WHERE p_partkey = 70342'
+p406
+aI34
+aa(lp407
+S'UPDATE part_view SET p_color = (select p_color from part where p_partkey = 59483) WHERE p_partkey = 59483'
+p408
+aI34
+aa(lp409
+S'UPDATE lineorder_view SET lo_supplycost = (select lo_supplycost from lineorder where lo_pk = 1600236) WHERE lo_pk = 1600236'
+p410
+aI35
+aa(lp411
+S'UPDATE lineorder_view SET lo_supplycost = (select lo_supplycost from lineorder where lo_pk = 337933) WHERE lo_pk = 337933'
+p412
+aI35
+aa(lp413
+S'UPDATE part_view SET p_container = (select p_container from part where p_partkey = 196584) WHERE p_partkey = 196584'
+p414
+aI36
+aa(lp415
+S'UPDATE part_view SET p_container = (select p_container from part where p_partkey = 181815) WHERE p_partkey = 181815'
+p416
+aI36
+aa(lp417
+S'UPDATE customer_view SET c_phone = (select c_phone from customer where c_custkey = 16568) WHERE c_custkey = 16568'
+p418
+aI37
+aa(lp419
+S'UPDATE supplier_view SET s_nation = (select s_nation from supplier where s_suppkey = 280) WHERE s_suppkey = 280'
+p420
+aI38
+aa(lp421
+S'UPDATE supplier_view SET s_nation = (select s_nation from supplier where s_suppkey = 1216) WHERE s_suppkey = 1216'
+p422
+aI38
+aa(lp423
+S'UPDATE supplier_view SET s_phone = (select s_phone from supplier where s_suppkey = 680) WHERE s_suppkey = 680'
+p424
+aI39
+aa(lp425
+S'UPDATE supplier_view SET s_phone = (select s_phone from supplier where s_suppkey = 471) WHERE s_suppkey = 471'
+p426
+aI39
+aa(lp427
+S'UPDATE part_view SET p_brand1 = (select p_brand1 from part where p_partkey = 156351) WHERE p_partkey = 156351'
+p428
+aI40
+aa(lp429
+S'UPDATE part_view SET p_brand1 = (select p_brand1 from part where p_partkey = 180883) WHERE p_partkey = 180883'
+p430
+aI40
+aa(lp431
+S'UPDATE supplier_view SET s_name = (select s_name from supplier where s_suppkey = 1092) WHERE s_suppkey = 1092'
+p432
+aI41
+aa(lp433
+S'UPDATE supplier_view SET s_name = (select s_name from supplier where s_suppkey = 831) WHERE s_suppkey = 831'
+p434
+aI41
+aa(lp435
+S'UPDATE supplier_view SET s_nation = (select s_nation from supplier where s_suppkey = 83) WHERE s_suppkey = 83'
+p436
+aI42
+aa(lp437
+S'UPDATE lineorder_view SET lo_quantity = (select lo_quantity from lineorder where lo_pk = 369654) WHERE lo_pk = 369654'
+p438
+aI43
+aa(lp439
+S'UPDATE lineorder_view SET lo_quantity = (select lo_quantity from lineorder where lo_pk = 5091737) WHERE lo_pk = 5091737'
+p440
+aI43
+aa(lp441
+S'UPDATE lineorder_view SET lo_discount = (select lo_discount from lineorder where lo_pk = 4166085) WHERE lo_pk = 4166085'
+p442
+aI44
+aa(lp443
+S'UPDATE lineorder_view SET lo_discount = (select lo_discount from lineorder where lo_pk = 2880444) WHERE lo_pk = 2880444'
+p444
+aI44
+aa(lp445
+S'UPDATE customer_view SET c_name = (select c_name from customer where c_custkey = 7310) WHERE c_custkey = 7310'
+p446
+aI45
+aa(lp447
+S'UPDATE customer_view SET c_phone = (select c_phone from customer where c_custkey = 17636) WHERE c_custkey = 17636'
+p448
+aI46
+aa(lp449
+S'UPDATE customer_view SET c_region = (select c_region from customer where c_custkey = 6212) WHERE c_custkey = 6212'
+p450
+aI47
+aa(lp451
+S'UPDATE lineorder_view SET lo_shipmode = (select lo_shipmode from lineorder where lo_pk = 4828411) WHERE lo_pk = 4828411'
+p452
+aI48
+aa(lp453
+S'UPDATE lineorder_view SET lo_shipmode = (select lo_shipmode from lineorder where lo_pk = 4990993) WHERE lo_pk = 4990993'
+p454
+aI48
+aa(lp455
+S'UPDATE supplier_view SET s_phone = (select s_phone from supplier where s_suppkey = 1943) WHERE s_suppkey = 1943'
+p456
+aI49
+aa(lp457
+S'UPDATE part_view SET p_color = (select p_color from part where p_partkey = 104009) WHERE p_partkey = 104009'
+p458
+aI50
+aa(lp459
+S'UPDATE part_view SET p_color = (select p_color from part where p_partkey = 194474) WHERE p_partkey = 194474'
+p460
+aI50
+aa(lp461
+S'UPDATE customer_view SET c_phone = (select c_phone from customer where c_custkey = 12907) WHERE c_custkey = 12907'
+p462
+aI51
+aa(lp463
+S'UPDATE supplier_view SET s_region = (select s_region from supplier where s_suppkey = 707) WHERE s_suppkey = 707'
+p464
+aI52
+aa(lp465
+S'UPDATE supplier_view SET s_region = (select s_region from supplier where s_suppkey = 1898) WHERE s_suppkey = 1898'
+p466
+aI52
+aa(lp467
+S'UPDATE customer_view SET c_nation = (select c_nation from customer where c_custkey = 26700) WHERE c_custkey = 26700'
+p468
+aI53
+aa(lp469
+S'UPDATE part_view SET p_brand1 = (select p_brand1 from part where p_partkey = 8924) WHERE p_partkey = 8924'
+p470
+aI54
+aa(lp471
+S'UPDATE part_view SET p_category = (select p_category from part where p_partkey = 124127) WHERE p_partkey = 124127'
+p472
+aI55
+aa(lp473
+S'UPDATE part_view SET p_category = (select p_category from part where p_partkey = 60496) WHERE p_partkey = 60496'
+p474
+aI55
+aa(lp475
+S'UPDATE supplier_view SET s_phone = (select s_phone from supplier where s_suppkey = 686) WHERE s_suppkey = 686'
+p476
+aI56
+aa(lp477
+S'UPDATE supplier_view SET s_phone = (select s_phone from supplier where s_suppkey = 1741) WHERE s_suppkey = 1741'
+p478
+aI56
+aa(lp479
+S'UPDATE supplier_view SET s_nation = (select s_nation from supplier where s_suppkey = 328) WHERE s_suppkey = 328'
+p480
+aI57
+aa(lp481
+S'UPDATE supplier_view SET s_nation = (select s_nation from supplier where s_suppkey = 26) WHERE s_suppkey = 26'
+p482
+aI57
+aa(lp483
+S'UPDATE customer_view SET c_city = (select c_city from customer where c_custkey = 23777) WHERE c_custkey = 23777'
+p484
+aI58
+aa(lp485
+S'UPDATE customer_view SET c_city = (select c_city from customer where c_custkey = 8930) WHERE c_custkey = 8930'
+p486
+aI58
+aa(lp487
+S'UPDATE customer_view SET c_mktsegment = (select c_mktsegment from customer where c_custkey = 6498) WHERE c_custkey = 6498'
+p488
+aI59
+aa(lp489
+S'UPDATE customer_view SET c_mktsegment = (select c_mktsegment from customer where c_custkey = 23448) WHERE c_custkey = 23448'
+p490
+aI59
+aa(lp491
+S'UPDATE customer_view SET c_mktsegment = (select c_mktsegment from customer where c_custkey = 21810) WHERE c_custkey = 21810'
+p492
+aI60
+aa(lp493
+S'UPDATE customer_view SET c_mktsegment = (select c_mktsegment from customer where c_custkey = 25383) WHERE c_custkey = 25383'
+p494
+aI60
+aa(lp495
+S'UPDATE part_view SET p_type = (select p_type from part where p_partkey = 101987) WHERE p_partkey = 101987'
+p496
+aI61
+aa(lp497
+S'UPDATE part_view SET p_type = (select p_type from part where p_partkey = 121641) WHERE p_partkey = 121641'
+p498
+aI61
+aa(lp499
+S'UPDATE supplier_view SET s_city = (select s_city from supplier where s_suppkey = 1937) WHERE s_suppkey = 1937'
+p500
+aI62
+aa(lp501
+S'UPDATE supplier_view SET s_city = (select s_city from supplier where s_suppkey = 602) WHERE s_suppkey = 602'
+p502
+aI62
+aa(lp503
+S'UPDATE part_view SET p_name = (select p_name from part where p_partkey = 118189) WHERE p_partkey = 118189'
+p504
+aI63
+aa(lp505
+S'UPDATE lineorder_view SET lo_orderdate = (select lo_orderdate from lineorder where lo_pk = 3653022) WHERE lo_pk = 3653022'
+p506
+aI64
+aa(lp507
+S'UPDATE lineorder_view SET lo_orderdate = (select lo_orderdate from lineorder where lo_pk = 3440197) WHERE lo_pk = 3440197'
+p508
+aI64
+aa(lp509
+S'UPDATE customer_view SET c_name = (select c_name from customer where c_custkey = 11886) WHERE c_custkey = 11886'
+p510
+aI65
+aa(lp511
+S'UPDATE customer_view SET c_name = (select c_name from customer where c_custkey = 1648) WHERE c_custkey = 1648'
+p512
+aI65
+aa(lp513
+S'UPDATE customer_view SET c_name = (select c_name from customer where c_custkey = 14451) WHERE c_custkey = 14451'
+p514
+aI66
+aa(lp515
+S'UPDATE part_view SET p_container = (select p_container from part where p_partkey = 196670) WHERE p_partkey = 196670'
+p516
+aI67
+aa(lp517
+S'UPDATE customer_view SET c_phone = (select c_phone from customer where c_custkey = 19282) WHERE c_custkey = 19282'
+p518
+aI68
+aa(lp519
+S'UPDATE part_view SET p_size = (select p_size from part where p_partkey = 32632) WHERE p_partkey = 32632'
+p520
+aI69
+aa(lp521
+S'UPDATE part_view SET p_category = (select p_category from part where p_partkey = 178008) WHERE p_partkey = 178008'
+p522
+aI70
+aa(lp523
+S'UPDATE part_view SET p_category = (select p_category from part where p_partkey = 9277) WHERE p_partkey = 9277'
+p524
+aI70
+aa(lp525
+S'UPDATE lineorder_view SET lo_orderdate = (select lo_orderdate from lineorder where lo_pk = 2474959) WHERE lo_pk = 2474959'
+p526
+aI71
+aa(lp527
+S'UPDATE lineorder_view SET lo_orderdate = (select lo_orderdate from lineorder where lo_pk = 13973) WHERE lo_pk = 13973'
+p528
+aI71
+aa(lp529
+S'UPDATE lineorder_view SET lo_orderpriority = (select lo_orderpriority from lineorder where lo_pk = 3870681) WHERE lo_pk = 3870681'
+p530
+aI72
+aa(lp531
+S'UPDATE supplier_view SET s_nation = (select s_nation from supplier where s_suppkey = 1848) WHERE s_suppkey = 1848'
+p532
+aI73
+aa(lp533
+S'UPDATE supplier_view SET s_nation = (select s_nation from supplier where s_suppkey = 1894) WHERE s_suppkey = 1894'
+p534
+aI73
+aa(lp535
+S'UPDATE customer_view SET c_mktsegment = (select c_mktsegment from customer where c_custkey = 6826) WHERE c_custkey = 6826'
+p536
+aI74
+aa(lp537
+S'UPDATE supplier_view SET s_name = (select s_name from supplier where s_suppkey = 1434) WHERE s_suppkey = 1434'
+p538
+aI75
+aa(lp539
+S'UPDATE supplier_view SET s_name = (select s_name from supplier where s_suppkey = 70) WHERE s_suppkey = 70'
+p540
+aI75
+aa(lp541
+S'UPDATE customer_view SET c_phone = (select c_phone from customer where c_custkey = 28563) WHERE c_custkey = 28563'
+p542
+aI76
+aa(lp543
+S'UPDATE customer_view SET c_phone = (select c_phone from customer where c_custkey = 17553) WHERE c_custkey = 17553'
+p544
+aI76
+aa(lp545
+S'UPDATE supplier_view SET s_phone = (select s_phone from supplier where s_suppkey = 62) WHERE s_suppkey = 62'
+p546
+aI77
+aa(lp547
+S'UPDATE lineorder_view SET lo_quantity = (select lo_quantity from lineorder where lo_pk = 4183473) WHERE lo_pk = 4183473'
+p548
+aI78
+aa(lp549
+S'UPDATE lineorder_view SET lo_quantity = (select lo_quantity from lineorder where lo_pk = 4183625) WHERE lo_pk = 4183625'
+p550
+aI78
+aa(lp551
+S'UPDATE part_view SET p_size = (select p_size from part where p_partkey = 97630) WHERE p_partkey = 97630'
+p552
+aI79
+aa(lp553
+S'UPDATE lineorder_view SET lo_orderdate = (select lo_orderdate from lineorder where lo_pk = 2447184) WHERE lo_pk = 2447184'
+p554
+aI80
+aa(lp555
+S'UPDATE part_view SET p_brand1 = (select p_brand1 from part where p_partkey = 68010) WHERE p_partkey = 68010'
+p556
+aI81
+aa(lp557
+S'UPDATE customer_view SET c_city = (select c_city from customer where c_custkey = 20288) WHERE c_custkey = 20288'
+p558
+aI82
+aa(lp559
+S'UPDATE customer_view SET c_city = (select c_city from customer where c_custkey = 3851) WHERE c_custkey = 3851'
+p560
+aI82
+aa(lp561
+S'UPDATE part_view SET p_color = (select p_color from part where p_partkey = 127336) WHERE p_partkey = 127336'
+p562
+aI83
+aa(lp563
+S'UPDATE customer_view SET c_city = (select c_city from customer where c_custkey = 15568) WHERE c_custkey = 15568'
+p564
+aI84
+aa(lp565
+S'UPDATE customer_view SET c_nation = (select c_nation from customer where c_custkey = 25754) WHERE c_custkey = 25754'
+p566
+aI85
+aa(lp567
+S'UPDATE part_view SET p_mfgr = (select p_mfgr from part where p_partkey = 161792) WHERE p_partkey = 161792'
+p568
+aI86
+aa(lp569
+S'UPDATE customer_view SET c_city = (select c_city from customer where c_custkey = 10124) WHERE c_custkey = 10124'
+p570
+aI87
+aa(lp571
+S'UPDATE customer_view SET c_city = (select c_city from customer where c_custkey = 27927) WHERE c_custkey = 27927'
+p572
+aI87
+aa(lp573
+S'UPDATE customer_view SET c_nation = (select c_nation from customer where c_custkey = 15887) WHERE c_custkey = 15887'
+p574
+aI88
+aa(lp575
+S'UPDATE supplier_view SET s_city = (select s_city from supplier where s_suppkey = 1604) WHERE s_suppkey = 1604'
+p576
+aI89
+aa(lp577
+S'UPDATE lineorder_view SET lo_supplycost = (select lo_supplycost from lineorder where lo_pk = 1342927) WHERE lo_pk = 1342927'
+p578
+aI90
+aa(lp579
+S'UPDATE supplier_view SET s_phone = (select s_phone from supplier where s_suppkey = 352) WHERE s_suppkey = 352'
+p580
+aI91
+aa(lp581
+S'UPDATE lineorder_view SET lo_tax = (select lo_tax from lineorder where lo_pk = 2038154) WHERE lo_pk = 2038154'
+p582
+aI92
+aa(lp583
+S'UPDATE lineorder_view SET lo_extendedprice = (select lo_extendedprice from lineorder where lo_pk = 3844084) WHERE lo_pk = 3844084'
+p584
+aI93
+aa(lp585
+S'UPDATE lineorder_view SET lo_extendedprice = (select lo_extendedprice from lineorder where lo_pk = 2686295) WHERE lo_pk = 2686295'
+p586
+aI93
+aa(lp587
+S'UPDATE supplier_view SET s_name = (select s_name from supplier where s_suppkey = 1278) WHERE s_suppkey = 1278'
+p588
+aI94
+aa(lp589
+S'UPDATE supplier_view SET s_name = (select s_name from supplier where s_suppkey = 705) WHERE s_suppkey = 705'
+p590
+aI94
+aa(lp591
+S'UPDATE part_view SET p_brand1 = (select p_brand1 from part where p_partkey = 87141) WHERE p_partkey = 87141'
+p592
+aI95
+aa(lp593
+S'UPDATE supplier_view SET s_name = (select s_name from supplier where s_suppkey = 1037) WHERE s_suppkey = 1037'
+p594
+aI96
+aa(lp595
+S'UPDATE supplier_view SET s_name = (select s_name from supplier where s_suppkey = 267) WHERE s_suppkey = 267'
+p596
+aI96
+aa(lp597
+S'UPDATE customer_view SET c_phone = (select c_phone from customer where c_custkey = 8963) WHERE c_custkey = 8963'
+p598
+aI97
+aa(lp599
+S'UPDATE supplier_view SET s_name = (select s_name from supplier where s_suppkey = 204) WHERE s_suppkey = 204'
+p600
+aI98
+aa(lp601
+S'UPDATE supplier_view SET s_name = (select s_name from supplier where s_suppkey = 1308) WHERE s_suppkey = 1308'
+p602
+aI98
+aa(lp603
+S'UPDATE customer_view SET c_nation = (select c_nation from customer where c_custkey = 11851) WHERE c_custkey = 11851'
+p604
+aI99
+aa(lp605
+S'UPDATE customer_view SET c_nation = (select c_nation from customer where c_custkey = 23764) WHERE c_custkey = 23764'
+p606
+aI99
+aaa(lp607
+VAFRICA
+p608
+aVUNITED KINGDOM
+p609
+aVARGENTINA
+p610
+aVpowder spring
+p611
+aVMFGR#3
+p612
+aVMIDDLE EAST
+p613
+aVASIA
+p614
+aVAFRICA
+p615
+aVEUROPE
+p616
+aL19971213L
+aL3L
+aL611420L
+aVMAIL
+p617
+aVTRUCK
+p618
+aV28-684-966-5192
+p619
+aL17407087L
+aL31859131L
+aL30L
+aL33L
+aVSupplier#000001470
+p620
+aVSupplier#000001436
+p621
+aVFURNITURE
+p622
+aVSupplier#000000003
+p623
+aVIRAN
+p624
+aVKENYA
+p625
+aV18-986-141-5327
+p626
+aV21-517-852-3282
+p627
+aV19-380-803-3144
+p628
+aL21L
+aV20-415-249-7956
+p629
+aV16-724-405-4315
+p630
+aVMFGR#1
+p631
+aVMFGR#4
+p632
+aL15L
+aL24L
+aVJAPAN
+p633
+aVKENYA
+p634
+aL2878036L
+aL2090196L
+aVROMANIA  7
+p635
+aVBUILDING
+p636
+aVHOUSEHOLD
+p637
+aVRAIL
+p638
+aVSupplier#000001145
+p639
+aV34-869-884-7053
+p640
+aV27-100-538-9635
+p641
+aVSMALL POLISHED TIN
+p642
+aVCustomer#000006539
+p643
+aL10L
+aL9L
+aVdodger
+p644
+aVlawn
+p645
+aL63065L
+aL110872L
+aVSM BOX
+p646
+aVMED CAN
+p647
+aV31-489-781-4285
+p648
+aVIRAQ
+p649
+aVKENYA
+p650
+aV32-593-663-2200
+p651
+aV22-574-118-1005
+p652
+aVMFGR#4532
+p653
+aVMFGR#2129
+p654
+aVSupplier#000001092
+p655
+aVSupplier#000000831
+p656
+aVKENYA
+p657
+aL4L
+aL43L
+aL2L
+aL0L
+aVCustomer#000007310
+p658
+aV10-592-871-1991
+p659
+aVAFRICA
+p660
+aVAIR
+p661
+aVTRUCK
+p662
+aV23-737-218-4651
+p663
+aVtomato
+p664
+aVorange
+p665
+aV21-101-235-7410
+p666
+aVAFRICA
+p667
+aVASIA
+p668
+aVKENYA
+p669
+aVMFGR#513
+p670
+aVMFGR#22
+p671
+aVMFGR#53
+p672
+aV19-682-293-3599
+p673
+aV22-605-828-6050
+p674
+aVGERMANY
+p675
+aVVIETNAM
+p676
+aVJORDAN   6
+p677
+aVRUSSIA   2
+p678
+aVMACHINERY
+p679
+aVHOUSEHOLD
+p680
+aVMACHINERY
+p681
+aVHOUSEHOLD
+p682
+aVSTANDARD PLATED STEEL
+p683
+aVSTANDARD POLISHED COPPER
+p684
+aVINDONESIA0
+p685
+aVSAUDI ARA9
+p686
+aVviolet cornflower
+p687
+aL19940802L
+aL19920116L
+aVCustomer#000011886
+p688
+aVCustomer#000001648
+p689
+aVCustomer#000014451
+p690
+aVMED BOX
+p691
+aV10-569-922-5082
+p692
+aL18L
+aVMFGR#11
+p693
+aVMFGR#43
+p694
+aL19980202L
+aL19950906L
+aV2-HIGH
+p695
+aVMOZAMBIQUE
+p696
+aVINDIA
+p697
+aVBUILDING
+p698
+aVSupplier#000001434
+p699
+aVSupplier#000000070
+p700
+aV14-480-946-7750
+p701
+aV10-431-366-2067
+p702
+aV29-361-978-7059
+p703
+aL7L
+aL15L
+aL18L
+aL19951227L
+aVMFGR#4328
+p704
+aVINDONESIA4
+p705
+aVKENYA    2
+p706
+aVplum
+p707
+aVVIETNAM  9
+p708
+aVSAUDI ARABIA
+p709
+aVMFGR#4
+p710
+aVFRANCE   9
+p711
+aVJORDAN   6
+p712
+aVMOROCCO
+p713
+aVFRANCE   1
+p714
+aL81987L
+aV26-906-158-8420
+p715
+aL1L
+aL1445782L
+aL4820270L
+aVSupplier#000001278
+p716
+aVSupplier#000000705
+p717
+aVMFGR#5139
+p718
+aVSupplier#000001037
+p719
+aVSupplier#000000267
+p720
+aV34-814-877-2492
+p721
+aVSupplier#000000204
+p722
+aVSupplier#000001308
+p723
+aVIRAQ
+p724
+aVARGENTINA
+p725
+aa(lp726
+S"'EUROPE'"
+p727
+ag610
+ag609
+aS"'rosy chartreuse'"
+p728
+aS"'MFGR#1'"
+p729
+ag614
+ag613
+ag616
+ag615
+aS'9836748'
+p730
+aS'7'
+p731
+aS'25260'
+p732
+ag618
+ag617
+aS"'26-450-764-4871'"
+p733
+aL31859131L
+aL17407087L
+aL33L
+aL30L
+ag621
+ag620
+aS"'HOUSEHOLD'"
+p734
+aS"'Supplier#0000014354'"
+p735
+ag625
+ag624
+ag627
+ag626
+aS"'23-983-203-6472'"
+p736
+aS'23'
+p737
+ag630
+ag629
+ag632
+ag631
+aL24L
+aL15L
+ag634
+ag633
+aL2090196L
+aL2878036L
+aS"'FRANCE   1'"
+p738
+ag637
+ag636
+aS"''"
+p739
+aS"'Supplier#000009120'"
+p740
+ag641
+ag640
+aS"'SM BAG'"
+p741
+aS"'Customer#00004396'"
+p742
+aL9L
+aL10L
+ag645
+ag644
+aL110872L
+aL63065L
+ag647
+ag646
+aS"'17-918-593-1860'"
+p743
+ag650
+ag649
+ag652
+ag651
+ag654
+ag653
+ag656
+ag655
+aS"'UNITED STATES'"
+p744
+aL43L
+aL4L
+aL0L
+aL2L
+aS"'Customer#000011902'"
+p745
+aS"'16-377-181-4654'"
+p746
+aS"'EUROPE'"
+p747
+ag662
+ag661
+aS"'28-927-662-8584'"
+p748
+ag665
+ag664
+aS"'30-278-860-9263'"
+p749
+ag668
+ag667
+aS"'IRAQ'"
+p750
+aS"'MFGR#226'"
+p751
+ag672
+ag671
+ag674
+ag673
+ag676
+ag675
+ag678
+ag677
+ag680
+ag679
+ag682
+ag681
+ag684
+ag683
+ag686
+ag685
+aS"'goldenrod tan'"
+p752
+aL19920116L
+aL19940802L
+ag689
+ag688
+aS"'Customer#00006758'"
+p753
+aS"'JUMBO JAR'"
+p754
+aS"'29-374-175-6181'"
+p755
+aS'32'
+p756
+ag694
+ag693
+aL19950906L
+aL19980202L
+aS"'1-URGENT'"
+p757
+ag697
+ag696
+aS"'FURNITURE'"
+p758
+ag700
+ag699
+ag702
+ag701
+aS"'19-980-348-1114'"
+p759
+aL15L
+aL7L
+aS'48'
+p760
+aS'19630786'
+p761
+aS"'MFGR#515'"
+p762
+ag706
+ag705
+aS"'drab'"
+p763
+aS"'GERMANY  8'"
+p764
+aS"'VIETNAM'"
+p765
+aS"'MFGR#3'"
+p766
+ag712
+ag711
+aS"'UNITED KINGDOM'"
+p767
+aS"'UNITED ST3'"
+p768
+aS'78291'
+p769
+aS"'30-676-227-6356'"
+p770
+aS'0'
+p771
+aL4820270L
+aL1445782L
+ag717
+ag716
+aS"'MFGR#3212'"
+p772
+ag720
+ag719
+aS"'17-918-593-1860'"
+p773
+ag723
+ag722
+ag725
+ag724
+aa(lp774
+(lp775
+I24916
+aa(lp776
+I19803
+aa(lp777
+I17527
+aa(lp778
+I129950
+aa(lp779
+I173586
+aa(lp780
+I1470
+aa(lp781
+I400
+aa(lp782
+I8086
+aa(lp783
+I10246
+aa(lp784
+I2415763
+aa(lp785
+I2883518
+aa(lp786
+I3979290
+aa(lp787
+I1380522
+aa(lp788
+I2561245
+aa(lp789
+I19214
+aa(lp790
+I1711350
+aa(lp791
+I2917637
+aa(lp792
+I112946
+aa(lp793
+I148574
+aag780
+a(lp794
+I1436
+aa(lp795
+I22146
+aa(lp796
+I3
+aa(lp797
+I1024
+aa(lp798
+I1562
+aa(lp799
+I348
+aa(lp800
+I1135
+aa(lp801
+I27733
+aa(lp802
+I159742
+aa(lp803
+I14981
+aa(lp804
+I15893
+aa(lp805
+I79978
+aa(lp806
+I195890
+aa(lp807
+I56088
+aa(lp808
+I10073
+aa(lp809
+I1152
+aa(lp810
+I8553
+aa(lp811
+I1661030
+aa(lp812
+I3535294
+aa(lp813
+I802
+aa(lp814
+I20086
+aa(lp815
+I17476
+aa(lp816
+I3629173
+aa(lp817
+I1145
+aa(lp818
+I87
+aa(lp819
+I936
+aa(lp820
+I153657
+aa(lp821
+I6539
+aa(lp822
+I5208427
+aa(lp823
+I2239671
+aa(lp824
+I70342
+aa(lp825
+I59483
+aa(lp826
+I1600236
+aa(lp827
+I337933
+aa(lp828
+I196584
+aa(lp829
+I181815
+aa(lp830
+I16568
+aa(lp831
+I280
+aa(lp832
+I1216
+aa(lp833
+I680
+aa(lp834
+I471
+aa(lp835
+I156351
+aa(lp836
+I180883
+aa(lp837
+I1092
+aa(lp838
+I831
+aa(lp839
+I83
+aa(lp840
+I369654
+aa(lp841
+I5091737
+aa(lp842
+I4166085
+aa(lp843
+I2880444
+aa(lp844
+I7310
+aa(lp845
+I17636
+aa(lp846
+I6212
+aa(lp847
+I4828411
+aa(lp848
+I4990993
+aa(lp849
+I1943
+aa(lp850
+I104009
+aa(lp851
+I194474
+aa(lp852
+I12907
+aa(lp853
+I707
+aa(lp854
+I1898
+aa(lp855
+I26700
+aa(lp856
+I8924
+aa(lp857
+I124127
+aa(lp858
+I60496
+aa(lp859
+I686
+aa(lp860
+I1741
+aa(lp861
+I328
+aa(lp862
+I26
+aa(lp863
+I23777
+aa(lp864
+I8930
+aa(lp865
+I6498
+aa(lp866
+I23448
+aa(lp867
+I21810
+aa(lp868
+I25383
+aa(lp869
+I101987
+aa(lp870
+I121641
+aa(lp871
+I1937
+aa(lp872
+I602
+aa(lp873
+I118189
+aa(lp874
+I3653022
+aa(lp875
+I3440197
+aa(lp876
+I11886
+aa(lp877
+I1648
+aa(lp878
+I14451
+aa(lp879
+I196670
+aa(lp880
+I19282
+aa(lp881
+I32632
+aa(lp882
+I178008
+aa(lp883
+I9277
+aa(lp884
+I2474959
+aa(lp885
+I13973
+aa(lp886
+I3870681
+aa(lp887
+I1848
+aa(lp888
+I1894
+aa(lp889
+I6826
+aa(lp890
+I1434
+aa(lp891
+I70
+aa(lp892
+I28563
+aa(lp893
+I17553
+aa(lp894
+I62
+aa(lp895
+I4183473
+aa(lp896
+I4183625
+aa(lp897
+I97630
+aa(lp898
+I2447184
+aa(lp899
+I68010
+aa(lp900
+I20288
+aa(lp901
+I3851
+aa(lp902
+I127336
+aa(lp903
+I15568
+aa(lp904
+I25754
+aa(lp905
+I161792
+aa(lp906
+I10124
+aa(lp907
+I27927
+aa(lp908
+I15887
+aa(lp909
+I1604
+aa(lp910
+I1342927
+aa(lp911
+I352
+aa(lp912
+I2038154
+aa(lp913
+I3844084
+aa(lp914
+I2686295
+aa(lp915
+I1278
+aa(lp916
+I705
+aa(lp917
+I87141
+aa(lp918
+I1037
+aa(lp919
+I267
+aa(lp920
+I8963
+aa(lp921
+I204
+aa(lp922
+I1308
+aa(lp923
+I11851
+aa(lp924
+I23764
+aaa.
