@@ -36,11 +36,13 @@ Cache | 6MB shared L3 cache
 ## Environment Setup
 
 * Execute the database scripts. Once the scripts are executed, you should see *4* databases in MySQL.
+* Checkout the code from GitHub to a folder on the machine.
 * Install Anaconda as explained [here](https://conda.io/docs/install/full.html#os-x-anaconda-install)
 * We will replicate the python code environment using conda's virtual environment. Execute the following command from the top level of the directory so that `environment.yml` is present. This will create a private virtual python 2.7 based anaconda environment with all dependencies loaded
 ```ruby
 conda env create -f environment.yml
 ```
+* Navigate to the SIGMOD17Reproducibility directory in terminal.
 * Update constants/db.py file with the username and password for the database. Setup is now complete
 
 
