@@ -2,7 +2,7 @@ __author__ = 'shaleen'
 import MySQLdb
 from constants import db
 
-db_conn = MySQLdb.Connect("localhost","root","help2012","ssb",charset='utf8',use_unicode=True)
+db_conn = MySQLdb.Connect("localhost",db.USERNAME,db.PASSWORD,"ssb",charset='utf8',use_unicode=True)
 db_conn.autocommit(True)
 
 class DBUtils:

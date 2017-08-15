@@ -3550,5 +3550,5 @@ if __name__ == "__main__":
     c = Combiner()
     c.calculatepriceandtime()
     c.disssb()
-    # c.dishistory()
-    # c.dishistorytime()
+    c.dishistory()
+    c.dishistorytime()
