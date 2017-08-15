@@ -46,5 +46,51 @@ conda env create -f environment.yml
 
 ## Running Experiments
 
-Below is the complete set of experiments to reproduce results in the [paper](http://dl.acm.org/citation.cfm?id=3064017).
+Below is the complete set of experiments to reproduce results in the [paper](http://dl.acm.org/citation.cfm?id=3064017). AN overarching note is to keep in mind that there will be some amount of variability in the results (time taken or price assigned to queries) due to sampling of query parameters, data sampled or both. However, these variations are minor and never close to an order of magnitude. Thus, the main theme is to observe the trend in the graphs which should be close to the results in the paper.
 
+### Section `2.4`
+
+* Execute the following commands
+```bash
+cd integration
+python CombinerBenchmarkPriceBehavior.py
+```
+This set of experiment will generate *4* figures - `benchmarkselect.pdf, benchmarkproject.pdf, benchmarkjoin.pdf and benchmarkgroup.pdf` corresponding to Figure `2` in the paper. Note that the legend labelling is consistent with the paper for ease of verification.
+
+### Section `5.1`
+* Execute the following commands
+```bash
+cd integration
+python PriceSelectivity.py #Generates benchmarkselectsupportsize.pdf corresponding to Figure 4a
+python PriceAttributes.py #Generates benchmarkprojectsupportsize.pdf corresponding to Figure 4b
+python SwapUpdateFraction.py #Generates benchmarktimesssize.pdf corresponding to Figure 4c
+python SupportSetSize.py #Generates benchmarkcellswapratio.pdf corresponding to Figure 4d
+```
+
+* Execute the following for SSB experiments
+```bash
+cd integration_ssb
+python CombinerReproduce.py #Generates ssbstatichistorytime.pdf, ssbstatichistoryawareprice.pdf corresponding to Figure 4f/4e respectively and barchartssbtime.pdf for Figure 5a
+python HistoryAwareQ11.py #Generates ssbq11.pdf corresponding to 4g
+```
+
+* Execute the following for TPCH experiment
+```bash
+cd integration_tpch
+python CombinerReproduce.py #Generates barcharttpchtimetest.pdf for Figure 5b
+```
+
+### Section 5.4
+
+
+* Execute the following commands
+```bash
+cd integration_dblp
+python Combiner.py #Generates prices for queryes Q^d_1, Q^d_2, Q^d_3, Q^d_4
+```
+
+* Execute the following commands
+```bash
+cd integration_crash
+python Combiner.py #Generates prices for queryes Q^c_1, Q^c_2, Q^c_3, Q^c_4, Q^c_5, Q^c_6, Q^c_7
+```
