@@ -46,7 +46,7 @@ conda env create -f environment.yml
 
 ## Running Experiments
 
-Below is the complete set of experiments to reproduce results in the [paper](http://dl.acm.org/citation.cfm?id=3064017). AN overarching note is to keep in mind that there will be some amount of variability in the results (time taken or price assigned to queries) due to sampling of query parameters, data sampled or both. However, these variations are minor and never close to an order of magnitude. Thus, the main theme is to observe the trend in the graphs which should be close to the results in the paper.
+Below is the complete set of experiments to reproduce results in the [paper](http://dl.acm.org/citation.cfm?id=3064017). An overarching note is to keep in mind that there will be some amount of variability in the results (time taken or price assigned to queries) due to sampling of query parameters, data sampled or both. However, these variations are minor and never close to an order of magnitude. Thus, the important thing is to observe the trend in the graphs which should be close to the results in the paper.
 
 ### Section `2.4`
 
