@@ -65,8 +65,8 @@ This set of experiment will generate *4* figures - `benchmarkselect.pdf, benchma
 cd integration
 python PriceSelectivity.py #Generates benchmarkselectsupportsize.pdf corresponding to Figure 4a
 python PriceAttributes.py #Generates benchmarkprojectsupportsize.pdf corresponding to Figure 4b
-python SwapUpdateFraction.py #Generates benchmarktimesssize.pdf corresponding to Figure 4c
-python SupportSetSize.py #Generates benchmarkcellswapratio.pdf corresponding to Figure 4d
+python SwapUpdateFraction.py #Generates benchmarkcellswapratio.pdf corresponding to Figure 4c
+python SupportSetSize.py #Generates benchmarktimesssize.pdf corresponding to Figure 4d
 ```
 
 * Execute the following for SSB experiments
