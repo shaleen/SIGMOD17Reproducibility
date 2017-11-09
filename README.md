@@ -88,11 +88,11 @@ python CombinerReproduce.py #Generates barcharttpchtimetest.pdf for Figure 5b
 * Execute the following commands
 ```bash
 cd integration_dblp
-python Combiner.py #Generates prices for queryes Q^d_1, Q^d_2, Q^d_3, Q^d_4
+python Combiner.py #Generates prices for queryes Q^c_1, Q^c_2, Q^c_3, Q^c_4, Q^c_5, Q^c_6, Q^c_7
 ```
 
 * Execute the following commands
 ```bash
 cd integration_crash
-python Combiner.py #Generates prices for queryes Q^c_1, Q^c_2, Q^c_3, Q^c_4, Q^c_5, Q^c_6, Q^c_7
+python Combiner.py #Generates prices for queryes Q^d_1, Q^d_2, Q^d_3, Q^d_4
 ```
