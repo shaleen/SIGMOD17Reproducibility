@@ -20,13 +20,13 @@ class Generator:
         support_set_value = []
         support_set_pk = []
         for i in range(1, count):
-            for j in range(0, random.randint(1,200)):
+            for j in range(0, random.randint(1,1)):
                 m = getattr(pricing_country, pricing_country.table_choosing_policy)
                 rand_int = m()
                 if rand_int == 0:
                     complete_result = self.policy.generateRandomUpdateCell('Country',
                                                                             table_country.support_fields['Country'][random.randint(0,len(table_country.support_fields['Country']) - 1)],
-                                                                            1, 0, 1, i, newtablenames)
+                                                                            1, 0.25, 1, i, newtablenames)
                     support_set += complete_result[0]
                     support_set_undo += complete_result[1]
                     support_set_undo_value += complete_result[2]

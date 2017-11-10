@@ -1,8 +1,9 @@
 __author__ = 'shaleen'
-from integration import dbutils
-import matplotlib as mpl
+import os, sys
+sys.path.append(os.path.dirname(os.getcwd()))
+import warnings
+warnings.filterwarnings("ignore")
 from supportsetgenerator import Generator
-from charts import Charting
 import QueryLister
 import numpy as np
 import re
@@ -19,12 +20,11 @@ class Combiner:
 
     g = Generator.Generator()
     q = QueryLister.Query()
-    c = Charting.Charts()
     attrdictcountry = ['IndepYear','HeadOfState','Capital','Code2','SurfaceArea','Population','LifeExpectancy','GNP','GNPOld','LocalName','GovernmentForm','Name','Continent','Region',]
     try:
         os.remove('benchmarkprojectsupportsize.pdf')
-    except:
-        None
+    except OSError:
+        pass
     def Query1(self, u, size):
         with open('supportset'+str(size)+'.txt', 'rb') as f:
             support_set = pickle.load(f)

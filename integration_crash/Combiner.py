@@ -1,6 +1,8 @@
 __author__ = 'shaleen'
 import os, sys
 sys.path.append(os.path.dirname(os.getcwd()))
+import warnings
+warnings.filterwarnings("ignore")
 from integration_crash import dbutils
 from constants import pricing_crash
 from integration_crash import Pricer
@@ -84,5 +86,8 @@ class Combiner:
 if __name__ == "__main__":
     c = Combiner()
     y_plot = c.endToEndProcessingExecutedProc()
-    print "price weighted disagreement - ", y_plot[0]
-    print "price entropy - ", y_plot[1]
+    myFormattedList = [ '%.2f' % elem for elem in y_plot[1] ]
+    print '\t\t\t'+ "Q^c_1   Q^c_2   Q^c_3   Q^c_4"
+    print( 'p^{wc}+nbrs\t' + '\t'.join(map(str,myFormattedList)))
+    myFormattedList = [ '%.2f' % elem for elem in y_plot[0] ]
+    print( 'p^{H}+nbrs\t' + '\t'.join(map(str,myFormattedList)))

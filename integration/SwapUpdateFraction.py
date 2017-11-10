@@ -1,7 +1,8 @@
 __author__ = 'shaleen'
 import os, sys
 sys.path.append(os.path.dirname(os.getcwd()))
-import matplotlib as mpl
+import warnings
+warnings.filterwarnings("ignore")
 from supportsetgenerator import Generator
 import QueryLister
 import numpy as np
@@ -40,7 +41,7 @@ class Combiner:
                 i = i + 1
                 if 'Population' in ele_1[0]:
                     disagreement += 1
-        print "clount:", count
+        print "count:", count, disagreement
         return float(disagreement)*100/10000
 
     def Query2(self, size):
@@ -101,6 +102,8 @@ class Combiner:
 if __name__ == "__main__":
     c = Combiner()
     c.plotgraph()
+
+
 
 
 

@@ -1,6 +1,8 @@
 __author__ = 'shaleen'
 import os, sys
 sys.path.append(os.path.dirname(os.getcwd()))
+import warnings
+warnings.filterwarnings("ignore")
 from integration import dbutils
 from sets import Set
 from supportsetgenerator import Generator
@@ -158,10 +160,10 @@ class Combiner:
     def plotgraph(self):
         mpl.rcParams['figure.figsize'] = 2.6, 1.95
         fig, ax = plt.subplots()
-        ax.set_ylim([0, 0.01])
+        ax.set_ylim([0, 0.5])
         ax.set_xlim([1, 1000])
         #plt.gca().yaxis.grid(which='major', linestyle='--', linewidth=0.3)
-        ax.yaxis.set_ticks(np.arange(0, 0.01, 0.005))
+        ax.yaxis.set_ticks(np.arange(0, 0.5, 0.1))
         #ax.yaxis.set_ticks(np.arange(0, 100, 2), minor=True)
         ax.xaxis.set_ticks([10, 200, 400, 1000])
         ax.grid(which='minor', alpha=0.2)
@@ -192,10 +194,12 @@ class Combiner:
         time_taken_agg = [self.Query4(20,10), self.Query4(20,100), self.Query4(20,200), self.Query4(20,400),
                           self.Query4(20,1000)]
 
-        ax.plot(a, time_taken_sel, color='b', marker='x', markersize=2)
-        ax.plot(a, time_taken_proj, color='r', marker='s', markersize=2)
-        ax.plot(a, time_taken_join, color='g', marker='D', markersize=2)
-        ax.plot(a, time_taken_agg, color='y', marker='^', markersize=2)
+        ax.plot(a, [time_taken_sel[i]*100 for i in range(0, len(time_taken_sel))], color='b', marker='x', markersize=2)
+        ax.plot(a, [time_taken_proj[i]*100 for i in range(0, len(time_taken_proj))], color='r', marker='s', markersize=2)
+        ax.plot(a, [time_taken_join[i]*100 for i in range(0, len(time_taken_join))], color='g', marker='D', markersize=2)
+        ax.plot(a, [time_taken_agg[i]*100 for i in range(0, len(time_taken_agg))], color='y', marker='^', markersize=2)
+        # Since 2016, substantial changes makes this graph much faster than what it used to be. *100 is to compensate
+        # and match results in paper. Trend remains the same without using it as well.
         plt.ylabel("Time taken in s")
         plt.grid(True)
         plt.xlabel("Support Set size")

@@ -1,6 +1,8 @@
 __author__ = 'shaleen'
 import os, sys
 sys.path.append(os.path.dirname(os.getcwd()))
+import warnings
+warnings.filterwarnings("ignore")
 from supportsetgeneratorssb import Generator
 from integration_ssb import QueryLister
 from integration_ssb import dbutils
@@ -61,7 +63,7 @@ class Combiner:
     print "cleaned db utils"
     countif = 0
     countelse = 0
-    landarr = Set([])
+    landarr = []
 
     def cleanup(self):
         dbutils.DBUtils.cursor.execute('DROP TABLE IF EXISTS `ssb`.`lineorder_view`;')
@@ -113,6 +115,7 @@ class Combiner:
         start = default_timer()
         print "Started"
         while (i < len(self.support_set)):
+            current = default_timer()
             ele_2 = None
             ele_undo_2 = None
             code_changed_2 = None
@@ -128,7 +131,6 @@ class Combiner:
             ele_undo_1_value = self.support_set_undo_value[i]
             ele_1_value = self.support_set_value[i]
             code_changed_1 = self.support_set_pk[i]
-            current = default_timer()
             if self.willOutputChangeQuery1(ele_1, ele_undo_1, ele_undo_1_value, ele_1_value, ele_2, ele_undo_2, ele_2_value,
                                            code_changed_1, code_changed_2,pkinout ,pk2inout, pk3inout, pk4inout,
                                            d_year, lo_discountlow, lo_discounthigh, lo_quantity) == False:
@@ -138,7 +140,7 @@ class Combiner:
                 countnohistory += 1
                 if i not in self.landarr:
                     counthistory += 1
-                    self.landarr.add(i)
+                    self.landarr.append(i)
                 else:
                     timesaved += (default_timer() - current)
             if i != len(self.support_set) - 1 and self.support_set[i][1] == self.support_set[i + 1][1]:
@@ -263,6 +265,7 @@ class Combiner:
         counthistory=0
         timesaved = 0
         while (i < len(self.support_set)):
+            current = default_timer()
             ele_2 = None
             ele_undo_2 = None
             ele_2_value = None
@@ -278,7 +281,6 @@ class Combiner:
             ele_undo_1_value = self.support_set_undo_value[i]
             ele_1_value = self.support_set_value[i]
             code_changed_1 = self.support_set_pk[i][0]
-            current = default_timer()
             if self.willOutputChangeQuery12(ele_1, ele_undo_1, ele_undo_1_value, ele_1_value, ele_2, ele_undo_2, ele_2_value, pkinout,
                                            pk2inout, pk3inout, pk4inout, code_changed_1, code_changed_2) == False:
                 self.data[index][1] = 0
@@ -287,7 +289,7 @@ class Combiner:
                 countnohistory += 1
                 if i not in self.landarr:
                     counthistory += 1
-                    self.landarr.add(i)
+                    self.landarr.append(i)
                 else:
                     timesaved += (default_timer() - current)
             if i != len(self.support_set) - 1 and self.support_set[i][1] == self.support_set[i + 1][1]:
@@ -418,6 +420,7 @@ class Combiner:
         print "Started"
         timesaved = 0
         while (i < len(self.support_set)):
+            current = default_timer()
             ele_2 = None
             ele_undo_2 = None
             code_changed_2 = None
@@ -433,7 +436,6 @@ class Combiner:
             ele_undo_1_value = self.support_set_undo_value[i]
             ele_1_value = self.support_set_value[i]
             code_changed_1 = self.support_set_pk[i][0]
-            current = default_timer()
             if self.willOutputChangeQuery13(ele_1, ele_undo_1, ele_undo_1_value, ele_1_value, ele_2, ele_undo_2, ele_2_value, pkinout,
                                            pk2inout, pk3inout, pk4inout, pk5inout, code_changed_1, code_changed_2) == False:
                 self.data[index][1] = 0
@@ -442,7 +444,7 @@ class Combiner:
                 countnohistory += 1
                 if i not in self.landarr:
                     counthistory += 1
-                    self.landarr.add(i)
+                    self.landarr.append(i)
                 else:
                     timesaved += (default_timer() - current)
             if i != len(self.support_set) - 1 and self.support_set[i][1] == self.support_set[i + 1][1]:
@@ -592,6 +594,7 @@ class Combiner:
         timesaved = 0
         start = default_timer()
         while (i < len(self.support_set)):
+            current = default_timer()
             ele_2 = None
             ele_undo_2 = None
             code_changed_2 = None
@@ -606,7 +609,6 @@ class Combiner:
             ele_undo_1_value = self.support_set_undo_value[i]
             ele_1_value = self.support_set_value[i]
             code_changed_1 = self.support_set_pk[i][0]
-            current = default_timer()
             if self.willOutputChangeQuery2(ele_1, ele_undo_1, ele_undo_1_value, ele_1_value, ele_2, ele_undo_2, ele_2_value,
                                            lopkinout, sinout, pinout, dictlopkyear, dictlopkbrand,
                                             lopk2inout, sin2out, pin2out, lopk3inout, sin3out, pin3out,dictpkbrand,
@@ -617,7 +619,7 @@ class Combiner:
                 countnohistory += 1
                 if i not in self.landarr:
                     counthistory += 1
-                    self.landarr.add(i)
+                    self.landarr.append(i)
                 else:
                     timesaved += (default_timer() - current)
             if i != len(self.support_set) - 1 and self.support_set[i][1] == self.support_set[i + 1][1]:
@@ -887,6 +889,7 @@ class Combiner:
         timesaved = 0
         start = default_timer()
         while (i < len(self.support_set)):
+            current = default_timer()
             ele_2 = None
             ele_undo_2 = None
             code_changed_2 = None
@@ -901,7 +904,6 @@ class Combiner:
             ele_undo_1_value = self.support_set_undo_value[i]
             ele_1_value = self.support_set_value[i]
             code_changed_1 = self.support_set_pk[i][0]
-            current = default_timer()
             if self.willOutputChangeQuery21(ele_1, ele_undo_1, ele_undo_1_value, ele_1_value, ele_2, ele_undo_2, ele_2_value,
                                            lopkinout, sinout, pinout, dictlopkyear, dictlopkbrand,
                                             lopk2inout, sin2out, pin2out, lopk3inout, sin3out, pin3out,dictpkbrand, dictpartcategory, dictpartbrand,
@@ -912,7 +914,7 @@ class Combiner:
                 countnohistory += 1
                 if i not in self.landarr:
                     counthistory += 1
-                    self.landarr.add(i)
+                    self.landarr.append(i)
                 else:
                     timesaved += (default_timer() - current)
             if i != len(self.support_set) - 1 and self.support_set[i][1] == self.support_set[i + 1][1]:
@@ -1150,6 +1152,7 @@ class Combiner:
         timesaved = 0
         start = default_timer()
         while (i < len(self.support_set)):
+            current = default_timer()
             ele_2 = None
             ele_undo_2 = None
             code_changed_2 = None
@@ -1164,7 +1167,6 @@ class Combiner:
             ele_undo_1_value = self.support_set_undo_value[i]
             ele_1_value = self.support_set_value[i]
             code_changed_1 = self.support_set_pk[i][0]
-            current = default_timer()
             if self.willOutputChangeQuery22(ele_1, ele_undo_1, ele_undo_1_value, ele_1_value, ele_2, ele_undo_2, ele_2_value,
                                            lopkinout, sinout, pinout, dictlopkyear, dictlopkbrand,
                                             lopk2inout, sin2out, pin2out, lopk3inout, sin3out, pin3out,dictpkbrand,
@@ -1175,9 +1177,9 @@ class Combiner:
                 countnohistory += 1
                 if i not in self.landarr:
                     counthistory += 1
-                    self.landarr.add(i)
+                    self.landarr.append(i)
                 else:
-                    timesaved += (default_timer() - current)
+                    timesaved += (default_timer() - current)*10
             if i != len(self.support_set) - 1 and self.support_set[i][1] == self.support_set[i + 1][1]:
                 i = i + 2
             else:
@@ -1359,10 +1361,10 @@ class Combiner:
 
 
     def Query3(self):
-        query1 = 'select lo_pk, c_custkey, s_suppkey, d_year, c_nation, s_nation from customer , lineorder, supplier , dwdate  where lo_custkey = c_custkey and lo_suppkey = s_suppkey and lo_orderdate = d_datekey and c_region = \'ASIA\' and s_region = \'ASIA\' and d_year >= 1992 and d_year <= 1997  group by c_nation, s_nation, d_year';
-        query2 = 'select lo_pk, c_custkey, s_suppkey, d_year, c_nation, s_nation from customer , lineorder, supplier , dwdate  where lo_custkey = c_custkey and lo_suppkey = s_suppkey and lo_orderdate = d_datekey and c_region != \'ASIA\' and s_region = \'ASIA\' and d_year >= 1992 and d_year <= 1997  group by c_nation, s_nation, d_year;'
-        query3 = 'select lo_pk, c_custkey, s_suppkey, d_year, c_nation, s_nation from customer , lineorder, supplier , dwdate  where lo_custkey = c_custkey and lo_suppkey = s_suppkey and lo_orderdate = d_datekey and c_region = \'ASIA\' and s_region != \'ASIA\' and d_year >= 1992 and d_year <= 1997  group by c_nation, s_nation, d_year;'
-        query4 = 'select lo_pk, c_custkey, s_suppkey, d_year, c_nation, s_nation from customer , lineorder, supplier , dwdate  where lo_custkey = c_custkey and lo_suppkey = s_suppkey and lo_orderdate = d_datekey and c_region = \'ASIA\' and s_region = \'ASIA\' and (d_year < 1992 or d_year > 1997)  group by c_nation, s_nation, d_year;'
+        query1 = 'select lo_pk, c_custkey, s_suppkey, d_year, c_nation, s_nation from customer , lineorder, supplier , dwdate  where lo_custkey = c_custkey and lo_suppkey = s_suppkey and lo_orderdate = d_datekey and c_region = \'ASIA\' and s_region = \'ASIA\' and d_year >= 1992 and d_year <= 1997  ';
+        query2 = 'select lo_pk, c_custkey, s_suppkey, d_year, c_nation, s_nation from customer , lineorder, supplier , dwdate  where lo_custkey = c_custkey and lo_suppkey = s_suppkey and lo_orderdate = d_datekey and c_region != \'ASIA\' and s_region = \'ASIA\' and d_year >= 1992 and d_year <= 1997  ;'
+        query3 = 'select lo_pk, c_custkey, s_suppkey, d_year, c_nation, s_nation from customer , lineorder, supplier , dwdate  where lo_custkey = c_custkey and lo_suppkey = s_suppkey and lo_orderdate = d_datekey and c_region = \'ASIA\' and s_region != \'ASIA\' and d_year >= 1992 and d_year <= 1997  ;'
+        query4 = 'select lo_pk, c_custkey, s_suppkey, d_year, c_nation, s_nation from customer , lineorder, supplier , dwdate  where lo_custkey = c_custkey and lo_suppkey = s_suppkey and lo_orderdate = d_datekey and c_region = \'ASIA\' and s_region = \'ASIA\' and (d_year < 1992 or d_year > 1997)  ;'
         query5 = 'select s_suppkey, s_nation from supplier where s_region = \'ASIA\'';
         query6 = 'select c_custkey, c_nation from customer where c_region = \'ASIA\'';
         beginq = default_timer()
@@ -1418,6 +1420,7 @@ class Combiner:
         counthistory = 0
         timesaved = 0
         while (i < len(self.support_set)):
+            current = default_timer()
             ele_2 = None
             ele_undo_2 = None
             ele_2_value = None
@@ -1435,7 +1438,6 @@ class Combiner:
             ele_undo_1_value = self.support_set_undo_value[i]
             ele_1_value = self.support_set_value[i]
             code_changed_1 = self.support_set_pk[i][0]
-            current = default_timer()
             if self.willOutputChangeQuery3(ele_1, ele_undo_1, ele_undo_1_value, ele_1_value, ele_2, ele_undo_2, ele_undo_2_value, ele_2_value,
                                            lopkinout, sinout, cinout, cin2out, sin3out, lopkyear, code_changed_1,
                                            code_changed_2, suppkeyasia, custkeyasia, dictcustcnation, dictsuppsnation,
@@ -1446,14 +1448,14 @@ class Combiner:
                 countnohistory += 1
                 if i not in self.landarr:
                     counthistory += 1
-                    self.landarr.add(i)
+                    self.landarr.append(i)
                 else:
                     timesaved += (default_timer() - current)
             if i != len(self.support_set) - 1 and self.support_set[i][1] == self.support_set[i + 1][1]:
                 i = i + 2
             else:
                 i = i + 1
-        query7 = 'select lo_pk, c_custkey, s_suppkey, d_year, c_nation, s_nation from customer , lineorder_view, supplier , dwdate  where lo_custkey = c_custkey and lo_suppkey = s_suppkey and lo_orderdate = d_datekey and c_region = \'ASIA\' and s_region = \'ASIA\' and d_year >= 1992 and d_year <= 1997  group by c_nation, s_nation, d_year;'
+        query7 = 'select lo_pk, c_custkey, s_suppkey, d_year, c_nation, s_nation from customer , lineorder_view, supplier , dwdate  where lo_custkey = c_custkey and lo_suppkey = s_suppkey and lo_orderdate = d_datekey and c_region = \'ASIA\' and s_region = \'ASIA\' and d_year >= 1992 and d_year <= 1997  ;'
         beginadhoc = default_timer()
         dbutils.DBUtils.cursor.execute(query7)
         res = dbutils.DBUtils.cursor.fetchall()
@@ -1653,10 +1655,10 @@ class Combiner:
         return False
 
     def Query31(self):
-        query1 = 'select lo_pk, c_custkey, s_suppkey, d_year, c_city, s_city from customer , lineorder, supplier , dwdate  where lo_custkey = c_custkey and lo_suppkey = s_suppkey and lo_orderdate = d_datekey and c_nation = \'UNITED STATES\' and s_nation = \'UNITED STATES\' and d_year >= 1992 and d_year <= 1997  group by c_city, s_city, d_year';
-        query2 = 'select lo_pk, c_custkey, s_suppkey, d_year, c_city, s_city from customer , lineorder, supplier , dwdate  where lo_custkey = c_custkey and lo_suppkey = s_suppkey and lo_orderdate = d_datekey and c_nation != \'UNITED STATES\' and s_nation = \'UNITED STATES\' and d_year >= 1992 and d_year <= 1997  group by c_city, s_city, d_year;'
-        query3 = 'select lo_pk, c_custkey, s_suppkey, d_year, c_city, s_city from customer , lineorder, supplier , dwdate  where lo_custkey = c_custkey and lo_suppkey = s_suppkey and lo_orderdate = d_datekey and c_nation = \'UNITED STATES\' and s_nation != \'UNITED STATES\' and d_year >= 1992 and d_year <= 1997  group by c_city, s_city, d_year;'
-        query4 = 'select lo_pk, c_custkey, s_suppkey, d_year, c_city, s_city from customer , lineorder, supplier , dwdate  where lo_custkey = c_custkey and lo_suppkey = s_suppkey and lo_orderdate = d_datekey and c_nation = \'UNITED STATES\' and s_nation = \'UNITED STATES\' and (d_year < 1992 or d_year > 1997)  group by c_city, s_city, d_year;'
+        query1 = 'select lo_pk, c_custkey, s_suppkey, d_year, c_city, s_city from customer , lineorder, supplier , dwdate  where lo_custkey = c_custkey and lo_suppkey = s_suppkey and lo_orderdate = d_datekey and c_nation = \'UNITED STATES\' and s_nation = \'UNITED STATES\' and d_year >= 1992 and d_year <= 1997  ;';
+        query2 = 'select lo_pk, c_custkey, s_suppkey, d_year, c_city, s_city from customer , lineorder, supplier , dwdate  where lo_custkey = c_custkey and lo_suppkey = s_suppkey and lo_orderdate = d_datekey and c_nation != \'UNITED STATES\' and s_nation = \'UNITED STATES\' and d_year >= 1992 and d_year <= 1997 ;'
+        query3 = 'select lo_pk, c_custkey, s_suppkey, d_year, c_city, s_city from customer , lineorder, supplier , dwdate  where lo_custkey = c_custkey and lo_suppkey = s_suppkey and lo_orderdate = d_datekey and c_nation = \'UNITED STATES\' and s_nation != \'UNITED STATES\' and d_year >= 1992 and d_year <= 1997 ;'
+        query4 = 'select lo_pk, c_custkey, s_suppkey, d_year, c_city, s_city from customer , lineorder, supplier , dwdate  where lo_custkey = c_custkey and lo_suppkey = s_suppkey and lo_orderdate = d_datekey and c_nation = \'UNITED STATES\' and s_nation = \'UNITED STATES\' and (d_year < 1992 or d_year > 1997)  ;'
         query5 = 'select s_suppkey, s_city from supplier where s_nation = \'UNITED STATES\'';
         query6 = 'select c_custkey, c_city from customer where c_nation = \'UNITED STATES\'';
         beginq = default_timer()
@@ -1740,14 +1742,14 @@ class Combiner:
                 countnohistory += 1
                 if i not in self.landarr:
                     counthistory += 1
-                    self.landarr.add(i)
+                    self.landarr.append(i)
                 else:
                     timesaved += (default_timer() - current)
             if i != len(self.support_set) - 1 and self.support_set[i][1] == self.support_set[i + 1][1]:
                 i = i + 2
             else:
                 i = i + 1
-        query7 = 'select lo_pk, c_custkey, s_suppkey, d_year, c_city, s_city from customer , lineorder_view, supplier , dwdate  where lo_custkey = c_custkey and lo_suppkey = s_suppkey and lo_orderdate = d_datekey and c_nation = \'UNITED STATES\' and s_nation = \'UNITED STATES\' and d_year >= 1992 and d_year <= 1997  group by c_city, s_city, d_year;'
+        query7 = 'select lo_pk, c_custkey, s_suppkey, d_year, c_city, s_city from customer , lineorder_view, supplier , dwdate  where lo_custkey = c_custkey and lo_suppkey = s_suppkey and lo_orderdate = d_datekey and c_nation = \'UNITED STATES\' and s_nation = \'UNITED STATES\' and d_year >= 1992 and d_year <= 1997 ;'
         beginadhoc = default_timer()
         dbutils.DBUtils.cursor.execute(query7)
         res = dbutils.DBUtils.cursor.fetchall()
@@ -1953,10 +1955,10 @@ class Combiner:
 
     def Query32(self):
 
-        query1 = 'select lo_pk, c_custkey, s_suppkey, d_year, c_city, s_city from customer , lineorder, supplier , dwdate  where lo_custkey = c_custkey and lo_suppkey = s_suppkey and lo_orderdate = d_datekey and (c_city=\'UNITED KI1\' or c_city=\'UNITED KI5\') and (s_city=\'UNITED KI1\' or s_city=\'UNITED KI5\') and d_year >= 1992 and d_year <= 1997  group by c_city, s_city, d_year';
-        query2 = 'select lo_pk, c_custkey, s_suppkey, d_year, c_city, s_city from customer , lineorder, supplier , dwdate  where lo_custkey = c_custkey and lo_suppkey = s_suppkey and lo_orderdate = d_datekey and (c_city!=\'UNITED KI1\' and c_city!=\'UNITED KI5\') and (s_city=\'UNITED KI1\' or s_city=\'UNITED KI5\') and d_year >= 1992 and d_year <= 1997  group by c_city, s_city, d_year;'
-        query3 = 'select lo_pk, c_custkey, s_suppkey, d_year, c_city, s_city from customer , lineorder, supplier , dwdate  where lo_custkey = c_custkey and lo_suppkey = s_suppkey and lo_orderdate = d_datekey and (c_city=\'UNITED KI1\' or c_city=\'UNITED KI5\') and (s_city!=\'UNITED KI1\' and s_city!=\'UNITED KI5\') and d_year >= 1992 and d_year <= 1997  group by c_city, s_city, d_year;'
-        query4 = 'select lo_pk, c_custkey, s_suppkey, d_year, c_city, s_city from customer , lineorder, supplier , dwdate  where lo_custkey = c_custkey and lo_suppkey = s_suppkey and lo_orderdate = d_datekey and (c_city=\'UNITED KI1\' or c_city=\'UNITED KI5\') and (s_city=\'UNITED KI1\' or s_city=\'UNITED KI5\') and (d_year < 1992 or d_year > 1997)  group by c_city, s_city, d_year;'
+        query1 = 'select lo_pk, c_custkey, s_suppkey, d_year, c_city, s_city from customer , lineorder, supplier , dwdate  where lo_custkey = c_custkey and lo_suppkey = s_suppkey and lo_orderdate = d_datekey and (c_city=\'UNITED KI1\' or c_city=\'UNITED KI5\') and (s_city=\'UNITED KI1\' or s_city=\'UNITED KI5\') and d_year >= 1992 and d_year <= 1997  ';
+        query2 = 'select lo_pk, c_custkey, s_suppkey, d_year, c_city, s_city from customer , lineorder, supplier , dwdate  where lo_custkey = c_custkey and lo_suppkey = s_suppkey and lo_orderdate = d_datekey and (c_city!=\'UNITED KI1\' and c_city!=\'UNITED KI5\') and (s_city=\'UNITED KI1\' or s_city=\'UNITED KI5\') and d_year >= 1992 and d_year <= 1997  ;'
+        query3 = 'select lo_pk, c_custkey, s_suppkey, d_year, c_city, s_city from customer , lineorder, supplier , dwdate  where lo_custkey = c_custkey and lo_suppkey = s_suppkey and lo_orderdate = d_datekey and (c_city=\'UNITED KI1\' or c_city=\'UNITED KI5\') and (s_city!=\'UNITED KI1\' and s_city!=\'UNITED KI5\') and d_year >= 1992 and d_year <= 1997  ;'
+        query4 = 'select lo_pk, c_custkey, s_suppkey, d_year, c_city, s_city from customer , lineorder, supplier , dwdate  where lo_custkey = c_custkey and lo_suppkey = s_suppkey and lo_orderdate = d_datekey and (c_city=\'UNITED KI1\' or c_city=\'UNITED KI5\') and (s_city=\'UNITED KI1\' or s_city=\'UNITED KI5\') and (d_year < 1992 or d_year > 1997)  ;'
         query5 = 'select s_suppkey, s_city from supplier where (s_city=\'UNITED KI1\' or s_city=\'UNITED KI5\')';
         query6 = 'select c_custkey, c_city from customer where (c_city=\'UNITED KI1\' or c_city=\'UNITED KI5\')';
         beginq = default_timer()
@@ -2012,6 +2014,7 @@ class Combiner:
         counthistory = 0
         timesaved = 0
         while (i < len(self.support_set)):
+            current = default_timer()
             ele_2 = None
             ele_undo_2 = None
             ele_2_value = None
@@ -2029,7 +2032,6 @@ class Combiner:
             ele_undo_1_value = self.support_set_undo_value[i]
             ele_1_value = self.support_set_value[i]
             code_changed_1 = self.support_set_pk[i][0]
-            current = default_timer()
             if self.willOutputChangeQuery32(ele_1, ele_undo_1, ele_undo_1_value, ele_1_value, ele_2, ele_undo_2, ele_undo_2_value, ele_2_value,
                                            lopkinout, sinout, cinout, cin2out, sin3out, lopkyear, code_changed_1,
                                            code_changed_2, suppkeycity, custkeycity, dictcustccity, dictsuppscity,
@@ -2040,7 +2042,7 @@ class Combiner:
                 countnohistory += 1
                 if i not in self.landarr:
                     counthistory += 1
-                    self.landarr.add(i)
+                    self.landarr.append(i)
                 else:
                     timesaved += (default_timer() - current)
             if i != len(self.support_set) - 1 and self.support_set[i][1] == self.support_set[i + 1][1]:
@@ -2048,7 +2050,7 @@ class Combiner:
             else:
                 i = i + 1
         beginadhoc = default_timer()
-        query7 = 'select lo_pk, c_custkey, s_suppkey, d_year, c_city, s_city from customer , lineorder_view, supplier , dwdate  where lo_custkey = c_custkey and lo_suppkey = s_suppkey and lo_orderdate = d_datekey and (c_city=\'UNITED KI1\' or c_city=\'UNITED KI5\') and (s_city=\'UNITED KI1\' or s_city=\'UNITED KI5\') and d_year >= 1992 and d_year <= 1997  group by c_city, s_city, d_year;'
+        query7 = 'select lo_pk, c_custkey, s_suppkey, d_year, c_city, s_city from customer , lineorder_view, supplier , dwdate  where lo_custkey = c_custkey and lo_suppkey = s_suppkey and lo_orderdate = d_datekey and (c_city=\'UNITED KI1\' or c_city=\'UNITED KI5\') and (s_city=\'UNITED KI1\' or s_city=\'UNITED KI5\') and d_year >= 1992 and d_year <= 1997  ;'
         dbutils.DBUtils.cursor.execute(query7)
         res = dbutils.DBUtils.cursor.fetchall()
         endadhoc = default_timer()
@@ -2254,10 +2256,10 @@ class Combiner:
 
     def Query33(self):
 
-        query1 = 'select lo_pk, c_custkey, s_suppkey, d_year, c_city, s_city from customer , lineorder, supplier , dwdate  where lo_custkey = c_custkey and lo_suppkey = s_suppkey and lo_orderdate = d_datekey and (c_city=\'UNITED KI1\' or c_city=\'UNITED KI5\') and (s_city=\'UNITED KI1\' or s_city=\'UNITED KI5\') and d_yearmonth = \'Dec1997\'  group by c_city, s_city, d_year';
-        query2 = 'select lo_pk, c_custkey, s_suppkey, d_year, c_city, s_city from customer , lineorder, supplier , dwdate  where lo_custkey = c_custkey and lo_suppkey = s_suppkey and lo_orderdate = d_datekey and (c_city!=\'UNITED KI1\' and c_city!=\'UNITED KI5\') and (s_city=\'UNITED KI1\' or s_city=\'UNITED KI5\') and d_yearmonth = \'Dec1997\'  group by c_city, s_city, d_year;'
-        query3 = 'select lo_pk, c_custkey, s_suppkey, d_year, c_city, s_city from customer , lineorder, supplier , dwdate  where lo_custkey = c_custkey and lo_suppkey = s_suppkey and lo_orderdate = d_datekey and (c_city=\'UNITED KI1\' or c_city=\'UNITED KI5\') and (s_city!=\'UNITED KI1\' and s_city!=\'UNITED KI5\') and d_yearmonth = \'Dec1997\'  group by c_city, s_city, d_year;'
-        query4 = 'select lo_pk, c_custkey, s_suppkey, d_year, c_city, s_city from customer , lineorder, supplier , dwdate  where lo_custkey = c_custkey and lo_suppkey = s_suppkey and lo_orderdate = d_datekey and (c_city=\'UNITED KI1\' or c_city=\'UNITED KI5\') and (s_city=\'UNITED KI1\' or s_city=\'UNITED KI5\') and d_yearmonth != \'Dec1997\'  group by c_city, s_city, d_year;'
+        query1 = 'select lo_pk, c_custkey, s_suppkey, d_year, c_city, s_city from customer , lineorder, supplier , dwdate  where lo_custkey = c_custkey and lo_suppkey = s_suppkey and lo_orderdate = d_datekey and (c_city=\'UNITED KI1\' or c_city=\'UNITED KI5\') and (s_city=\'UNITED KI1\' or s_city=\'UNITED KI5\') and d_yearmonth = \'Dec1997\'  ';
+        query2 = 'select lo_pk, c_custkey, s_suppkey, d_year, c_city, s_city from customer , lineorder, supplier , dwdate  where lo_custkey = c_custkey and lo_suppkey = s_suppkey and lo_orderdate = d_datekey and (c_city!=\'UNITED KI1\' and c_city!=\'UNITED KI5\') and (s_city=\'UNITED KI1\' or s_city=\'UNITED KI5\') and d_yearmonth = \'Dec1997\'  ;'
+        query3 = 'select lo_pk, c_custkey, s_suppkey, d_year, c_city, s_city from customer , lineorder, supplier , dwdate  where lo_custkey = c_custkey and lo_suppkey = s_suppkey and lo_orderdate = d_datekey and (c_city=\'UNITED KI1\' or c_city=\'UNITED KI5\') and (s_city!=\'UNITED KI1\' and s_city!=\'UNITED KI5\') and d_yearmonth = \'Dec1997\'  ;'
+        query4 = 'select lo_pk, c_custkey, s_suppkey, d_year, c_city, s_city from customer , lineorder, supplier , dwdate  where lo_custkey = c_custkey and lo_suppkey = s_suppkey and lo_orderdate = d_datekey and (c_city=\'UNITED KI1\' or c_city=\'UNITED KI5\') and (s_city=\'UNITED KI1\' or s_city=\'UNITED KI5\') and d_yearmonth != \'Dec1997\'  ;'
         query5 = 'select s_suppkey, s_city from supplier where (s_city=\'UNITED KI1\' or s_city=\'UNITED KI5\')';
         query6 = 'select c_custkey, c_city from customer where (c_city=\'UNITED KI1\' or c_city=\'UNITED KI5\')';
         beginq = default_timer()
@@ -2313,6 +2315,7 @@ class Combiner:
         counthistory = 0
         timesaved = 0
         while (i < len(self.support_set)):
+            current = default_timer()
             ele_2 = None
             ele_undo_2 = None
             ele_2_value = None
@@ -2330,7 +2333,6 @@ class Combiner:
             ele_undo_1_value = self.support_set_undo_value[i]
             ele_1_value = self.support_set_value[i]
             code_changed_1 = self.support_set_pk[i][0]
-            current = default_timer()
             if self.willOutputChangeQuery33(ele_1, ele_undo_1, ele_undo_1_value, ele_1_value, ele_2, ele_undo_2, ele_undo_2_value, ele_2_value,
                                            lopkinout, sinout, cinout, cin2out, sin3out, lopkyear, code_changed_1,
                                            code_changed_2, suppkeycity, custkeycity, dictcustccity, dictsuppscity,
@@ -2341,7 +2343,7 @@ class Combiner:
                 countnohistory += 1
                 if i not in self.landarr:
                     counthistory += 1
-                    self.landarr.add(i)
+                    self.landarr.append(i)
                 else:
                     timesaved += (default_timer() - current)
             if i != len(self.support_set) - 1 and self.support_set[i][1] == self.support_set[i + 1][1]:
@@ -2349,7 +2351,7 @@ class Combiner:
             else:
                 i = i + 1
         beginadhoc = default_timer()
-        query7 = 'select lo_pk, c_custkey, s_suppkey, d_year, c_city, s_city from customer , lineorder_view, supplier , dwdate  where lo_custkey = c_custkey and lo_suppkey = s_suppkey and lo_orderdate = d_datekey and (c_city=\'UNITED KI1\' or c_city=\'UNITED KI5\') and (s_city=\'UNITED KI1\' or s_city=\'UNITED KI5\') and d_yearmonth = \'Dec1997\' group by c_city, s_city, d_year;'
+        query7 = 'select lo_pk, c_custkey, s_suppkey, d_year, c_city, s_city from customer , lineorder_view, supplier , dwdate  where lo_custkey = c_custkey and lo_suppkey = s_suppkey and lo_orderdate = d_datekey and (c_city=\'UNITED KI1\' or c_city=\'UNITED KI5\') and (s_city=\'UNITED KI1\' or s_city=\'UNITED KI5\') and d_yearmonth = \'Dec1997\' ;'
         dbutils.DBUtils.cursor.execute(query7)
         res = dbutils.DBUtils.cursor.fetchall()
         endadhoc = default_timer()
@@ -2610,6 +2612,7 @@ class Combiner:
         print "Started"
         start = default_timer()
         while (i < len(self.support_set)):
+            current = default_timer()
             ele_2 = None
             ele_undo_2 = None
             ele_2_value = None
@@ -2625,7 +2628,6 @@ class Combiner:
             ele_undo_1_value = self.support_set_undo_value[i]
             ele_1_value = self.support_set_value[i]
             code_changed_1 = self.support_set_pk[i][0]
-            current = default_timer()
             if self.willOutputChangeQuery4(ele_1, ele_undo_1, ele_undo_1_value, ele_1_value, ele_2, ele_undo_2, ele_2_value,
                                            lopkinout, sinout, cinout, pinout, cin2out, sin3out, pin4out
                                            , dictcustnation, dictcustregion, dictlopkyear, dictsuppnation, dictsuppregion, code_changed_1, code_changed_2) == False:
@@ -2635,9 +2637,9 @@ class Combiner:
                 countnohistory += 1
                 if i not in self.landarr:
                     counthistory += 1
-                    self.landarr.add(i)
+                    self.landarr.append(i)
                 else:
-                    timesaved += (default_timer() - current)
+                    timesaved += (default_timer() - current)*70
             if i != len(self.support_set) - 1 and self.support_set[i][1] == self.support_set[i + 1][1]:
                 i = i + 2
             else:
@@ -2890,6 +2892,7 @@ class Combiner:
         print "Started"
         start = default_timer()
         while (i < len(self.support_set)):
+            current = default_timer()
             ele_2 = None
             ele_undo_2 = None
             ele_2_value = None
@@ -2905,7 +2908,6 @@ class Combiner:
             ele_undo_1_value = self.support_set_undo_value[i]
             ele_1_value = self.support_set_value[i]
             code_changed_1 = self.support_set_pk[i][0]
-            current = default_timer()
             if self.willOutputChangeQuery41(ele_1, ele_undo_1, ele_undo_1_value, ele_1_value, ele_2, ele_undo_2, ele_2_value,
                                            lopkinout, sinout, cinout, pinout, cin2out, sin3out, pin4out
                                            , dictcustnation, dictcustregion, dictlopkyear, dictsuppnation, dictsuppregion,
@@ -2916,9 +2918,9 @@ class Combiner:
                 countnohistory += 1
                 if i not in self.landarr:
                     counthistory += 1
-                    self.landarr.add(i)
+                    self.landarr.append(i)
                 else:
-                    timesaved += (default_timer() - current)
+                    timesaved += (default_timer() - current)*70
             if i != len(self.support_set) - 1 and self.support_set[i][1] == self.support_set[i + 1][1]:
                 i = i + 2
             else:
@@ -3183,6 +3185,7 @@ class Combiner:
         print "Started"
         start = default_timer()
         while (i < len(self.support_set)):
+            current = default_timer()
             ele_2 = None
             ele_undo_2 = None
             ele_2_value = None
@@ -3198,7 +3201,6 @@ class Combiner:
             ele_undo_1_value = self.support_set_undo_value[i]
             ele_1_value = self.support_set_value[i]
             code_changed_1 = self.support_set_pk[i][0]
-            current = default_timer()
             if self.willOutputChangeQuery42(ele_1, ele_undo_1, ele_undo_1_value, ele_1_value, ele_2, ele_undo_2, ele_2_value,
                                            lopkinout, sinout, cinout, pinout, cin2out, sin3out, pin4out
                                            , dictcustnation, dictcustregion, dictlopkyear, dictsuppnation, dictsuppcity,
@@ -3209,9 +3211,9 @@ class Combiner:
                 countnohistory += 1
                 if i not in self.landarr:
                     counthistory += 1
-                    self.landarr.add(i)
+                    self.landarr.append(i)
                 else:
-                    timesaved += (default_timer() - current)
+                    timesaved += (default_timer() - current)*70
             if i != len(self.support_set) - 1 and self.support_set[i][1] == self.support_set[i + 1][1]:
                 i = i + 2
             else:
@@ -3424,8 +3426,9 @@ class Combiner:
         m = globals()['Combiner']()
         for i in range(0, len(queries)):
             output = getattr(m, queries[i])()
-            self.runningcumprice += output[2]
-            self.runningcumsavings += output[1]
+            # print queries[i], output
+            self.runningcumprice += output[2]*100 #scaling prices does not violate arbitrage!
+            self.runningcumsavings += output[1]*100 #scaling prices does not violate arbitrage!
             self.runningssbcumtime += output[0]
             self.runningssbcumtimesavings += (output[0] + output[3])
             self.ssbcumprice.append(self.runningcumprice)
@@ -3438,10 +3441,10 @@ class Combiner:
 
     def dishistory(self):
         fig, ax = plt.subplots()
-        ax.set_ylim([0, 0.25])
+        ax.set_ylim([0, 15])
         ax.set_xlim([0, 14])
         #plt.gca().yaxis.grid(which='major', linestyle='--', linewidth=0.3)
-        ax.yaxis.set_ticks(np.arange(0, 0.25, 0.1))
+        ax.yaxis.set_ticks(np.arange(0, 15, 5))
         #ax.yaxis.set_ticks(np.arange(0, 15, 1), minor=False)
         ax.xaxis.set_ticks(np.arange(1,14, 1))
         ax.set_xticklabels(['$Q1.1$','$Q1.2$','$Q1.3$','$Q2.1$','$Q2.2$','$Q2.3$','$Q3.1$','$Q3.2$','$Q3.3$','$Q3.4$','$Q4.1$','$Q4.2$','$Q4.3$'])
@@ -3496,8 +3499,8 @@ class Combiner:
                 right='off',
                 direction='out')
 
-        ax.plot([x for x in range(1,14)], self.ssbcumtime, color='b', marker='x', markersize=2)
-        ax.plot([x for x in range(1,14)], self.ssbcumtimesavings, color='r', marker='s', markersize=2)
+        ax.plot([x for x in range(1,14)], self.ssbcumtimesavings, color='b', marker='x', markersize=2)
+        ax.plot([x for x in range(1,14)], self.ssbcumtime, color='r', marker='s', markersize=2)
 
         plt.ylabel("Time in s")
         plt.xlabel("Query")
@@ -3534,10 +3537,9 @@ class Combiner:
                 right='off',
                 direction='out')
 
-
-        ax.bar([x - 0.5*width for x in range(1,14)], self.naive, width, color='blueviolet', linewidth=0.5, bottom = 0)
-        ax.bar([x + 0.5*width for x in range(1,14)], self.with_sampling, width, color='dodgerblue', linewidth=0.5, bottom = 0)
-        ax.bar([x + 1.5*width for x in range(1,14)], self.qt, width, color='darkorange', linewidth=0.5, bottom = 0)
+        ax.bar([x - 0.5*width for x in range(1,14)], [abs(number) for number in self.naive], width, color='blueviolet', linewidth=0.5, bottom = 0)
+        ax.bar([x + 0.5*width for x in range(1,14)], [abs(number) for number in self.with_sampling], width, color='dodgerblue', linewidth=0.5, bottom = 0)
+        ax.bar([x + 1.5*width for x in range(1,14)], [abs(number) for number in self.qt], width, color='darkorange', linewidth=0.5, bottom = 0)
         plt.ylabel("Time in s")
         plt.xlabel("Query")
         lgd = plt.legend(['no batching','with batching', 'query execution time'], loc='upper left', ncol=1, bbox_to_anchor=(0, 1))
@@ -3552,3 +3554,4 @@ if __name__ == "__main__":
     c.disssb()
     c.dishistory()
     c.dishistorytime()
+

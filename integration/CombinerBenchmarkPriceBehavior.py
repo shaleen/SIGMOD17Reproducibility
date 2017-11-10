@@ -1,6 +1,8 @@
 __author__ = 'shaleen'
 import os, sys
 sys.path.append(os.path.dirname(os.getcwd()))
+import warnings
+warnings.filterwarnings("ignore")
 from constants import pricing_country
 from integration import Pricer
 from integration import QueryLister

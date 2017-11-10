@@ -1,9 +1,11 @@
 __author__ = 'shaleen'
+import os, sys
+sys.path.append(os.path.dirname(os.getcwd()))
+import warnings
+warnings.filterwarnings("ignore")
 from integration import dbutils
 from supportsetgenerator import Generator
-from charts import Charting
 import QueryLister
-import os
 import re
 import pickle
 from matplotlib import rc_file
@@ -19,14 +21,16 @@ class Combiner:
 
     g = Generator.Generator()
     q = QueryLister.Query()
-    c = Charting.Charts()
     query = 'select Code, ID from Country;'
     dbutils.DBUtils.cursor.execute(query)
     res = dbutils.DBUtils.cursor.fetchall()
     dictcodeid = {}
     for i in range(0, len(res)):
         dictcodeid[res[i][0]] = res[i][1]
-    os.remove('benchmarkselectsupportsize.pdf')
+    try:
+        os.remove('benchmarkselectsupportsize.pdf')
+    except OSError:
+        pass
     def Query1(self, u, size):
         with open('supportset'+str(size)+'.txt', 'rb') as f:
             support_set = pickle.load(f)

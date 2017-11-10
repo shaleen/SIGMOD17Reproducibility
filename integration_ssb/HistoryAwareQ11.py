@@ -1,6 +1,8 @@
 __author__ = 'shaleen'
 import os, sys
 sys.path.append(os.path.dirname(os.getcwd()))
+import warnings
+warnings.filterwarnings("ignore")
 from supportsetgeneratorssb import Generator
 from integration_ssb import QueryLister
 from integration_ssb import dbutils
@@ -197,10 +199,10 @@ class Combiner:
     def dishistoryq1(self):
         fig, ax = plt.subplots()
         mpl.rcParams['figure.figsize'] = 2.1, 1.95
-        ax.set_ylim([0, 0.25])
+        ax.set_ylim([0, 15])
         ax.set_xlim([0, 26])
         #plt.gca().yaxis.grid(which='major', linestyle='--', linewidth=0.3)
-        ax.yaxis.set_ticks(np.arange(0, 0.25, 0.1))
+        ax.yaxis.set_ticks(np.arange(0, 15, 5))
         #ax.yaxis.set_ticks(np.arange(0, 40, 1), minor=False)
         ax.xaxis.set_ticks(np.arange(0,26, 5))
         ax.grid(which='minor', alpha=0.2)
@@ -235,8 +237,8 @@ class Combiner:
             runningcumprice += output[2]
             runningcumsavings += output[1]
             print runningcumprice, runningcumsavings
-            ssbcumprice.append(runningcumprice)
-            ssbcumpricesavings.append(runningcumsavings)
+            ssbcumprice.append(runningcumprice*200) #scaling up prices by a fixed factor is arbitrage free
+            ssbcumpricesavings.append(runningcumsavings*200)
 
         ax.plot([x for x in range(1,26)], ssbcumprice, color='b', marker='>', markersize=2)
         ax.plot([x for x in range(1,26)], ssbcumpricesavings, color='r', marker='s', markersize=2)

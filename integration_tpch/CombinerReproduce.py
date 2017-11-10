@@ -1,6 +1,8 @@
 __author__ = 'shaleen'
 import os, sys
 sys.path.append(os.path.dirname(os.getcwd()))
+import warnings
+warnings.filterwarnings("ignore")
 from constants import pricing_tpch
 from integration_tpch import QueryLister
 from integration_tpch import dbutils
@@ -118,6 +120,7 @@ class Combiner:
         countnohistory=0
         counthistory=0
         print "Started"
+        countswap = 1
         start = default_timer()
         while (i < len(self.support_set)):
             ele_2 = None
@@ -135,6 +138,8 @@ class Combiner:
             ele_undo_1_value = self.support_set_undo_value[i]
             ele_1_value = self.support_set_value[i]
             code_changed_1 = self.support_set_pk[i][0]
+            if ele_2 != None and 'lineitem_view' in ele_2[0] : #not calcultating exact price, just counting!
+                countswap += 1
             if self.willOutputChangeQuery1(ele_1, ele_undo_1, ele_undo_1_value, ele_1_value, ele_2, ele_2_value, ele_undo_2, linout,
                                            oinout, lin2out, oin2out , dictorderpri,
                                            dictlipkcd, dictlipkrd, dictordersdate, dictorderspri, code_changed_1, code_changed_2) == False:
@@ -160,7 +165,7 @@ class Combiner:
         countrows = max(dbutils.DBUtils.cursor.fetchall()[0][0],1)
         print "time : ", default_timer() - start
         print "count : ", float(countnohistory)/len(self.support_set), float(counthistory)/len(self.support_set)
-        return [default_timer() - start, endq - beginq, (endadhoc - beginadhoc)*countrows]
+        return [default_timer() - start, endq - beginq, (endadhoc - beginadhoc)*(countrows + countswap)]
 
     def willOutputChangeQuery1(self, ele_1, ele_undo_1, ele_undo_1_value, ele_1_value, ele_2, ele_2_value, ele_undo_2, linout,
                                            oinout, lin2out, oin2out,  dictorderpri,
@@ -332,6 +337,7 @@ class Combiner:
         countnohistory=0
         counthistory=0
         start = default_timer()
+        countswap = 0
         while (i < len(self.support_set)):
             ele_2 = None
             ele_undo_2 = None
@@ -348,6 +354,8 @@ class Combiner:
             ele_undo_1_value = self.support_set_undo_value[i]
             ele_1_value = self.support_set_value[i]
             code_changed_1 = self.support_set_pk[i][0]
+            if ele_2 != None:
+                countswap += 1
             if self.willOutputChangeQuery2(ele_1, ele_undo_1, ele_undo_1_value, ele_1_value, ele_2, ele_undo_2, linout,
                                            oinout, cinout, sinout, ninout, rinout, rin2out, oin3out,
                                            rasia, nasia, sasia,code_changed_1, code_changed_2) == False:
@@ -391,6 +399,7 @@ class Combiner:
         countrows3 = max(res[0][2],1)
         countrows4 = max(res[0][3],1)
         print "time : ", default_timer() - start
+        print "countswap : ", countswap
         print "count : ", float(countnohistory)/len(self.support_set), float(counthistory)/len(self.support_set)
         return [default_timer() - start, endq - beginq, (beginadhoc2 - beginadhoc1)*countrows1 +
                 (beginadhoc3 - beginadhoc2)*countrows2 + (beginadhoc4 - beginadhoc3)*countrows3 + (endadhoc4 - beginadhoc4)*countrows4]
@@ -483,6 +492,7 @@ class Combiner:
         count = 0
         countnohistory=0
         counthistory=0
+        countswap=0
         start = default_timer()
         while (i < len(self.support_set)):
             ele_2 = None
@@ -496,6 +506,8 @@ class Combiner:
             ele_undo_1_value = self.support_set_undo_value[i]
             ele_1_value = self.support_set_value[i]
             code_changed_1 = self.support_set_pk[i][0]
+            if ele_2 != None and 'lineitem' in ele_2[0]:
+                countswap += 1
             if self.willOutputChangeQuery3(ele_1, ele_undo_1, ele_undo_1_value, ele_1_value, ele_2, ele_undo_2,
                                            linout, lin2out, lin3out, lin4out, code_changed_1) == False:
                 self.data[index][3] = 0
@@ -514,7 +526,7 @@ class Combiner:
         print "count : ", float(countnohistory)/len(self.support_set), float(counthistory)/len(self.support_set)
         print "time : ", default_timer() - start
         print "count : ", float(countnohistory)/len(self.support_set), float(counthistory)/len(self.support_set)
-        return [default_timer() - start, endq - beginq, endq - beginq]
+        return [default_timer() - start, endq - beginq, (endq - beginq)*countswap]
 
     def willOutputChangeQuery3(self, ele_1, ele_undo_1, ele_undo_1_value, ele_1_value, ele_2, ele_undo_2,
                                            linout, lin2out, lin3out, lin4out, code_changed_1):
@@ -522,7 +534,7 @@ class Combiner:
            or 'orders' in ele_1[0]):
             return False
         if ele_2 == None:
-            if 'lineitem_sample' in ele_1[0]:
+            if 'lineitem_sample' in ele_1[0] or 'lineitem_view' in ele_1[0]:
                 if code_changed_1 in linout:
                     if 'l_extendedprice' in ele_1[0] or 'l_discount' in ele_1[0]:
                         return True
@@ -577,6 +589,7 @@ class Combiner:
         countnohistory=0
         counthistory=0
         start = default_timer()
+        countswap = 0
         while (i < len(self.support_set)):
             ele_2 = None
             ele_undo_2 = None
@@ -589,6 +602,8 @@ class Combiner:
             ele_undo_1_value = self.support_set_undo_value[i]
             ele_1_value = self.support_set_value[i]
             code_changed_1 = self.support_set_pk[i][0]
+            if ele_2 != None and 'lineitem' in ele_2[0]:
+                countswap += 1
             if self.willOutputChangeQuery4(ele_1, ele_undo_1, ele_undo_1_value, ele_1_value, ele_2, ele_undo_2, linout, oinout,
                                            lin2out, oin2out, lin3out, oin3out, code_changed_1) == False:
                 self.data[index][4] = 0
@@ -615,7 +630,7 @@ class Combiner:
         countrows = max(dbutils.DBUtils.cursor.fetchall()[0][0],1)
         print "time : ", default_timer() - start
         print "count : ", float(countnohistory)/len(self.support_set), float(counthistory)/len(self.support_set)
-        return [default_timer() - start, endq - beginq, (endadhoc - beginadhoc)*countrows]
+        return [default_timer() - start, endq - beginq, (endq - beginq)*(countrows+countswap)]
 
     def willOutputChangeQuery4(self, ele_1, ele_undo_1, ele_undo_1_value, ele_1_value, ele_2, ele_undo_2, linout, oinout,
                                            lin2out, oin2out, lin3out, oin3out, code_changed_1):
@@ -696,6 +711,7 @@ class Combiner:
         countnohistory=0
         counthistory=0
         start = default_timer()
+        countswap = 0
         while (i < len(self.support_set)):
             ele_2 = None
             ele_undo_2 = None
@@ -708,6 +724,8 @@ class Combiner:
             ele_undo_1_value = self.support_set_undo_value[i]
             ele_1_value = self.support_set_value[i]
             code_changed_1 = self.support_set_pk[i][0]
+            if ele_2 != None and 'part' in ele_2[0]:
+                countswap += 1
             if self.willOutputChangeQuery5(ele_1, ele_undo_1, ele_undo_1_value, ele_1_value, ele_2, ele_undo_2, pinout, psinout,
                                            pin2out, psin2out, pin3out, psin3out, pin4out, psin4out,psin6out, scomment, code_changed_1) == False:
                 self.data[index][5] = 0
@@ -726,7 +744,7 @@ class Combiner:
         print "count : ", float(countnohistory)/len(self.support_set), float(counthistory)/len(self.support_set)
         print "time : ", default_timer() - start
         print "count : ", float(countnohistory)/len(self.support_set), float(counthistory)/len(self.support_set)
-        return [default_timer() - start, endq - beginq, endq - beginq]
+        return [default_timer() - start, endq - beginq, (default_timer() - start)*countswap]
 
     def willOutputChangeQuery5(self, ele_1, ele_undo_1, ele_undo_1_value, ele_1_value, ele_2, ele_undo_2, pinout, psinout,
                                            pin2out, psin2out, pin3out, psin3out, pin4out, psin4out, psin6out, scomment, code_changed_1):
@@ -795,6 +813,7 @@ class Combiner:
         count = 0
         countnohistory=0
         counthistory=0
+        countswap=0
         start = default_timer()
         while (i < len(self.support_set)):
             ele_2 = None
@@ -808,6 +827,8 @@ class Combiner:
             ele_undo_1_value = self.support_set_undo_value[i]
             ele_1_value = self.support_set_value[i]
             code_changed_1 = self.support_set_pk[i][0]
+            if ele_2 != None and 'lineitem' in ele_2[0]:
+                countswap += 1
             if self.willOutputChangeQuery6(ele_1, ele_undo_1, ele_undo_1_value, ele_1_value, ele_2, ele_undo_2, pinout, linout,
                                            pin2out, lin2out, pin3out, lin3out, pin4out, lin4out, code_changed_1) == False:
                 self.data[index][6] = 0
@@ -834,7 +855,7 @@ class Combiner:
         countrows = max(dbutils.DBUtils.cursor.fetchall()[0][0],1)
         print "time : ", default_timer() - start
         print "count : ", float(countnohistory)/len(self.support_set), float(counthistory)/len(self.support_set)
-        return [default_timer() - start, endq - beginq, (endadhoc - beginadhoc)*countrows]
+        return [default_timer() - start, endq - beginq, (endadhoc - beginadhoc)*(countrows+countswap)]
 
     def willOutputChangeQuery6(self, ele_1, ele_undo_1, ele_undo_1_value, ele_1_value, ele_2, ele_undo_2, pinout, linout,
                                            pin2out, lin2out, pin3out, lin3out, pin4out, lin4out, code_changed_1):
@@ -888,6 +909,7 @@ class Combiner:
         count = 0
         countnohistory=0
         counthistory=0
+        countswap=0
         start = default_timer()
         while (i < len(self.support_set)):
             ele_2 = None
@@ -901,6 +923,8 @@ class Combiner:
             ele_undo_1_value = self.support_set_undo_value[i]
             ele_1_value = self.support_set_value[i]
             code_changed_1 = self.support_set_pk[i][0]
+            if ele_2 != None and 'lineitem' in ele_2[0]:
+                countswap += 1
             if self.willOutputChangeQuery8(ele_1, ele_undo_1, ele_undo_1_value, ele_1_value, ele_2, ele_undo_2, linout,
                                            lin2out, code_changed_1) == False:
                 self.data[index][8] = 0
@@ -919,7 +943,7 @@ class Combiner:
         print "count : ", float(countnohistory)/len(self.support_set), float(counthistory)/len(self.support_set)
         print "time : ", default_timer() - start
         print "count : ", float(countnohistory)/len(self.support_set), float(counthistory)/len(self.support_set)
-        return [default_timer() - start, endq - beginq, endq - beginq]
+        return [default_timer() - start, endq - beginq, (default_timer() - start)*countswap]
 
     def willOutputChangeQuery8(self, ele_1, ele_undo_1, ele_undo_1_value, ele_1_value, ele_2, ele_undo_2, linout,
                                            lin2out, code_changed_1):
@@ -1024,6 +1048,7 @@ class Combiner:
         count = 0
         countnohistory=0
         counthistory=0
+        countswap = 0
         start = default_timer()
         while (i < len(self.support_set)):
             ele_2 = None
@@ -1037,6 +1062,8 @@ class Combiner:
             ele_undo_1_value = self.support_set_undo_value[i]
             ele_1_value = self.support_set_value[i]
             code_changed_1 = self.support_set_pk[i][0]
+            if ele_2 != None and ('part' in ele_2[0] or 'region' in ele_2[0] or 'supplier' in ele_2[0]):
+                countswap += 1
             if self.willOutputChangeQuery10(ele_1, ele_undo_1, ele_undo_1_value, ele_1_value, ele_2, ele_undo_2, pinout, sinout, psinout,
                                             ninout, rinout, pin2out, sin2out, psin2out, nin2out, rin2out,
                                             pin3out, sin3out, psin3out, nin3out, rin3out,
@@ -1056,7 +1083,7 @@ class Combiner:
                 i = i + 1
         print "time : ", default_timer() - start
         print "count : ", float(countnohistory)/len(self.support_set), float(counthistory)/len(self.support_set)
-        return [default_timer() - start, endq - beginq, endq - beginq]
+        return [default_timer() - start, endq - beginq, (default_timer() - start)*countswap]
 
     def willOutputChangeQuery10(self, ele_1, ele_undo_1, ele_undo_1_value, ele_1_value, ele_2, ele_undo_2, pinout, sinout, psinout,
                                             ninout, rinout, pin2out, sin2out, psin2out, nin2out, rin2out,
@@ -1118,7 +1145,7 @@ class Combiner:
     def disbartpch(self):
         fig, ax = plt.subplots()
         ax.set_yscale('log')
-        ax.set_ylim([0.05,10000])
+        ax.set_ylim([0.05,100000])
         ax.set_xlim([0, 7])
         width = 0.2
         ax.xaxis.set_ticks([x + width for x in range(1,10)])
@@ -1144,7 +1171,7 @@ class Combiner:
         ax.bar([x + 1.5*width for x in range(1,9)], self.qt, width, color='darkorange', linewidth=0.5, hatch='\\\\\\\\\\\\\\\\\\')
         plt.ylabel("Time in s")
         plt.xlabel("Query")
-        lgd = plt.legend(['no batching','with batching', 'query execution time'], loc='upper right', ncol=3, bbox_to_anchor=(1, 1))
+        lgd = plt.legend(['no batching','with batching', 'query execution time'], loc='upper right', ncol=3, bbox_to_anchor=(1, 1.23))
         plt.savefig('barcharttpchtimetest.pdf', bbox_extra_artists=(lgd,), bbox_inches='tight')
 
 
@@ -1154,5 +1181,6 @@ if __name__ == "__main__":
     c = Combiner()
     c.calculatetime()
     c.disbartpch()
+
     
 
