@@ -1,13 +1,14 @@
 __author__ = 'shaleen'
 import os, sys
 sys.path.append(os.path.dirname(os.getcwd()))
+import warnings
+warnings.filterwarnings("ignore")
 from integration_dblp import dbutils
 from constants import pricing_dblp
 from integration_dblp import Pricer
 from supportsetgeneratordblp import Generator
 from integration_dblp import QueryLister
 from timeit import default_timer
-import pickle
 
 class Combiner:
 
@@ -67,5 +68,8 @@ if __name__ == "__main__":
 
     c = Combiner()
     y_plot = c.endToEndProcessingExecutedProc()
-    print "price weighted disagreement - ", y_plot[0]
-    print "price entropy - ", y_plot[1]
+    myFormattedList = [ '%.2f' % elem for elem in y_plot[1] ]
+    print '\t\t\t'+ "Q^d_1   Q^d_2   Q^d_3   Q^d_4   Q^d_5   Q^d_6   Q^d_7"
+    print( 'p^{wc}+nbrs\t' + '\t'.join(map(str,myFormattedList)))
+    myFormattedList = [ '%.2f' % elem for elem in y_plot[0] ]
+    print( 'p^{H}+nbrs\t' + '\t'.join(map(str,myFormattedList)))
