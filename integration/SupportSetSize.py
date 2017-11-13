@@ -42,17 +42,20 @@ class Combiner:
         support_set_undo = support_set[1]
         support_set = support_set[0]
         disagreement = 0
-        start = default_timer()
-        for i in range(0, len(support_set)):
-            ele_1 = support_set[i]
-            ele_undo_1 = support_set_undo[i]
-            ele_undo_1_value = support_set_undo_value[i]
-            ele_1_value = support_set_value[i]
-            if self.willOutputChangeQuery1(ele_1, ele_undo_1, ele_undo_1_value, ele_1_value, u) == False:
-                None
-            else:
-                disagreement += 1
-        return default_timer() - start
+        time = []
+        for ll in range(0, 1000):
+            start = default_timer()
+            for i in range(0, len(support_set)):
+                ele_1 = support_set[i]
+                ele_undo_1 = support_set_undo[i]
+                ele_undo_1_value = support_set_undo_value[i]
+                ele_1_value = support_set_value[i]
+                if self.willOutputChangeQuery1(ele_1, ele_undo_1, ele_undo_1_value, ele_1_value, u) == False:
+                    None
+                else:
+                    disagreement += 1
+            time.append(default_timer() - start)
+        return np.array(time).mean()
 
     def willOutputChangeQuery1(self, ele_1, ele_undo_1, ele_undo_1_value, ele_1_value, u):
         code_changed = re.search(r"Code = \'(.*)\'", ele_1[0]).group(1)
@@ -70,17 +73,20 @@ class Combiner:
         support_set_undo = support_set[1]
         support_set = support_set[0]
         disagreement = 0
-        start = default_timer()
-        for i in range(0, len(support_set)):
-            ele_1 = support_set[i]
-            ele_undo_1 = support_set_undo[i]
-            ele_undo_1_value = support_set_undo_value[i]
-            ele_1_value = support_set_value[i]
-            if self.willOutputChangeQuery2(ele_1, ele_undo_1, ele_undo_1_value, ele_1_value, u) == False:
-                None
-            else:
-                disagreement += 1
-        return default_timer() - start
+        time = []
+        for ll in range(0, 1000):
+            start = default_timer()
+            for i in range(0, len(support_set)):
+                ele_1 = support_set[i]
+                ele_undo_1 = support_set_undo[i]
+                ele_undo_1_value = support_set_undo_value[i]
+                ele_1_value = support_set_value[i]
+                if self.willOutputChangeQuery2(ele_1, ele_undo_1, ele_undo_1_value, ele_1_value, u) == False:
+                    None
+                else:
+                    disagreement += 1
+            time.append(default_timer() - start)
+        return np.array(time).mean()
 
     def willOutputChangeQuery2(self, ele_1, ele_undo_1, ele_undo_1_value, ele_1_value, u):
         if any(x in ele_1[0] for x in self.attrdictcountry[:u]):
@@ -103,17 +109,20 @@ class Combiner:
         support_set_undo = support_set[1]
         support_set = support_set[0]
         disagreement = 0
-        start = default_timer()
-        for i in range(0, len(support_set)):
-            ele_1 = support_set[i]
-            ele_undo_1 = support_set_undo[i]
-            ele_undo_1_value = support_set_undo_value[i]
-            ele_1_value = support_set_value[i]
-            if self.willOutputChangeQuery3(ele_1, ele_undo_1, ele_undo_1_value, ele_1_value, u, code) == False:
-                None
-            else:
-                disagreement += 1
-        return default_timer() - start
+        time = []
+        for ll in range(0, 1000):
+            start = default_timer()
+            for i in range(0, len(support_set)):
+                ele_1 = support_set[i]
+                ele_undo_1 = support_set_undo[i]
+                ele_undo_1_value = support_set_undo_value[i]
+                ele_1_value = support_set_value[i]
+                if self.willOutputChangeQuery3(ele_1, ele_undo_1, ele_undo_1_value, ele_1_value, u, code) == False:
+                    None
+                else:
+                    disagreement += 1
+            time.append(default_timer() - start)
+        return np.array(time).mean()
 
     def willOutputChangeQuery3(self, ele_1, ele_undo_1, ele_undo_1_value, ele_1_value, u, code):
         code_changed = re.search(r"Code = \'(.*)\'", ele_1[0]).group(1)
@@ -137,17 +146,20 @@ class Combiner:
         support_set_undo = support_set[1]
         support_set = support_set[0]
         disagreement = 0
-        start = default_timer()
-        for i in range(0, len(support_set)):
-            ele_1 = support_set[i]
-            ele_undo_1 = support_set_undo[i]
-            ele_undo_1_value = support_set_undo_value[i]
-            ele_1_value = support_set_value[i]
-            if self.willOutputChangeQuery4(ele_1, ele_undo_1, ele_undo_1_value, ele_1_value, u, code) == False:
-                None
-            else:
-                disagreement += 1
-        return default_timer() - start
+        time = []
+        for ll in range(0, 1000):
+            start = default_timer()
+            for i in range(0, len(support_set)):
+                ele_1 = support_set[i]
+                ele_undo_1 = support_set_undo[i]
+                ele_undo_1_value = support_set_undo_value[i]
+                ele_1_value = support_set_value[i]
+                if self.willOutputChangeQuery4(ele_1, ele_undo_1, ele_undo_1_value, ele_1_value, u, code) == False:
+                    None
+                else:
+                    disagreement += 1
+            time.append(default_timer() - start)
+        return np.array(time).mean()
 
     def willOutputChangeQuery4(self, ele_1, ele_undo_1, ele_undo_1_value, ele_1_value, u, code):
         code_changed = re.search(r"Code = \'(.*)\'", ele_1[0]).group(1)

@@ -3474,10 +3474,10 @@ class Combiner:
 
     def dishistorytime(self):
         fig, ax = plt.subplots()
-        ax.set_ylim([0, 40])
+        #ax.set_ylim([0, 40])
         ax.set_xlim([0, 14])
         #plt.gca().yaxis.grid(which='major', linestyle='--', linewidth=0.3)
-        ax.yaxis.set_ticks(np.arange(0, 40, 10))
+        #ax.yaxis.set_ticks(np.arange(0, 40, 10))
         #ax.yaxis.set_ticks(np.arange(0, 40, 1), minor=False)
         ax.xaxis.set_ticks(np.arange(1,14, 1))
         ax.set_xticklabels(['$Q1.1$','$Q1.2$','$Q1.3$','$Q2.1$','$Q2.2$','$Q2.3$','$Q3.1$','$Q3.2$','$Q3.3$','$Q3.4$','$Q4.1$','$Q4.2$','$Q4.3$'])
@@ -3544,8 +3544,6 @@ class Combiner:
         plt.xlabel("Query")
         lgd = plt.legend(['no batching','with batching', 'query execution time'], loc='upper left', ncol=1, bbox_to_anchor=(0, 1))
         plt.savefig('barchartssbtime.pdf', bbox_extra_artists=(lgd,), bbox_inches='tight')
-
-
 
 
 if __name__ == "__main__":
