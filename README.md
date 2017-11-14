@@ -46,7 +46,7 @@ conda env create -f environment.yml
 ```
 * Navigate to the SIGMOD17Reproducibility directory in terminal.
 * Activate the environment by using the command `source activate sigmodduplicate`.
-* Install mysql-python using the command `conda install mysql-python`.
+* Install mysql-python using the command `pip install mysql-python`.
 * Update constants/db.py file with the username and password for the database. Set up is now complete.
 
 
