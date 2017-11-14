@@ -21,6 +21,8 @@ mysql -u <username> -p < <filename>.sql
 3. https://www.dropbox.com/s/y609n91exdishyf/ssb.sql?dl=0
 4. https://www.dropbox.com/s/kdk4iq9kngu5cr2/tpch.sql?dl=0
 
+Alternatively, you could also run the `db.sh` file in the root folder. If `pass` is your MySQL password, you can execute the command `sudo ./db.sh pass` to download the files and set up the database.
+
 ## Hardware Information
 
 All experiments were performed on 16GB machine installed with OS X 10.10.5. There are no special hardware requirements and results should be easily reproducable on any standard machine.
@@ -43,7 +45,9 @@ Cache | 6MB shared L3 cache
 conda env create -f environment.yml
 ```
 * Navigate to the SIGMOD17Reproducibility directory in terminal.
-* Update constants/db.py file with the username and password for the database. Setup is now complete
+* Activate the environment by using the command `source activate sigmodduplicate`.
+* Install mysql-python using the command `conda install mysql-python`.
+* Update constants/db.py file with the username and password for the database. Set up is now complete.
 
 
 ## Running Experiments
